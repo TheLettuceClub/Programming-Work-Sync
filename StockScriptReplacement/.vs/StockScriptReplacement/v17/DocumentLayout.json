@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\dev\\StockScriptReplacement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9060222B-A2A0-4508-BAE2-5489B5D5757E}|StockScriptReplacement.vcxproj|D:\\dev\\StockScriptReplacement\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9060222B-A2A0-4508-BAE2-5489B5D5757E}|StockScriptReplacement.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9060222B-A2A0-4508-BAE2-5489B5D5757E}|StockScriptReplacement.vcxproj|D:\\dev\\StockScriptReplacement\\OG_perl\\quarterly1.pl||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{9060222B-A2A0-4508-BAE2-5489B5D5757E}|StockScriptReplacement.vcxproj|solutionrelative:OG_perl\\quarterly1.pl||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "quarterly1.pl",
+              "DocumentMoniker": "D:\\dev\\StockScriptReplacement\\OG_perl\\quarterly1.pl",
+              "RelativeDocumentMoniker": "OG_perl\\quarterly1.pl",
+              "ToolTip": "D:\\dev\\StockScriptReplacement\\OG_perl\\quarterly1.pl",
+              "RelativeToolTip": "OG_perl\\quarterly1.pl",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-01T21:17:55.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\dev\\StockScriptReplacement\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "D:\\dev\\StockScriptReplacement\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAANgAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-01T21:14:01.288Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

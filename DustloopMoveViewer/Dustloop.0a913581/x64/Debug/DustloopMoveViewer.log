@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\dev\DustloopMoveViewer\main.cpp(173,25): warning C4477: 'swprintf_s' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 3 has type 'const size_t'
+  DustloopMoveViewer.vcxproj -> D:\dev\DustloopMoveViewer\x64\Debug\DustloopMoveViewer.exe

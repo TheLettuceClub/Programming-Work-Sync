@@ -1,0 +1,14 @@
+D:\dev\csharptest\CsharpTest\bin\Debug\net8.0\CsharpTest.exe
+D:\dev\csharptest\CsharpTest\bin\Debug\net8.0\CsharpTest.deps.json
+D:\dev\csharptest\CsharpTest\bin\Debug\net8.0\CsharpTest.runtimeconfig.json
+D:\dev\csharptest\CsharpTest\bin\Debug\net8.0\CsharpTest.dll
+D:\dev\csharptest\CsharpTest\bin\Debug\net8.0\CsharpTest.pdb
+D:\dev\csharptest\CsharpTest\obj\Debug\net8.0\CsharpTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev\csharptest\CsharpTest\obj\Debug\net8.0\CsharpTest.AssemblyInfoInputs.cache
+D:\dev\csharptest\CsharpTest\obj\Debug\net8.0\CsharpTest.AssemblyInfo.cs
+D:\dev\csharptest\CsharpTest\obj\Debug\net8.0\CsharpTest.csproj.CoreCompileInputs.cache
+D:\dev\csharptest\CsharpTest\obj\Debug\net8.0\CsharpTest.dll
+D:\dev\csharptest\CsharpTest\obj\Debug\net8.0\refint\CsharpTest.dll
+D:\dev\csharptest\CsharpTest\obj\Debug\net8.0\CsharpTest.pdb
+D:\dev\csharptest\CsharpTest\obj\Debug\net8.0\CsharpTest.genruntimeconfig.cache
+D:\dev\csharptest\CsharpTest\obj\Debug\net8.0\ref\CsharpTest.dll

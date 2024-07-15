@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\dev\\UserInputTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65AB391F-49D3-45FB-8BC2-C457B276FC02}|UserInputTest.vcxproj|D:\\dev\\UserInputTest\\UITest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{65AB391F-49D3-45FB-8BC2-C457B276FC02}|UserInputTest.vcxproj|solutionrelative:UITest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UITest.cpp",
+              "DocumentMoniker": "D:\\dev\\UserInputTest\\UITest.cpp",
+              "RelativeDocumentMoniker": "UITest.cpp",
+              "ToolTip": "D:\\dev\\UserInputTest\\UITest.cpp",
+              "RelativeToolTip": "UITest.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-22T21:51:08.95Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

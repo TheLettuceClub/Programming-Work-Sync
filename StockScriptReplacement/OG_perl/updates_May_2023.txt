@@ -1,0 +1,62 @@
+May, 2023 many things stopped working
+
+1. update the libraries
+	c:
+	cd \bin\Strawberry\perl\bin
+	cpan update (really: cpan -u)
+
+	
+	
+Looks like the problem is that Yahoo started requring some amount of cookies:
+	https://github.com/joshuaulrich/quantmod/issues/382
+
+
+v6 is working, not v7, so in file
+	C:\bin\Strawberry\perl\site\lib\Finance\Quote
+		YahooJSON.pm, on line 38, changed the base URL from v7 to v6.
+		
+		But in the mean time, DBD::Oracle is a dependancy, and it messes things up big-time.
+		
+		
+		
+	
+	
+2. change $exchange from yahoo_json to usa
+  now we need an API key
+  
+3. get a key at: Get an API key at https://www.alphavantage.co
+	Other/self/QuattroAtHome@att.net
+	generated the key
+			RKO5B82AH10CX1LG
+			
+	This key has limits of:
+		 free stock API service for our global community of users for up to 5 API requests 
+		 per minute and 500 requests per day.
+		 
+	Somewhere in the URL we need to add
+		apikey=RKO5B82AH10CX1LG
+		
+		
+Add to environment (for cpan/updates and perl?)
+set ORACLE_HOME=C:\bin\instantclient_21_10
+set NLS_LANG=.WE8ISO8859P15
+set ORACLE_USERID=test/test@test
+
+----------------
+Update May 25, 2023
+Get a crumb from:
+https://query2.finance.yahoo.com/v1/test/getcrumb
+
+Edit the link in 
+C:\bin\Strawberry\perl\site\lib\Finance\Quote
+		YahooJSON.pm, on line 38, changed the base URL from v7 to v6.
+		
+--------------------
+June 12, 2023
+Get a crumb in a browser with:
+https://query2.finance.yahoo.com/v1/test/getcrumb
+
+Today, the crumb is: cHSzhgsSrpd
+Then get a set of quotes like ...
+https://query1.finance.yahoo.com/v7/finance/quote?crumb=cHSzhgsSrpd&symbols=CSCO&INTC&MSFT&ORCL
+

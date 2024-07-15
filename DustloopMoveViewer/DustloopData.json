@@ -1,0 +1,57 @@
+{
+    "Game": {
+        "Game Name": "Guilty Gear Strive",
+        "Dustloop Name": "GGST",
+        "Number of Characters": 28
+    },
+    "Characters": [
+        {
+            "Name": "Sol Badguy",
+            "Dustloop Name": "Sol_Badguy",
+            "Number of Moves": 32,
+            "Moves": [
+                "5P",
+                "5K",
+                "c.S",
+                "f.S",
+                "5H",
+                "5D",
+                "2P",
+                "2K",
+                "2S",
+                "2H",
+                "2D",
+                "6P",
+                "6S",
+                "6H",
+                "j.P",
+                "j.K",
+                "j.S",
+                "j.H",
+                "j.D",
+                "Ground Throw",
+                "Air Throw",
+                "Wild Assault",
+                "Gun Flame",
+                "Gun Flame (Feint)",
+                "Volcanic Viper",
+                "Bandit Revolver",
+                "Bandit Bringer",
+                "Wild Throw",
+                "Night Raid Vortex",
+                "Fafnir",
+                "Tyrant Rave",
+                "Heavy Mob Cemetary"
+            ]
+        },
+        {
+            "Name": "Ky Kiske",
+            "Dustloop Name": "Ky_Kiske",
+            "Number of Moves": 2,
+            "Moves": [
+                "f.S",
+                "Dire Eclat"
+            ]
+        }
+    ]
+}

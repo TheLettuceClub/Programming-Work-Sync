@@ -1,0 +1,4 @@
+﻿  UITest.cpp
+D:\dev\UserInputTest2\UITest.cpp(104,19): warning C4244: 'initializing': conversion from 'UINT' to 'float', possible loss of data
+D:\dev\UserInputTest2\UITest.cpp(252,19): warning C4244: 'argument': conversion from 'WPARAM' to 'UINT', possible loss of data
+  UserInputTest2.vcxproj -> D:\dev\UserInputTest2\x64\Debug\UserInputTest2.exe

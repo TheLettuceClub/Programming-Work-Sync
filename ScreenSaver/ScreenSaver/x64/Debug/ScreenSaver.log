@@ -1,0 +1,6 @@
+﻿  ScreenSaver.cpp
+D:\dev\ScreenSaver\ScreenSaver.cpp(140,19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\dev\ScreenSaver\ScreenSaver.cpp(156,72): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\dev\ScreenSaver\ScreenSaver.cpp(156,69): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\dev\ScreenSaver\ScreenSaver.cpp(156,63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  ScreenSaver.vcxproj -> D:\dev\ScreenSaver\x64\Debug\ScreenSaver.exe

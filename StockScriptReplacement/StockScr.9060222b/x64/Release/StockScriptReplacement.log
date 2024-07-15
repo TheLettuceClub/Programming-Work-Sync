@@ -1,0 +1,2 @@
+﻿MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol main
+D:\dev\StockScriptReplacement\x64\Release\StockScriptReplacement.exe : fatal error LNK1120: 1 unresolved externals

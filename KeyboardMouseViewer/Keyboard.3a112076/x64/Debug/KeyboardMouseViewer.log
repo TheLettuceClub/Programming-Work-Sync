@@ -1,0 +1,6 @@
+﻿  KMView.cpp
+D:\dev\KeyboardMouseViewer\KMView.cpp(142,25): warning C4477: 'swprintf_s' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'WPARAM'
+D:\dev\KeyboardMouseViewer\KMView.cpp(148,25): warning C4477: 'swprintf_s' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'WPARAM'
+D:\dev\KeyboardMouseViewer\KMView.cpp(154,25): warning C4477: 'swprintf_s' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'WPARAM'
+D:\dev\KeyboardMouseViewer\KMView.cpp(160,25): warning C4477: 'swprintf_s' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'WPARAM'
+  KeyboardMouseViewer.vcxproj -> D:\dev\KeyboardMouseViewer\x64\Debug\KeyboardMouseViewer.exe

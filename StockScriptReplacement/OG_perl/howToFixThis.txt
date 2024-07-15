@@ -1,0 +1,21 @@
+Likely the yahoo page changed, and we are running old stuff.
+
+Update cpan with:
+
+c:
+cd \bin\Strawberry\perl\bin
+cpan update Finance::Quote
+
+An error should show was URL failed. Today it was:
+https://query2.finance.yahoo.com/v11/finance/quoteSummary/CSCO?modules=price,summaryDetail
+
+Test in a browser. If 404, then the yahoo service might be down.
+I tried with v10, and got 'unauthorzed" and "Invalid crumb".
+
+Let's just switch providers
+In quarterly.pl, line 32-ish
+I tried exchange = usa or nasdaq. But setting it to alphavantage eventually worked.
+
+The API key was not getting set, so in
+AlphaVantage.pm, line 173 I have hard coded my API key.
+Now it works, but is slow.

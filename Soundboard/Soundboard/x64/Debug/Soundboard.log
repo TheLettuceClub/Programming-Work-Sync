@@ -1,0 +1,26 @@
+﻿  AudioSource.cpp
+D:\dev\Soundboard\AudioSource.h(7,10): error C3646: 'LoadData': unknown override specifier
+D:\dev\Soundboard\AudioSource.h(7,18): error C2059: syntax error: '('
+D:\dev\Soundboard\AudioSource.h(7,41): error C2238: unexpected token(s) preceding ';'
+D:\dev\Soundboard\AudioSource.h(8,10): error C3646: 'SetFormat': unknown override specifier
+D:\dev\Soundboard\AudioSource.h(8,19): error C2059: syntax error: '('
+D:\dev\Soundboard\AudioSource.h(8,34): error C2238: unexpected token(s) preceding ';'
+D:\dev\Soundboard\AudioSource.h(9,27): error C2061: syntax error: identifier 'IShellItem'
+D:\dev\Soundboard\AudioSource.h(11,14): error C2061: syntax error: identifier 'shared_ptr'
+D:\dev\Soundboard\AudioSource.h(12,2): error C2535: 'AudioSource::AudioSource(void)': member function already defined or declared
+D:\dev\Soundboard\AudioSource.cpp(13,22): error C2039: 'LoadData': is not a member of 'AudioSource'
+D:\dev\Soundboard\AudioSource.cpp(19,22): error C2039: 'SetFormat': is not a member of 'AudioSource'
+D:\dev\Soundboard\AudioSource.cpp(24,19): error C2511: 'void AudioSource::reMakeFromShellItem(IShellItem *)': overloaded member function not found in 'AudioSource'
+D:\dev\Soundboard\AudioSource.cpp(28,14): error C7550: 'AudioSource::{ctor}': the qualified name in this context names a constructor, not a type
+D:\dev\Soundboard\AudioSource.cpp(28,26): error C2065: 'shared_ptr': undeclared identifier
+D:\dev\Soundboard\AudioSource.cpp(28,37): error C2275: 'IShellItem': expected an expression instead of a type
+D:\dev\Soundboard\AudioSource.cpp(28,49): error C2065: 'in': undeclared identifier
+D:\dev\Soundboard\AudioSource.cpp(29,1): error C2059: syntax error: '{'
+D:\dev\Soundboard\AudioSource.cpp(29,1): error C2143: syntax error: missing ';' before '{'
+D:\dev\Soundboard\AudioSource.cpp(29,1): error C2447: '{': missing function header (old-style formal list?)
+  main.cpp
+D:\dev\Soundboard\AudioSource.h(11,14): error C2061: syntax error: identifier 'shared_ptr'
+D:\dev\Soundboard\AudioSource.h(12,2): error C2535: 'AudioSource::AudioSource(void)': member function already defined or declared
+  Generating Code...
+D:\dev\Soundboard\main.cpp(209,42): error C2665: 'AudioSource::AudioSource': no overloaded function could convert all the argument types
+D:\dev\Soundboard\main.cpp(264,20): warning C4244: '=': conversion from 'double' to 'REFERENCE_TIME', possible loss of data

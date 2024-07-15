@@ -1,0 +1,6 @@
+# This is the holdings file, the standard format is <stock ticker>,<amount held>, blank lines are permitted, comments start with "#"
+aapl,1
+nvda,2
+msft,12
+tsla,3
+spy,5
