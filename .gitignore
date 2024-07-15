@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+# other too big
+*.ipch
+
+ScreenSaver/.vs/ScreenSaver/v17/Browse.VC.db
