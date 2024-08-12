@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+<title>Events test</title>
+<script>
+function makeGreen() {
+document.getElementById("mainPart").style.background = "green";
+document.getElementById("greenButton").style.background = "lime";
+}
+
+function makeBlue() {
+document.getElementById("mainPart").style.background = "blue";
+document.getElementById("blueButton").style.background = "aqua";
+}
+</script>
+</head>
+<body id="mainPart">
+<h1>Click the buttons!</h1>
+<button type="button" onClick="makeGreen()" id="greenButton">GREEN</button>
+<button type="button" onClick="makeBlue()" id="blueButton">BLUE</button>
+</body>
+</html>
+
+

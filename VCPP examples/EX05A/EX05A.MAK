@@ -1,0 +1,142 @@
+# Microsoft Visual C++ generated build script - Do not modify
+
+PROJ = EX05A
+DEBUG = 1
+PROGTYPE = 0
+CALLER = 
+ARGS = 
+DLLS = 
+D_RCDEFINES = /d_DEBUG
+R_RCDEFINES = /dNDEBUG
+ORIGIN = MSVC
+ORIGIN_VER = 1.00
+PROJPATH = C:\VCPP\EX05A\
+USEMFC = 1
+CC = cl
+CPP = cl
+CXX = cl
+CCREATEPCHFLAG = 
+CPPCREATEPCHFLAG = /YcSTDAFX.H
+CUSEPCHFLAG = 
+CPPUSEPCHFLAG = /YuSTDAFX.H
+FIRSTC =             
+FIRSTCPP = STDAFX.CPP  
+RC = rc
+CFLAGS_D_WEXE = /nologo /G2 /W3 /AM /Od /D "_DEBUG" /GA /Fp"..\stdafx.pch" 
+CFLAGS_R_WEXE = /nologo /Gs /G2 /W3 /AM /O1 /D "NDEBUG" /GA /Fp"..\stdafx.pch" 
+LFLAGS_D_WEXE = /NOLOGO /NOD /PACKC:61440 /STACK:10240 /ALIGN:16 /ONERROR:NOEXE /CO
+LFLAGS_R_WEXE = /NOLOGO /NOD /PACKC:61440 /STACK:10240 /ALIGN:16 /ONERROR:NOEXE
+LIBS_D_WEXE = mafxcwd oldnames libw mlibcew commdlg olesvr olecli shell 
+LIBS_R_WEXE = mafxcw oldnames libw mlibcew commdlg olesvr olecli shell 
+RCFLAGS = /nologo /z
+RESFLAGS = /nologo /t
+RUNFLAGS = 
+DEFFILE = EX05A.DEF
+OBJS_EXT = 
+LIBS_EXT = 
+!if "$(DEBUG)" == "1"
+CFLAGS = $(CFLAGS_D_WEXE)
+LFLAGS = $(LFLAGS_D_WEXE)
+LIBS = $(LIBS_D_WEXE)
+MAPFILE = nul
+RCDEFINES = $(D_RCDEFINES)
+!else
+CFLAGS = $(CFLAGS_R_WEXE)
+LFLAGS = $(LFLAGS_R_WEXE)
+LIBS = $(LIBS_R_WEXE)
+MAPFILE = nul
+RCDEFINES = $(R_RCDEFINES)
+!endif
+!if [if exist MSVC.BND del MSVC.BND]
+!endif
+SBRS = STDAFX.SBR \
+		EX05A.SBR \
+		MAINFRM.SBR \
+		EX05ADOC.SBR \
+		EX05AVW.SBR
+
+
+EX05A_RCDEP = res\ex05a.ico \
+	res\toolbar.bmp \
+	res\ex05a.rc2
+
+
+STDAFX_DEP = stdafx.h
+
+
+EX05A_DEP = stdafx.h \
+	ex05a.h \
+	mainfrm.h \
+	ex05adoc.h \
+	ex05avw.h
+
+
+MAINFRM_DEP = stdafx.h \
+	ex05a.h \
+	mainfrm.h
+
+
+EX05ADOC_DEP = stdafx.h \
+	ex05a.h \
+	ex05adoc.h
+
+
+EX05AVW_DEP = stdafx.h \
+	ex05a.h \
+	ex05adoc.h \
+	ex05avw.h
+
+
+all:	$(PROJ).EXE
+
+EX05A.RES:	EX05A.RC $(EX05A_RCDEP)
+	$(RC) $(RCFLAGS) $(RCDEFINES) -r EX05A.RC
+
+STDAFX.OBJ:	STDAFX.CPP $(STDAFX_DEP)
+	$(CPP) $(CFLAGS) $(CPPCREATEPCHFLAG) /c STDAFX.CPP
+
+EX05A.OBJ:	EX05A.CPP $(EX05A_DEP)
+	$(CPP) $(CFLAGS) $(CPPUSEPCHFLAG) /c EX05A.CPP
+
+MAINFRM.OBJ:	MAINFRM.CPP $(MAINFRM_DEP)
+	$(CPP) $(CFLAGS) $(CPPUSEPCHFLAG) /c MAINFRM.CPP
+
+EX05ADOC.OBJ:	EX05ADOC.CPP $(EX05ADOC_DEP)
+	$(CPP) $(CFLAGS) $(CPPUSEPCHFLAG) /c EX05ADOC.CPP
+
+EX05AVW.OBJ:	EX05AVW.CPP $(EX05AVW_DEP)
+	$(CPP) $(CFLAGS) $(CPPUSEPCHFLAG) /c EX05AVW.CPP
+
+
+$(PROJ).EXE::	EX05A.RES
+
+$(PROJ).EXE::	STDAFX.OBJ EX05A.OBJ MAINFRM.OBJ EX05ADOC.OBJ EX05AVW.OBJ $(OBJS_EXT) $(DEFFILE)
+	echo >NUL @<<$(PROJ).CRF
+STDAFX.OBJ +
+EX05A.OBJ +
+MAINFRM.OBJ +
+EX05ADOC.OBJ +
+EX05AVW.OBJ +
+$(OBJS_EXT)
+$(PROJ).EXE
+$(MAPFILE)
+c:\msvc\lib\+
+c:\msvc\mfc\lib\+
+$(LIBS)
+$(DEFFILE);
+<<
+	link $(LFLAGS) @$(PROJ).CRF
+	$(RC) $(RESFLAGS) EX05A.RES $@
+	@copy $(PROJ).CRF MSVC.BND
+
+$(PROJ).EXE::	EX05A.RES
+	if not exist MSVC.BND 	$(RC) $(RESFLAGS) EX05A.RES $@
+
+run: $(PROJ).EXE
+	$(PROJ) $(RUNFLAGS)
+
+
+$(PROJ).BSC: $(SBRS)
+	bscmake @<<
+/o$@ $(SBRS)
+<<

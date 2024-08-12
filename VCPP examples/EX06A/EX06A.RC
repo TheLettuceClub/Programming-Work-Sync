@@ -1,0 +1,316 @@
+//Microsoft App Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+#ifdef APSTUDIO_INVOKED
+//////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""res\\ex06a.rc2""  // non-App Studio edited resources\r\n"
+    "\r\n"
+    "#include ""afxres.rc""  // Standard components\r\n"
+    "\0"
+END
+
+/////////////////////////////////////////////////////////////////////////////////////
+#endif    // APSTUDIO_INVOKED
+
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+IDR_MAINFRAME           ICON    DISCARDABLE     "RES\\EX06A.ICO"
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "RES\\TOOLBAR.BMP"
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About EX06A...",             ID_APP_ABOUT
+    END
+END
+
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY,CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY,CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY,CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY,CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY,CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY,CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY,CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY,ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY,SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY,CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY,SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY,SHIFT
+END
+
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  34, 22, 217, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About EX06A"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "EX06A Application Version 1.0",IDC_STATIC,40,10,119,8
+    LTEXT           "Copyright \251 1992",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,176,6,32,14,WS_GROUP
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  3, 20, 331, 223
+STYLE WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "The Dialog That Ate Cincinnati"
+FONT 8, "Helv"
+BEGIN
+    LTEXT           "&Name",IDC_TEXT1,0,5,30,9,NOT WS_GROUP
+    EDITTEXT        IDC_NAME,30,5,55,13,ES_AUTOHSCROLL
+    LTEXT           "&SS Nbr",IDC_TEXT2,0,25,30,9,NOT WS_GROUP
+    EDITTEXT        IDC_SSN,30,25,40,13,ES_AUTOHSCROLL
+    LTEXT           "&Bio",IDC_TEXT5,0,45,20,9,NOT WS_GROUP
+    EDITTEXT        IDC_BIO,30,45,55,46,ES_MULTILINE | ES_AUTOVSCROLL
+    GROUPBOX        "&Category",IDC_STATIC,31,102,50,43
+    CONTROL         "Hourly",IDC_CAT,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,41,112,35,10
+    CONTROL         "Salary",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,41,127,35,10
+    GROUPBOX        "&Insurance",IDC_GROUPBOX2,30,155,64,57
+    CONTROL         "Life",IDC_LIFE,"Button",BS_AUTOCHECKBOX | WS_GROUP | 
+                    WS_TABSTOP,39,169,35,10
+    CONTROL         "Disability",IDC_DIS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,39,184,43,10
+    CONTROL         "Medical",IDC_MED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    39,199,38,10
+    LTEXT           "S&kill (simple combo)",IDC_TEXT3,100,5,65,9,NOT 
+                    WS_GROUP
+    COMBOBOX        IDC_SKILL,100,20,65,45,CBS_SIMPLE | CBS_AUTOHSCROLL | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Educ (dropdown combo)",IDC_STATIC,100,90,80,9
+    COMBOBOX        IDC_EDUC,100,105,65,48,CBS_DROPDOWN | CBS_AUTOHSCROLL | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Dept (list box)",IDC_STATIC,185,5,51,9
+    LISTBOX         IDC_DEPT,185,20,60,54,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Lang (droplist combo)",IDC_STATIC,185,90,80,9
+    COMBOBOX        IDC_LANG,185,105,60,55,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Lo&yalty",IDC_STATIC,120,165,30,9
+    SCROLLBAR       IDC_LOYAL,120,175,91,8,WS_TABSTOP
+    LTEXT           "&Reliability",IDC_STATIC,120,184,40,9
+    SCROLLBAR       IDC_RELY,120,194,91,8,WS_TABSTOP
+    PUSHBUTTON      "OK",IDC_OK,265,10,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,265,34,50,14
+    PUSHBUTTON      "S&pecial",IDC_SPECIAL,265,58,50,14
+    ICON            IDR_MAINFRAME,IDC_STATIC,280,130,18,20
+END
+
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG1 DLGINIT
+BEGIN
+    1004, 0x403, 11, 0
+0x7250, 0x676f, 0x6172, 0x6d6d, 0x7265, "\000" 
+    1004, 0x403, 8, 0
+0x614d, 0x616e, 0x6567, 0x0072, 
+    1004, 0x403, 7, 0
+0x7257, 0x7469, 0x7265, "\000" 
+    1008, 0x403, 12, 0
+0x6948, 0x6867, 0x5320, 0x6863, 0x6f6f, 0x006c, 
+    1008, 0x403, 8, 0
+0x6f43, 0x6c6c, 0x6765, 0x0065, 
+    1008, 0x403, 12, 0
+0x7247, 0x6461, 0x5320, 0x6863, 0x6f6f, 0x006c, 
+    1009, 0x403, 8, 0
+0x6e45, 0x6c67, 0x7369, 0x0068, 
+    1009, 0x403, 7, 0
+0x7246, 0x6e65, 0x6863, "\000" 
+    1009, 0x403, 8, 0
+0x7053, 0x6e61, 0x7369, 0x0068, 
+    0
+END
+
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "EX06A Windows Application\nEx06a\nEX06A Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "EX06A Windows Application"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document"
+    ID_FILE_OPEN            "Open an existing document"
+    ID_FILE_CLOSE           "Close the active document"
+    ID_FILE_SAVE            "Save the active document"
+    ID_FILE_SAVE_AS         "Save the active document with a new name"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright"
+    ID_APP_EXIT             "Quit the application; prompts to save documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane"
+    ID_PREV_PANE            "Switch back to the previous window pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection"
+    ID_EDIT_CLEAR_ALL       "Erase everything"
+    ID_EDIT_COPY            "Copy the selection and puts it on the Clipboard"
+    ID_EDIT_CUT             "Cut the selection and puts it on the Clipboard"
+    ID_EDIT_FIND            "Find the specified text"
+    ID_EDIT_PASTE           "Insert Clipboard contents"
+    ID_EDIT_REPEAT          "Repeat the last action"
+    ID_EDIT_REPLACE         "Replace specific text with different text"
+    ID_EDIT_SELECT_ALL      "Select the entire document"
+    ID_EDIT_UNDO            "Undo the last action"
+    ID_EDIT_REDO            "Redo the previously undone action"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+
+#ifndef APSTUDIO_INVOKED
+////////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "res\ex06a.rc2"  // non-App Studio edited resources
+
+#include "afxres.rc"  // Standard components
+
+/////////////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

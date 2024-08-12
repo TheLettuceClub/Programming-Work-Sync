@@ -1,0 +1,55 @@
+; ex26a.def -- for CRowView, CPersistentView, and CStudent  RELEASE version
+
+LIBRARY	EX26A
+DESCRIPTION  'ROWVIEW/PERSISTENTVIEW DLL' 
+EXETYPE	WINDOWS
+CODE	LOADONCALL MOVEABLE DISCARDABLE
+DATA	PRELOAD MOVEABLE SINGLE
+
+SEGMENTS
+	_TEXT   PRELOAD MOVEABLE DISCARDABLE
+	WEP_TEXT PRELOAD MOVEABLE DISCARDABLE
+
+HEAPSIZE  1024
+
+EXPORTS
+	WEP @1 RESIDENTNAME PRIVATE ;; required WEP entry point (uses library WEP)
+
+	; Explicitly exported initialization routine
+	INITEX26ADLL											@2 NONAME
+
+; CRowView
+	; Constructor and Destructor
+	??0CRowView@@JEC@XZ										@100 NONAME
+	??1CRowView@@NEC@XZ										@101 NONAME
+    ; operations/attributes
+	?RowToWndRect@CRowView@@NEC?EVCRect@@PEVCDC@@H@Z		@102 NONAME
+	?LastViewableRow@CRowView@@NECHXZ						@103 NONAME
+	?RowToYPos@CRowView@@NECHH@Z							@104 NONAME
+	?RectLPtoRowRange@CRowView@@NECXAFVCRect@@AEH1H@Z		@105 NONAME
+	?UpdateRow@CRowView@@NECXH@Z							@106 NONAME
+    ; Virtual overrides (called by framework)
+	?OnPreparePrinting@CRowView@@NECHPEUCPrintInfo@@@Z      @107 NONAME
+	?OnBeginPrinting@CRowView@@NECXPEVCDC@@PEUCPrintInfo@@@Z @108 NONAME
+	?OnDraw@CRowView@@NECXPEVCDC@@@Z                        @109 NONAME
+	?OnInitialUpdate@CRowView@@NECXXZ                       @110 NONAME
+	?OnPrepareDC@CRowView@@NECXPEVCDC@@PEUCPrintInfo@@@Z    @111 NONAME
+	?OnPrint@CRowView@@NECXPEVCDC@@PEUCPrintInfo@@@Z        @112 NONAME
+	?UpdateScrollSizes@CRowView@@NECXXZ                     @113 NONAME
+    ; runtime class & message map
+	?classCRowView@CRowView@@2UCRuntimeClass@@A				@114 NONAME
+	?messageMap@CRowView@@1UAFX_MSGMAP@@A					@115 NONAME
+; CPersistentFrame
+	; Constructor and Destructor
+	??0CPersistentFrame@@JEC@XZ								@200 NONAME
+	??1CPersistentFrame@@NEC@XZ								@201 NONAME
+	;
+	?ActivateFrame@CPersistentFrame@@NECXH@Z				@202 NONAME
+	; runtime class & message map
+	?classCPersistentFrame@CPersistentFrame@@2UCRuntimeClass@@A  @203 NONAME
+	?messageMap@CPersistentFrame@@1UAFX_MSGMAP@@A           @204 NONAME
+; CStudent
+	; Constructors
+	??0CStudent@@REC@XZ										@300 NONAME
+	??0CStudent@@REC@PFDJ@Z									@301 NONAME
+    

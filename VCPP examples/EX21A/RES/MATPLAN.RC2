@@ -1,0 +1,46 @@
+//
+// MATPLAN.RC2 - resources AppStudio does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by AppStudio
+#endif //APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+// Version stamp for this .EXE
+
+#include "ver.h"
+
+VS_VERSION_INFO 	VERSIONINFO
+  FILEVERSION   	1,0
+  PRODUCTVERSION 	1,0
+  FILEFLAGSMASK  	VS_FFI_FILEFLAGSMASK
+#ifdef _DEBUG
+  FILEFLAGS      	VS_FF_DEBUG|VS_FF_PRIVATEBUILD|VS_FF_PRERELEASE
+#else
+  FILEFLAGS      	0 // final version
+#endif
+  FILEOS         	VOS_DOS_WINDOWS16
+  FILETYPE       	VFT_APP
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4" // Lang=US English, CharSet=Windows Multilual
+        BEGIN 
+            VALUE "CompanyName",     "\0"
+            VALUE "FileDescription", "MATPLAN MFC Application\0"
+            VALUE "FileVersion",     "1.0\0"
+            VALUE "InternalName",    "MATPLAN\0"
+            VALUE "LegalCopyright",  "\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename","MATPLAN.EXE\0"
+            VALUE "ProductName",     "MATPLAN\0"
+            VALUE "ProductVersion",  "1.0\0"
+        END
+    END
+END
+
+/////////////////////////////////////////////////////////////////////////////
+// Add additional manually edited resources here...
+
+/////////////////////////////////////////////////////////////////////////////

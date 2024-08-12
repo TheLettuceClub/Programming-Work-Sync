@@ -1,0 +1,16 @@
+// MAKEHELP.BAT generated Help Map file.  Used by EX19C.HPJ. 
+ 
+// Commands (ID_* and IDM_*) 
+HID_WINDOW_NEW1                         0x18000
+HID_WINDOW_NEW2                         0x18001
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20002
+HIDR_POEMTYPE                           0x20003
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+ 
+// Frame Controls (IDW_*) 

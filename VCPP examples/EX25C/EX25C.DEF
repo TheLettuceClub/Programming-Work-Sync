@@ -1,0 +1,21 @@
+; ex25c.def : Declares the module parameters for EX25C.DLL
+;
+
+LIBRARY      EX25C
+DESCRIPTION  'Ole Automation in a DLL'
+
+EXETYPE      WINDOWS
+
+CODE         PRELOAD MOVEABLE DISCARDABLE
+DATA         PRELOAD MOVEABLE SINGLE
+
+HEAPSIZE     1024
+
+SEGMENTS
+	WEP_TEXT FIXED PRELOAD
+
+EXPORTS
+	WEP @1 RESIDENTNAME ;; required WEP entry point (uses library WEP routine)
+; add these to support OLE 2
+    DllGetClassObject
+    DllCanUnloadNow

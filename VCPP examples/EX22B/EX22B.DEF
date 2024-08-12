@@ -1,0 +1,8 @@
+; ex22b.def : Declares the module parameters for the application.
+
+NAME      EX22B
+DESCRIPTION  'EX22B Windows Application'
+EXETYPE   WINDOWS
+CODE      PRELOAD MOVEABLE DISCARDABLE
+DATA      PRELOAD MOVEABLE MULTIPLE
+HEAPSIZE  1024

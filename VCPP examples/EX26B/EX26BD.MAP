@@ -1,0 +1,2547 @@
+Stack Allocation = 10240 bytes
+
+ EX26B
+
+ Start     Length     Name                   Class
+ 0001:0000 00000H     STDAFX_TEXT            CODE 16-bit
+ 0001:0000 0037AH     EX26BDOC_TEXT          CODE 16-bit
+           at offset 00000H 0037AH bytes from EX26BDOC.OBJ (c:\vcpp\ex26b\ex26bdoc.cpp)
+
+ 0001:037A 0084CH     EX26BVW_TEXT           CODE 16-bit
+           at offset 00000H 0084CH bytes from EX26BVW.OBJ (c:\vcpp\ex26b\ex26bvw.cpp)
+
+ 0001:0BC6 00362H     MAINFRM_TEXT           CODE 16-bit
+           at offset 00000H 00362H bytes from MAINFRM.OBJ (c:\vcpp\ex26b\mainfrm.cpp)
+
+ 0001:0F28 002D1H     EX26B_TEXT             CODE 16-bit
+           at offset 00000H 002D1H bytes from EX26B.OBJ (c:\vcpp\ex26b\ex26b.cpp)
+
+ 0001:11FA 00350H     STUDLG_TEXT            CODE 16-bit
+           at offset 00000H 00350H bytes from STUDLG.OBJ (c:\vcpp\ex26b\studlg.cpp)
+
+ 0001:154A 01A76H     _TEXT                  CODE 16-bit
+           at offset 00000H 00001H bytes from c:\msvc\mfc\lib\mfc250d.lib (afxdll.asm)
+           at offset 00002H 000C7H bytes from c:\msvc\lib\llibcew.lib (windows\crt0.asm)
+           at offset 000CAH 0002CH bytes from c:\msvc\lib\llibcew.lib (windows\stubmain.asm)
+           at offset 000F6H 001BDH bytes from c:\msvc\lib\llibcew.lib (dos\crt0dat.asm)
+           at offset 002B4H 00023H bytes from c:\msvc\lib\llibcew.lib (dos\crt0msg.asm)
+           at offset 002D8H 00006H bytes from c:\msvc\lib\llibcew.lib (crt0fp.asm)
+           at offset 002DEH 0005AH bytes from c:\msvc\lib\llibcew.lib (windows\wchkstk.asm)
+           at offset 00338H 001AAH bytes from c:\msvc\lib\llibcew.lib (dos\stdargv.asm)
+           at offset 004E2H 000B9H bytes from c:\msvc\lib\llibcew.lib (dos\stdenvp.asm)
+           at offset 0059CH 0004CH bytes from c:\msvc\lib\llibcew.lib (windows\fatal.asm)
+           at offset 005E8H 00074H bytes from c:\msvc\lib\llibcew.lib (dos\nmsghdr.asm)
+           at offset 0065CH 0002DH bytes from c:\msvc\lib\llibcew.lib (dos\stdalloc.asm)
+           at offset 0068AH 0005DH bytes from c:\msvc\lib\llibcew.lib (dos\dosret.asm)
+           at offset 006E8H 00010H bytes from c:\msvc\lib\llibcew.lib (windows\windgrp.asm)
+           at offset 006F8H 00014H bytes from c:\msvc\lib\llibcew.lib (windows\windgrpx.c)
+           at offset 0070CH 00102H bytes from c:\msvc\lib\llibcew.lib (fclose.c)
+           at offset 0080EH 00016H bytes from c:\msvc\lib\llibcew.lib (_cflush.asm)
+           at offset 00824H 000FAH bytes from c:\msvc\lib\llibcew.lib (_flsbuf.asm)
+           at offset 0091EH 00037H bytes from c:\msvc\lib\llibcew.lib (_freebuf.asm)
+           at offset 00956H 0004BH bytes from c:\msvc\lib\llibcew.lib (_getbuf.asm)
+           at offset 009A2H 0015CH bytes from c:\msvc\lib\llibcew.lib (fflush.c)
+           at offset 00AFEH 00506H bytes from c:\msvc\lib\llibcew.lib (output.asm)
+           at offset 01004H 00037H bytes from c:\msvc\lib\llibcew.lib (dos\close.asm)
+           at offset 0103CH 000D4H bytes from c:\msvc\lib\llibcew.lib (dos\lseek.asm)
+           at offset 01110H 001BAH bytes from c:\msvc\lib\llibcew.lib (write.asm)
+           at offset 012CAH 00014H bytes from c:\msvc\lib\llibcew.lib (stackava.asm)
+           at offset 012DEH 000C8H bytes from c:\msvc\lib\llibcew.lib (fmalloc.asm)
+           at offset 013A6H 00034H bytes from c:\msvc\lib\llibcew.lib (initseg.asm)
+           at offset 013DAH 00036H bytes from c:\msvc\lib\llibcew.lib (linkseg.asm)
+           at offset 01410H 0007CH bytes from c:\msvc\lib\llibcew.lib (searchsg.asm)
+           at offset 0148CH 00117H bytes from c:\msvc\lib\llibcew.lib (growseg.asm)
+           at offset 015A4H 00081H bytes from c:\msvc\lib\llibcew.lib (newseg.asm)
+           at offset 01626H 0003CH bytes from c:\msvc\lib\llibcew.lib (handler.cxx)
+           at offset 01662H 00054H bytes from c:\msvc\lib\llibcew.lib (strcat.asm)
+           at offset 016B6H 0003CH bytes from c:\msvc\lib\llibcew.lib (strcpy.asm)
+           at offset 016F2H 00019H bytes from c:\msvc\lib\llibcew.lib (strlen.asm)
+           at offset 0170CH 0001CH bytes from c:\msvc\lib\llibcew.lib (itoa.asm)
+           at offset 01728H 00021H bytes from c:\msvc\lib\llibcew.lib (abort.asm)
+           at offset 0174AH 00040H bytes from c:\msvc\lib\llibcew.lib (closeall.c)
+           at offset 0178AH 0006EH bytes from c:\msvc\lib\llibcew.lib (sprintf.c)
+           at offset 017F8H 0006CH bytes from c:\msvc\lib\llibcew.lib (vsprintf.c)
+           at offset 01864H 00070H bytes from c:\msvc\lib\llibcew.lib (commit.c)
+           at offset 018D4H 0005EH bytes from c:\msvc\lib\llibcew.lib (hmemcpy.asm)
+           at offset 01932H 00048H bytes from c:\msvc\lib\llibcew.lib (hmemset.asm)
+           at offset 0197AH 00063H bytes from c:\msvc\lib\llibcew.lib (xtoa.asm)
+           at offset 019DEH 00026H bytes from c:\msvc\lib\llibcew.lib (dos\unlink.asm)
+           at offset 01A04H 00024H bytes from c:\msvc\lib\llibcew.lib (dos\d_commit.asm)
+           at offset 01A28H 0000BH bytes from c:\msvc\lib\llibcew.lib (windows\noqwin.asm)
+           at offset 01A34H 00032H bytes from c:\msvc\lib\llibcew.lib (onexit.asm)
+
+ 0001:2FC0 00000H     AFX_MSVC_TEXT          CODE 16-bit
+ 0001:2FC0 003C3H     AFX_AUX_TEXT           CODE 16-bit
+           at offset 00000H 0022FH bytes from c:\msvc\mfc\lib\mfc250d.lib (dumpout.cpp)
+           at offset 00230H 0015EH bytes from c:\msvc\mfc\lib\mfc250d.lib (dumpinit.cpp)
+           at offset 0038EH 00035H bytes from c:\msvc\mfc\lib\mfc250d.lib (afxabort.cpp)
+
+ 0001:3384 00000H     AFX_COLL1_TEXT         CODE 16-bit
+ 0001:3384 00669H     AFX_DEBUG1_TEXT        CODE 16-bit
+           at offset 00000H 00176H bytes from c:\msvc\mfc\lib\mfc250d.lib (afxasert.cpp)
+           at offset 00176H 004E2H bytes from c:\msvc\mfc\lib\mfc250d.lib (afxmem.cpp)
+           at offset 00658H 00011H bytes from c:\msvc\mfc\lib\mfc250d.lib (afxabort.cpp)
+
+ 0001:39EE 01914H     AFX_CORE1_TEXT         CODE 16-bit
+           at offset 00000H 018E8H bytes from c:\msvc\mfc\lib\mfc250d.lib (afxmem.cpp)
+           at offset 018E8H 0002CH bytes from c:\msvc\mfc\lib\mfc250d.lib (afxmem.cpp)
+
+ 0001:5310 006CEH     COMDAT_SEG1            CODE 16-bit
+           at offset 00000H 0004CH bytes from EX26BDOC.OBJ (c:\vcpp\ex26b\ex26bdoc.cpp)
+           at offset 0004CH 00074H bytes from EX26BDOC.OBJ (c:\vcpp\ex26b\ex26bdoc.cpp)
+           at offset 000C0H 0003CH bytes from EX26BVW.OBJ (c:\vcpp\ex26b\ex26bvw.cpp)
+           at offset 000FCH 000E8H bytes from EX26BVW.OBJ (c:\vcpp\ex26b\ex26bvw.cpp)
+           at offset 001E4H 0005CH bytes from EX26BVW.OBJ (c:\vcpp\ex26b\ex26bvw.cpp)
+           at offset 00240H 0004CH bytes from EX26BVW.OBJ (c:\vcpp\ex26b\ex26bvw.cpp)
+           at offset 0028CH 00059H bytes from EX26BVW.OBJ (c:\vcpp\ex26b\ex26bvw.cpp)
+           at offset 002E6H 00018H bytes from EX26BVW.OBJ (c:\vcpp\ex26b\ex26bvw.cpp)
+           at offset 002FEH 00038H bytes from EX26BVW.OBJ (c:\vcpp\ex26b\ex26bvw.cpp)
+           at offset 00336H 0004CH bytes from MAINFRM.OBJ (c:\vcpp\ex26b\mainfrm.cpp)
+           at offset 00382H 000A0H bytes from MAINFRM.OBJ (c:\vcpp\ex26b\mainfrm.cpp)
+           at offset 00422H 0002AH bytes from EX26B.OBJ (c:\vcpp\ex26b\ex26b.cpp)
+           at offset 0044CH 0002AH bytes from EX26B.OBJ (c:\vcpp\ex26b\ex26b.cpp)
+           at offset 00476H 00080H bytes from EX26B.OBJ (c:\vcpp\ex26b\ex26b.cpp)
+           at offset 004F6H 00074H bytes from EX26B.OBJ (c:\vcpp\ex26b\ex26b.cpp)
+           at offset 0056AH 0004CH bytes from EX26B.OBJ (c:\vcpp\ex26b\ex26b.cpp)
+           at offset 005B6H 0004CH bytes from EX26B.OBJ (c:\vcpp\ex26b\ex26b.cpp)
+           at offset 00602H 00080H bytes from STUDLG.OBJ (c:\vcpp\ex26b\studlg.cpp)
+           at offset 00682H 0004CH bytes from STUDLG.OBJ (c:\vcpp\ex26b\studlg.cpp)
+
+ 0002:0000 00010H     NULL                   BEGDATA 16-bit
+           at offset 00000H 00010H bytes from c:\msvc\lib\llibcew.lib (windows\crt0.asm)
+
+ 0002:0010 000C0H     AFX_NULL               BEGDATA 16-bit
+           at offset 00000H 000C0H bytes from c:\msvc\mfc\lib\mfc250d.lib (afxdll.asm)
+
+ 0002:00D0 00312H     _DATA                  DATA 16-bit
+           at offset 00000H 0001CH bytes from EX26BDOC.OBJ (c:\vcpp\ex26b\ex26bdoc.cpp)
+           at offset 0001CH 00033H bytes from EX26BVW.OBJ (c:\vcpp\ex26b\ex26bvw.cpp)
+           at offset 00050H 00053H bytes from MAINFRM.OBJ (c:\vcpp\ex26b\mainfrm.cpp)
+           at offset 000A4H 00010H bytes from EX26B.OBJ (c:\vcpp\ex26b\ex26b.cpp)
+           at offset 000B4H 00009H bytes from STUDLG.OBJ (c:\vcpp\ex26b\studlg.cpp)
+           at offset 000BEH 0001EH bytes from c:\msvc\mfc\lib\mfc250d.lib (dumpout.cpp)
+           at offset 000DCH 00008H bytes from c:\msvc\mfc\lib\mfc250d.lib (afxasert.cpp)
+           at offset 000E4H 000D8H bytes from c:\msvc\mfc\lib\mfc250d.lib (afxmem.cpp)
+           at offset 001BCH 0000DH bytes from c:\msvc\mfc\lib\mfc250d.lib (dumpinit.cpp)
+           at offset 001CAH 00014H bytes from c:\msvc\lib\llibcew.lib (windows\crt0.asm)
+           at offset 001DEH 0006EH bytes from c:\msvc\lib\llibcew.lib (dos\crt0dat.asm)
+           at offset 0024CH 00004H bytes from c:\msvc\lib\llibcew.lib (dos\crt0msg.asm)
+           at offset 00250H 00004H bytes from c:\msvc\lib\llibcew.lib (windows\wchkstk.asm)
+           at offset 00254H 00004H bytes from c:\msvc\lib\llibcew.lib (dos\stdargv.asm)
+           at offset 00258H 00014H bytes from c:\msvc\lib\llibcew.lib (dos\dosret.asm)
+           at offset 0026CH 00004H bytes from c:\msvc\lib\llibcew.lib (fclose.c)
+           at offset 00270H 00002H bytes from c:\msvc\lib\llibcew.lib (_cflush.asm)
+           at offset 00272H 00002H bytes from c:\msvc\lib\llibcew.lib (file.asm)
+           at offset 00274H 00061H bytes from c:\msvc\lib\llibcew.lib (output.asm)
+           at offset 002D6H 00002H bytes from c:\msvc\lib\llibcew.lib (seekfast.asm)
+           at offset 002D8H 00004H bytes from c:\msvc\lib\llibcew.lib (fmalloc.asm)
+           at offset 002DCH 0000EH bytes from c:\msvc\lib\llibcew.lib (fdata.asm)
+           at offset 002EAH 00002H bytes from c:\msvc\lib\llibcew.lib (growseg.asm)
+           at offset 002ECH 00022H bytes from c:\msvc\lib\llibcew.lib (cmiscdat.asm)
+           at offset 0030EH 00002H bytes from c:\msvc\lib\llibcew.lib (windows\noqwin.asm)
+           at offset 00310H 00002H bytes from c:\msvc\lib\llibcew.lib (onexit.asm)
+
+ 0002:03E2 00000H     XIFCB                  DATA 16-bit
+ 0002:03E2 00014H     XIFU                   DATA 16-bit
+           at offset 00000H 00004H bytes from EX26BDOC.OBJ (c:\vcpp\ex26b\ex26bdoc.cpp)
+           at offset 00004H 00004H bytes from EX26BVW.OBJ (c:\vcpp\ex26b\ex26bvw.cpp)
+           at offset 00008H 00004H bytes from MAINFRM.OBJ (c:\vcpp\ex26b\mainfrm.cpp)
+           at offset 0000CH 00004H bytes from EX26B.OBJ (c:\vcpp\ex26b\ex26b.cpp)
+           at offset 00010H 00004H bytes from c:\msvc\mfc\lib\mfc250d.lib (dumpinit.cpp)
+
+ 0002:03F6 00004H     XIFL                   DATA 16-bit
+           at offset 00000H 00004H bytes from c:\msvc\mfc\lib\mfc250d.lib (afxmem.cpp)
+
+ 0002:03FA 00000H     XIFM                   DATA 16-bit
+ 0002:03FA 00000H     XIFCE                  DATA 16-bit
+ 0002:03FA 0000EH     CDATA                  DATA 16-bit
+           at offset 00000H 0000EH bytes from c:\msvc\lib\llibcew.lib (dos\crt0dat.asm)
+
+ 0002:0408 00000H     XIFB                   DATA 16-bit
+ 0002:0408 00000H     XIF                    DATA 16-bit
+ 0002:0408 00000H     XIFE                   DATA 16-bit
+ 0002:0408 00000H     XIB                    DATA 16-bit
+ 0002:0408 00000H     XI                     DATA 16-bit
+ 0002:0408 00000H     XIE                    DATA 16-bit
+ 0002:0408 00000H     XPB                    DATA 16-bit
+ 0002:0408 00004H     XP                     DATA 16-bit
+           at offset 00000H 00004H bytes from c:\msvc\lib\llibcew.lib (_cflush.asm)
+
+ 0002:040C 00000H     XPE                    DATA 16-bit
+ 0002:040C 00000H     XCB                    DATA 16-bit
+ 0002:040C 00000H     XC                     DATA 16-bit
+ 0002:040C 00000H     XCE                    DATA 16-bit
+ 0002:040C 00000H     XCFB                   DATA 16-bit
+ 0002:040C 00000H     XCFCRT                 DATA 16-bit
+ 0002:040C 00000H     XCF                    DATA 16-bit
+ 0002:040C 00000H     XCFE                   DATA 16-bit
+ 0002:040C 00000H     DBDATA                 DATA 16-bit
+ 0002:040C 000E4H     IOB                    DATA 16-bit
+           at offset 00000H 000E4H bytes from c:\msvc\lib\llibcew.lib (file.asm)
+
+ 0002:04F0 00000H     IOBX                   DATA 16-bit
+ 0002:04F0 0000CH     IOBE                   DATA 16-bit
+           at offset 00000H 0000CH bytes from c:\msvc\lib\llibcew.lib (file.asm)
+
+ 0002:04FC 000E4H     IOB2                   DATA 16-bit
+           at offset 00000H 000E4H bytes from c:\msvc\lib\llibcew.lib (file.asm)
+
+ 0002:05E0 00000H     IOB2X                  DATA 16-bit
+ 0002:05E0 0000CH     IOB2E                  DATA 16-bit
+           at offset 00000H 0000CH bytes from c:\msvc\lib\llibcew.lib (file.asm)
+
+ 0002:05EC 00002H     CONST                  CONST 16-bit
+           at offset 00000H 00002H bytes from c:\msvc\mfc\lib\mfc250d.lib (afxmem.cpp)
+
+ 0002:05EE 00008H     HDR                    MSG 16-bit
+           at offset 00000H 00008H bytes from c:\msvc\lib\llibcew.lib (dos\nmsghdr.asm)
+
+ 0002:05F6 00163H     MSG                    MSG 16-bit
+           at offset 00000H 00117H bytes from c:\msvc\lib\llibcew.lib (dos\crt0msg.asm)
+           at offset 00117H 0002FH bytes from c:\msvc\lib\llibcew.lib (crt0fp.asm)
+           at offset 00146H 0001DH bytes from c:\msvc\lib\llibcew.lib (abort.asm)
+
+ 0002:0759 00015H     PAD                    MSG 16-bit
+           at offset 00000H 00002H bytes from c:\msvc\lib\llibcew.lib (dos\crt0msg.asm)
+           at offset 00000H 00002H bytes from c:\msvc\lib\llibcew.lib (crt0fp.asm)
+           at offset 00000H 00002H bytes from c:\msvc\lib\llibcew.lib (dos\nmsghdr.asm)
+           at offset 00000H 00015H bytes from c:\msvc\lib\llibcew.lib (abort.asm)
+
+ 0002:076E 00001H     EPAD                   MSG 16-bit
+           at offset 00000H 00001H bytes from c:\msvc\lib\llibcew.lib (dos\nmsghdr.asm)
+
+ 0002:0770 000E8H     _BSS                   BSS 16-bit
+           at offset 00000H 00001H bytes from EX26BDOC.OBJ (c:\vcpp\ex26b\ex26bdoc.cpp)
+           at offset 00002H 00001H bytes from EX26BVW.OBJ (c:\vcpp\ex26b\ex26bvw.cpp)
+           at offset 00004H 00001H bytes from MAINFRM.OBJ (c:\vcpp\ex26b\mainfrm.cpp)
+           at offset 00006H 000B0H bytes from EX26B.OBJ (c:\vcpp\ex26b\ex26b.cpp)
+           at offset 000B6H 00010H bytes from c:\msvc\mfc\lib\mfc250d.lib (afxmem.cpp)
+           at offset 000C6H 0000AH bytes from c:\msvc\mfc\lib\mfc250d.lib (dumpinit.cpp)
+           at offset 000D0H 0000CH bytes from c:\msvc\lib\llibcew.lib (sprintf.c)
+           at offset 000DCH 0000CH bytes from c:\msvc\lib\llibcew.lib (vsprintf.c)
+
+ 0002:0858 00000H     XOB                    BSS 16-bit
+ 0002:0858 00088H     XO                     BSS 16-bit
+           at offset 00000H 00004H bytes from EX26B.OBJ (c:\vcpp\ex26b\ex26b.cpp)
+           at offset 00004H 00004H bytes from c:\msvc\mfc\lib\mfc250d.lib (afxmem.cpp)
+           at offset 00008H 00080H bytes from c:\msvc\lib\llibcew.lib (onexit.asm)
+
+ 0002:08E0 00000H     XOE                    BSS 16-bit
+ 0002:08E0 00000H     XOFB                   BSS 16-bit
+ 0002:08E0 00000H     XOF                    BSS 16-bit
+ 0002:08E0 00000H     XOFE                   BSS 16-bit
+
+ Origin   Group
+ 0002:0   DGROUP
+
+ Address   Export                  Alias
+
+ 0001:1C52 ___ExportedStub         ___ExportedStub
+
+  Address         Publics by Name
+
+ 0000:0000  Imp  ??0AFX_CLASSINIT@@RAC@PEUCRuntimeClass@@@Z
+                    public: __far __pascal AFX_CLASSINIT::AFX_CLASSINIT(struct CRuntimeClass __far*)__near
+                         (MFC250D.256)
+ 0001:10B4       ??0CAboutDlg@@REC@XZ
+                    public: __far __pascal CAboutDlg::CAboutDlg(void)__far
+
+ 0000:0000  Imp  ??0CDialog@@REC@IPEVCWnd@@@Z
+                    public: __far __pascal CDialog::CDialog(unsigned int,class CWnd __far*)__far
+                         (MFC250D.282)
+ 0000:0000  Imp  ??0CDocument@@REC@XZ
+                    public: __far __pascal CDocument::CDocument(void)__far
+                         (MFC250D.286)
+ 0000:0000  Imp  ??0CDumpContext@@REC@PEVCFile@@@Z
+                    public: __far __pascal CDumpContext::CDumpContext(class CFile __far*)__far
+                         (MFC250D.288)
+ 0001:0F96       ??0CEx26bApp@@REC@XZ
+                    public: __far __pascal CEx26bApp::CEx26bApp(void)__far
+
+ 0001:00FC       ??0CEx26bDoc@@JEC@XZ
+                    protected: __far __pascal CEx26bDoc::CEx26bDoc(void)__far
+
+ 0001:0476       ??0CEx26bView@@REC@XZ
+                    public: __far __pascal CEx26bView::CEx26bView(void)__far
+
+ 0001:0CDE       ??0CMainFrame@@JEC@XZ
+                    protected: __far __pascal CMainFrame::CMainFrame(void)__far
+
+ 0001:4616       ??0CMemoryState@@REC@XZ
+                    public: __far __pascal CMemoryState::CMemoryState(void)__far
+
+ 0000:0000  Imp  ??0CObArray@@REC@XZ
+                    public: __far __pascal CObArray::CObArray(void)__far
+                          (MFC250D.322)
+ 0000:0000  Imp  ??0CPersistentFrame@@JEC@XZ
+                    protected: __far __pascal CPersistentFrame::CPersistentFrame(void)__far
+                         (EX26AD.200)
+ 0000:0000  Imp  ??0CRowView@@JEC@XZ
+                    protected: __far __pascal CRowView::CRowView(void)__far
+                          (EX26AD.100)
+ 0000:0000  Imp  ??0CSingleDocTemplate@@REC@IPEUCRuntimeClass@@00@Z
+                    public: __far __pascal CSingleDocTemplate::CSingleDocTemplate(unsigned int,struct CRuntimeClass __far*,unsigned int,unsigned int)__far
+                         (MFC250D.354)
+ 0000:0000  Imp  ??0CStatusBar@@REC@XZ
+                    public: __far __pascal CStatusBar::CStatusBar(void)__far
+                         (MFC250D.362)
+ 0000:0000  Imp  ??0CString@@REC@XZ
+                    public: __far __pascal CString::CString(void)__far
+                           (MFC250D.371)
+ 0000:0000  Imp  ??0CStudent@@REC@PFDJ@Z
+                    public: __far __pascal CStudent::CStudent(char const __far*,long)__far
+                         (EX26AD.301)
+ 0001:1274       ??0CStudentDialog@@REC@HPEVCWnd@@@Z
+                    public: __far __pascal CStudentDialog::CStudentDialog(int,class CWnd __far*)__far
+
+ 0000:0000  Imp  ??0CToolBar@@REC@XZ
+                    public: __far __pascal CToolBar::CToolBar(void)__far
+                          (MFC250D.383)
+ 0000:0000  Imp  ??0CWinApp@@REC@PFD@Z
+                    public: __far __pascal CWinApp::CWinApp(char const __far*)__far
+                         (MFC250D.389)
+ 0001:51CE       ??1AFX_EXITDUMP@@REC@XZ
+                    public: __far __pascal AFX_EXITDUMP::~AFX_EXITDUMP(void)__far
+
+ 0001:575C       ??1CAboutDlg@@VEC@XZ
+                    public: virtual __far __pascal CAboutDlg::~CAboutDlg(void)__far
+
+ 0000:0000  Imp  ??1CDialog@@VEC@XZ
+                    public: virtual __far __pascal CDialog::~CDialog(void)__far
+                           (MFC250D.412)
+ 0000:0000  Imp  ??1CDocument@@VEC@XZ
+                    public: virtual __far __pascal CDocument::~CDocument(void)__far
+                         (MFC250D.415)
+ 0001:5732       ??1CEx26bApp@@VEC@XZ
+                    public: virtual __far __pascal CEx26bApp::~CEx26bApp(void)__far
+
+ 0001:0162       ??1CEx26bDoc@@VEC@XZ
+                    public: virtual __far __pascal CEx26bDoc::~CEx26bDoc(void)__far
+
+ 0001:560E       ??1CEx26bView@@NEC@XZ
+                    protected: virtual __far __pascal CEx26bView::~CEx26bView(void)__far
+
+ 0001:0D40       ??1CMainFrame@@VEC@XZ
+                    public: virtual __far __pascal CMainFrame::~CMainFrame(void)__far
+
+ 0000:0000  Imp  ??1CObArray@@VEC@XZ
+                    public: virtual __far __pascal CObArray::~CObArray(void)__far
+                          (MFC250D.446)
+ 0000:0000  Imp  ??1CPersistentFrame@@NEC@XZ
+                    protected: virtual __far __pascal CPersistentFrame::~CPersistentFrame(void)__far
+                         (EX26AD.201)
+ 0000:0000  Imp  ??1CRowView@@NEC@XZ
+                    protected: virtual __far __pascal CRowView::~CRowView(void)__far
+                          (EX26AD.101)
+ 0000:0000  Imp  ??1CStatusBar@@VEC@XZ
+                    public: virtual __far __pascal CStatusBar::~CStatusBar(void)__far
+                         (MFC250D.467)
+ 0000:0000  Imp  ??1CString@@REC@XZ
+                    public: __far __pascal CString::~CString(void)__far
+                           (MFC250D.469)
+ 0001:53D0       ??1CStudentDialog@@VEC@XZ
+                    public: virtual __far __pascal CStudentDialog::~CStudentDialog(void)__far
+
+ 0000:0000  Imp  ??1CToolBar@@VEC@XZ
+                    public: virtual __far __pascal CToolBar::~CToolBar(void)__far
+                          (MFC250D.472)
+ 0000:0000  Imp  ??1CWinApp@@VEC@XZ
+                    public: virtual __far __pascal CWinApp::~CWinApp(void)__far
+                           (MFC250D.477)
+ 0001:39FA       ??2@ZAPEXI@Z
+                    void __far* __far __cdecl operator new(unsigned int)
+
+ 0001:3A88       ??2@ZAPEXIPFDH@Z
+                    void __far* __far __cdecl operator new(unsigned int,char const __far*,int)
+
+ 0001:3B6E       ??2CObject@@TAPEXI@Z
+                    public: static void __far* __far __cdecl CObject::operator new(unsigned int)
+
+ 0000:0000  Imp  ??2CObject@@TAPEXIPEX@Z
+                    public: static void __far* __far __cdecl CObject::operator new(unsigned int,void __far*)
+                         (MFC250D.482)
+ 0001:3BFC       ??2CObject@@TAPEXIPFDH@Z
+                    public: static void __far* __far __cdecl CObject::operator new(unsigned int,char const __far*,int)
+
+ 0001:3B18       ??3@ZAXPEX@Z
+                    void __far __cdecl operator delete(void __far*)
+
+ 0001:3C8C       ??3CObject@@TAXPEX@Z
+                    public: static void __far __cdecl CObject::operator delete(void __far*)
+
+ 0000:0000  Imp  ??4CString@@RECAFV0@AFV0@@Z
+                    public: class CString const __far& __far __pascal CString::operator=(class CString const __far&)__far
+                         (MFC250D.488)
+ 0000:0000  Imp  ??4CString@@RECAFV0@PFD@Z
+                    public: class CString const __far& __far __pascal CString::operator=(char const __far*)__far
+                         (MFC250D.490)
+ 0000:0000  Imp  ??6CDumpContext@@RECAEV0@PFD@Z
+                    public: class CDumpContext __far& __far __pascal CDumpContext::operator<<(char const __far*)__far
+                         (MFC250D.546)
+ 0000:0000  Imp  ??6CDumpContext@@RECAEV0@PFVCObject@@@Z
+                    public: class CDumpContext __far& __far __pascal CDumpContext::operator<<(class CObject const __far*)__far
+                         (MFC250D.547)
+ 0000:0000  Imp  ??ACObArray@@RECAEPEVCObject@@H@Z
+                    public: class CObject __far* __far& __far __pascal CObArray::operator[](int)__far
+                         (MFC250D.576)
+ 0000:0000  Imp  ??BCString@@RFAPFDXZ
+                    public: __far __cdecl CString::operator`char const __far*' (void)const __far
+                         (MFC250D.589)
+ 0001:5786       ??_7CAboutDlg@@6F@
+                    const __far CAboutDlg::`vftable'
+
+ 0001:5806       ??_7CEx26bApp@@6F@
+                    const __far CEx26bApp::`vftable'
+
+ 0001:535C       ??_7CEx26bDoc@@6F@
+                    const __far CEx26bDoc::`vftable'
+
+ 0001:540C       ??_7CEx26bView@@6F@
+                    const __far CEx26bView::`vftable'
+
+ 0001:5692       ??_7CMainFrame@@6F@
+                    const __far CMainFrame::`vftable'
+
+ 0001:5912       ??_7CStudentDialog@@6F@
+                    const __far CStudentDialog::`vftable'
+
+ 0001:55F6       ??_C@_0BI@NML@c?3?2vcpp?2ex26b?2ex26bvw?4h?$AA@
+                    ??_C@_0BI@NML@c?3?2vcpp?2ex26b?2ex26bvw?4h?$AA@
+
+ 0001:58C6       ??_GCAboutDlg@@VECPEXI@Z
+                    public: virtual void __far* __far __pascal CAboutDlg::`scalar deleting destructor'(unsigned int)__far
+
+ 0001:587A       ??_GCEx26bApp@@VECPEXI@Z
+                    public: virtual void __far* __far __pascal CEx26bApp::`scalar deleting destructor'(unsigned int)__far
+
+ 0001:5310       ??_GCEx26bDoc@@VECPEXI@Z
+                    public: virtual void __far* __far __pascal CEx26bDoc::`scalar deleting destructor'(unsigned int)__far
+
+ 0001:5550       ??_GCEx26bView@@NECPEXI@Z
+                    protected: virtual void __far* __far __pascal CEx26bView::`scalar deleting destructor'(unsigned int)__far
+
+ 0001:5646       ??_GCMainFrame@@VECPEXI@Z
+                    public: virtual void __far* __far __pascal CMainFrame::`scalar deleting destructor'(unsigned int)__far
+
+ 0001:5992       ??_GCStudentDialog@@VECPEXI@Z
+                    public: virtual void __far* __far __pascal CStudentDialog::`scalar deleting destructor'(unsigned int)__far
+
+ 0000:0000  Imp  ?ActivateFrame@CPersistentFrame@@NECXH@Z
+                    protected: virtual void __far __pascal CPersistentFrame::ActivateFrame(int)__far
+                         (EX26AD.202)
+ 0000:0000  Imp  ?AddDocTemplate@CWinApp@@RECXPEVCDocTemplate@@@Z
+                    public: void __far __pascal CWinApp::AddDocTemplate(class CDocTemplate __far*)__far
+                         (MFC250D.662)
+ 0000:0000  Imp  ?AddToRecentFileList@CWinApp@@VECXPFD@Z
+                    public: virtual void __far __pascal CWinApp::AddToRecentFileList(char const __far*)__far
+                         (MFC250D.682)
+ 0000:0000  Imp  ?AfxAbort@@ZCXXZ
+                    void __far __pascal AfxAbort(void)
+                             (MFC250D.686)
+ 0001:4302       ?AfxCheckMemory@@ZCHXZ
+                    int __far __pascal AfxCheckMemory(void)
+
+ 0001:4E08       ?AfxDoForAllObjects@@ZCXP7AXPEVCObject@@PEX@Z1@Z
+                    void __far __pascal AfxDoForAllObjects(void (__far __cdecl*)(class CObject __far*,void __far*),void __far*)
+
+ 0002:0836       ?afxDump@@3AEVCDumpContext@@E
+                    class CDumpContext __far& __far afxDump
+
+ 0000:0000  Imp  ?AfxGetApp@@ZCPEVCWinApp@@XZ
+                    class CWinApp __far* __far __pascal AfxGetApp(void)
+                         (MFC250D.697)
+ 0002:01AC       ?afxIgnoreAssertCount@@3HA
+                    int __near afxIgnoreAssertCount
+
+ 0001:451C       ?AfxIsMemoryBlock@@ZCHPFXIPEJ@Z
+                    int __far __pascal AfxIsMemoryBlock(void const __far*,unsigned int,long __far*)
+
+ 0001:515E       ?AfxNewHandler@@ZAHI@Z
+                    int __far __cdecl AfxNewHandler(unsigned int)
+
+ 0001:3D04       ?AfxSetAllocHook@@ZCP7CHIHJ@ZP7CHIHJ@Z@Z
+                    int (__far __pascal*__far __pascal AfxSetAllocHook(int (__far __pascal*)(unsigned int,int,long)))(unsigned int,int,long)
+
+ 0001:3DDE       ?AfxSetAllocStop@@ZCXJ@Z
+                    void __far __pascal AfxSetAllocStop(long)
+
+ 0000:0000  Imp  ?AfxThrowMemoryException@@ZCXXZ
+                    void __far __pascal AfxThrowMemoryException(void)
+                         (MFC250D.723)
+ 0000:0000  Imp  ?AssertValid@CDialog@@VFCXXZ
+                    public: virtual void __far __pascal CDialog::AssertValid(void)const __far
+                         (MFC250D.750)
+ 0000:0000  Imp  ?AssertValid@CDocument@@VFCXXZ
+                    public: virtual void __far __pascal CDocument::AssertValid(void)const __far
+                         (MFC250D.753)
+ 0001:02D2       ?AssertValid@CEx26bDoc@@VFCXXZ
+                    public: virtual void __far __pascal CEx26bDoc::AssertValid(void)const __far
+
+ 0001:086C       ?AssertValid@CEx26bView@@NFCXXZ
+                    protected: virtual void __far __pascal CEx26bView::AssertValid(void)const __far
+
+ 0000:0000  Imp  ?AssertValid@CFrameWnd@@VFCXXZ
+                    public: virtual void __far __pascal CFrameWnd::AssertValid(void)const __far
+                         (MFC250D.758)
+ 0001:0EB6       ?AssertValid@CMainFrame@@VFCXXZ
+                    public: virtual void __far __pascal CMainFrame::AssertValid(void)const __far
+
+ 0000:0000  Imp  ?AssertValid@CView@@VFCXXZ
+                    public: virtual void __far __pascal CView::AssertValid(void)const __far
+                         (MFC250D.790)
+ 0000:0000  Imp  ?AssertValid@CWinApp@@VFCXXZ
+                    public: virtual void __far __pascal CWinApp::AssertValid(void)const __far
+                         (MFC250D.791)
+ 0001:559C       ?CalculateRowMetrics@CRowView@@NECXPEVCDC@@@Z
+                    protected: virtual void __far __pascal CRowView::CalculateRowMetrics(class CDC __far*)__far
+
+ 0000:0000  Imp  ?CalcWindowRect@CScrollView@@VECXPEUtagRECT@@I@Z
+                    public: virtual void __far __pascal CScrollView::CalcWindowRect(struct tagRECT __far*,unsigned int)__far
+                         (MFC250D.814)
+ 0000:0000  Imp  ?CalcWindowRect@CWnd@@VECXPEUtagRECT@@I@Z
+                    public: virtual void __far __pascal CWnd::CalcWindowRect(struct tagRECT __far*,unsigned int)__far
+                         (MFC250D.816)
+ 0000:0000  Imp  ?CanCloseFrame@CDocument@@VECHPEVCFrameWnd@@@Z
+                    public: virtual int __far __pascal CDocument::CanCloseFrame(class CFrameWnd __far*)__far
+                         (MFC250D.819)
+ 0001:05D4       ?ChangeSelectionNextRow@CEx26bView@@VECXH@Z
+                    public: virtual void __far __pascal CEx26bView::ChangeSelectionNextRow(int)__far
+
+ 0001:06AA       ?ChangeSelectionToRow@CEx26bView@@VECXH@Z
+                    public: virtual void __far __pascal CEx26bView::ChangeSelectionToRow(int)__far
+
+ 0001:489A       ?Checkpoint@CMemoryState@@RECXXZ
+                    public: void __far __pascal CMemoryState::Checkpoint(void)__far
+
+ 0000:0000  Imp  ?classCDocument@CDocument@@2UCRuntimeClass@@E
+                    public: static struct CRuntimeClass __far CDocument::classCDocument
+                         (MFC250D.2875)
+ 0002:00D0       ?classCEx26bDoc@CEx26bDoc@@2UCRuntimeClass@@A
+                    public: static struct CRuntimeClass __near CEx26bDoc::classCEx26bDoc
+
+ 0002:00F4       ?classCEx26bView@CEx26bView@@2UCRuntimeClass@@A
+                    public: static struct CRuntimeClass __near CEx26bView::classCEx26bView
+
+ 0002:0120       ?classCMainFrame@CMainFrame@@2UCRuntimeClass@@A
+                    public: static struct CRuntimeClass __near CMainFrame::classCMainFrame
+
+ 0000:0000  Imp  ?classCPersistentFrame@CPersistentFrame@@2UCRuntimeClass@@A
+                    public: static struct CRuntimeClass __near CPersistentFrame::classCPersistentFrame
+                         (EX26AD.203)
+ 0000:0000  Imp  ?classCRowView@CRowView@@2UCRuntimeClass@@A
+                    public: static struct CRuntimeClass __near CRowView::classCRowView
+                         (EX26AD.114)
+ 0001:001C       ?Construct@CEx26bDoc@@TCXPEX@Z
+                    public: static void __far __pascal CEx26bDoc::Construct(void __far*)
+
+ 0001:03CC       ?Construct@CEx26bView@@TCXPEX@Z
+                    public: static void __far __pascal CEx26bView::Construct(void __far*)
+
+ 0001:0BE0       ?Construct@CMainFrame@@TCXPEX@Z
+                    public: static void __far __pascal CMainFrame::Construct(void __far*)
+
+ 0000:0000  Imp  ?Create@CStatusBar@@RECHPEVCWnd@@KI@Z
+                    public: int __far __pascal CStatusBar::Create(class CWnd __far*,unsigned long,unsigned int)__far
+                         (MFC250D.906)
+ 0000:0000  Imp  ?Create@CToolBar@@RECHPEVCWnd@@KI@Z
+                    public: int __far __pascal CToolBar::Create(class CWnd __far*,unsigned long,unsigned int)__far
+                         (MFC250D.907)
+ 0000:0000  Imp  ?Create@CWnd@@VECHPFD0KAFUtagRECT@@PEV1@IPEUCCreateContext@@@Z
+                    public: virtual int __far __pascal CWnd::Create(char const __far*,char const __far*,unsigned long,struct tagRECT const __far&,class CWnd __far*,unsigned int,struct CCreateContext __far*)__far
+                         (MFC250D.909)
+ 0000:0000  Imp  ?DDV_MaxChars@@ZCXPEVCDataExchange@@AFVCString@@H@Z
+                    void __far __pascal DDV_MaxChars(class CDataExchange __far*,class CString const __far&,int)
+                         (MFC250D.956)
+ 0000:0000  Imp  ?DDV_MinMaxLong@@ZCXPEVCDataExchange@@JJJ@Z
+                    void __far __pascal DDV_MinMaxLong(class CDataExchange __far*,long,long,long)
+                         (MFC250D.962)
+ 0000:0000  Imp  ?DDX_Text@@ZCXPEVCDataExchange@@HAEJ@Z
+                    void __far __pascal DDX_Text(class CDataExchange __far*,int,long __far&)
+                         (MFC250D.976)
+ 0000:0000  Imp  ?DDX_Text@@ZCXPEVCDataExchange@@HAEVCString@@@Z
+                    void __far __pascal DDX_Text(class CDataExchange __far*,int,class CString __far&)
+                         (MFC250D.980)
+ 0000:0000  Imp  ?DefWindowProc@CWnd@@NECJIIJ@Z
+                    protected: virtual long __far __pascal CWnd::DefWindowProc(unsigned int,unsigned int,long)__far
+                         (MFC250D.1004)
+ 0000:0000  Imp  ?DelayUpdateFrameMenu@CFrameWnd@@VECXPBUHMENU__@@@Z
+                    public: virtual void __far __pascal CFrameWnd::DelayUpdateFrameMenu(struct HMENU__ const __near*)__far
+                         (MFC250D.1010)
+ 0001:01E8       ?DeleteContents@CEx26bDoc@@NECXXZ
+                    protected: virtual void __far __pascal CEx26bDoc::DeleteContents(void)__far
+
+ 0000:0000  Imp  ?DestroyWindow@CWnd@@VECHXZ
+                    public: virtual int __far __pascal CWnd::DestroyWindow(void)__far
+                         (MFC250D.1031)
+ 0001:464A       ?Difference@CMemoryState@@RECHAFU1@0@Z
+                    public: int __far __pascal CMemoryState::Difference(struct CMemoryState const __far&,struct CMemoryState const __far&)__far
+
+ 0001:10F8       ?DoDataExchange@CAboutDlg@@NECXPEVCDataExchange@@@Z
+                    protected: virtual void __far __pascal CAboutDlg::DoDataExchange(class CDataExchange __far*)__far
+
+ 0001:12E6       ?DoDataExchange@CStudentDialog@@NECXPEVCDataExchange@@@Z
+                    protected: virtual void __far __pascal CStudentDialog::DoDataExchange(class CDataExchange __far*)__far
+
+ 0000:0000  Imp  ?DoDataExchange@CWnd@@NECXPEVCDataExchange@@@Z
+                    protected: virtual void __far __pascal CWnd::DoDataExchange(class CDataExchange __far*)__far
+                         (MFC250D.1044)
+ 0000:0000  Imp  ?DoMessageBox@CWinApp@@VECHPFDII@Z
+                    public: virtual int __far __pascal CWinApp::DoMessageBox(char const __far*,unsigned int,unsigned int)__far
+                         (MFC250D.1046)
+ 0000:0000  Imp  ?DoModal@CDialog@@VECHXZ
+                    public: virtual int __far __pascal CDialog::DoModal(void)__far
+                         (MFC250D.1048)
+ 0000:0000  Imp  ?DoWaitCursor@CWinApp@@VECXH@Z
+                    public: virtual void __far __pascal CWinApp::DoWaitCursor(int)__far
+                         (MFC250D.1063)
+ 0000:0000  Imp  ?Dump@CDialog@@VFCXAEVCDumpContext@@@Z
+                    public: virtual void __far __pascal CDialog::Dump(class CDumpContext __far&)const __far
+                         (MFC250D.1094)
+ 0000:0000  Imp  ?Dump@CDocument@@VFCXAEVCDumpContext@@@Z
+                    public: virtual void __far __pascal CDocument::Dump(class CDumpContext __far&)const __far
+                         (MFC250D.1097)
+ 0001:02FC       ?Dump@CEx26bDoc@@VFCXAEVCDumpContext@@@Z
+                    public: virtual void __far __pascal CEx26bDoc::Dump(class CDumpContext __far&)const __far
+
+ 0001:0896       ?Dump@CEx26bView@@NFCXAEVCDumpContext@@@Z
+                    protected: virtual void __far __pascal CEx26bView::Dump(class CDumpContext __far&)const __far
+
+ 0000:0000  Imp  ?Dump@CFrameWnd@@VFCXAEVCDumpContext@@@Z
+                    public: virtual void __far __pascal CFrameWnd::Dump(class CDumpContext __far&)const __far
+                         (MFC250D.1108)
+ 0001:0EE0       ?Dump@CMainFrame@@VFCXAEVCDumpContext@@@Z
+                    public: virtual void __far __pascal CMainFrame::Dump(class CDumpContext __far&)const __far
+
+ 0000:0000  Imp  ?Dump@CView@@VFCXAEVCDumpContext@@@Z
+                    public: virtual void __far __pascal CView::Dump(class CDumpContext __far&)const __far
+                         (MFC250D.1143)
+ 0000:0000  Imp  ?Dump@CWinApp@@VFCXAEVCDumpContext@@@Z
+                    public: virtual void __far __pascal CWinApp::Dump(class CDumpContext __far&)const __far
+                         (MFC250D.1144)
+ 0001:4A40       ?DumpAllObjectsSince@CMemoryState@@RFCXXZ
+                    public: void __far __pascal CMemoryState::DumpAllObjectsSince(void)const __far
+
+ 0001:47D6       ?DumpStatistics@CMemoryState@@RFCXXZ
+                    public: void __far __pascal CMemoryState::DumpStatistics(void)const __far
+
+ 0000:0000  Imp  ?EndDialog@CDialog@@RECXH@Z
+                    public: void __far __pascal CDialog::EndDialog(int)__far
+                         (MFC250D.1174)
+ 0000:0000  Imp  ?ExitHelpMode@CFrameWnd@@VECXXZ
+                    public: virtual void __far __pascal CFrameWnd::ExitHelpMode(void)__far
+                         (MFC250D.1192)
+ 0000:0000  Imp  ?ExitInstance@CWinApp@@VECHXZ
+                    public: virtual int __far __pascal CWinApp::ExitInstance(void)__far
+                         (MFC250D.1193)
+ 0000:0000  Imp  ?GetActiveDocument@CFrameWnd@@VECPEVCDocument@@XZ
+                    public: virtual class CDocument __far* __far __pascal CFrameWnd::GetActiveDocument(void)__far
+                         (MFC250D.1262)
+ 0000:0000  Imp  ?GetActiveFrame@CFrameWnd@@VECPEV1@XZ
+                    public: virtual class CFrameWnd __far* __far __pascal CFrameWnd::GetActiveFrame(void)__far
+                         (MFC250D.1263)
+ 0001:0554       ?GetActiveRow@CEx26bView@@VECHXZ
+                    public: virtual int __far __pascal CEx26bView::GetActiveRow(void)__far
+
+ 0000:0000  Imp  ?GetDefaultAccel@CDocument@@VECPBUHACCEL__@@XZ
+                    public: virtual struct HACCEL__ const __near* __far __pascal CDocument::GetDefaultAccel(void)__far
+                         (MFC250D.1346)
+ 0000:0000  Imp  ?GetDefaultMenu@CDocument@@VECPBUHMENU__@@XZ
+                    public: virtual struct HMENU__ const __near* __far __pascal CDocument::GetDefaultMenu(void)__far
+                         (MFC250D.1347)
+ 0000:0000  Imp  ?GetDepth@CDumpContext@@RFCHXZ
+                    public: int __far __pascal CDumpContext::GetDepth(void)const __far
+                         (MFC250D.1349)
+ 0000:0000  Imp  ?GetDispatchMap@CCmdTarget@@NFCPEUAFX_DISPMAP@@XZ
+                    protected: virtual struct AFX_DISPMAP __far* __far __pascal CCmdTarget::GetDispatchMap(void)const __far
+                         (MFC250D.1358)
+ 0000:0000  Imp  ?GetDlgItem@CWnd@@RFCPEV1@H@Z
+                    public: class CWnd __far* __far __pascal CWnd::GetDlgItem(int)const __far
+                         (MFC250D.1360)
+ 0001:54F4       ?GetDocument@CEx26bView@@RECPEVCEx26bDoc@@XZ
+                    public: class CEx26bDoc __far* __far __pascal CEx26bView::GetDocument(void)__far
+
+ 0000:0000  Imp  ?GetFirstViewPosition@CDocument@@VFCPEXXZ
+                    public: virtual void __far* __far __pascal CDocument::GetFirstViewPosition(void)const __far
+                         (MFC250D.1383)
+ 0000:0000  Imp  ?GetInterfaceHook@CCmdTarget@@VECPEUIUnknown@@PFX@Z
+                    public: virtual struct IUnknown __far* __far __pascal CCmdTarget::GetInterfaceHook(void const __far*)__far
+                         (MFC250D.1422)
+ 0000:0000  Imp  ?GetInterfaceMap@CCmdTarget@@NFCPEUAFX_INTERFACEMAP@@XZ
+                    protected: virtual struct AFX_INTERFACEMAP __far* __far __pascal CCmdTarget::GetInterfaceMap(void)const __far
+                         (MFC250D.1423)
+ 0000:0000  Imp  ?GetMainWnd@CWinApp@@VECPEVCWnd@@XZ
+                    public: virtual class CWnd __far* __far __pascal CWinApp::GetMainWnd(void)__far
+                         (MFC250D.1447)
+ 0000:0000  Imp  ?GetMessageBar@CFrameWnd@@VECPEVCWnd@@XZ
+                    public: virtual class CWnd __far* __far __pascal CFrameWnd::GetMessageBar(void)__far
+                         (MFC250D.1455)
+ 0001:1128       ?GetMessageMap@CAboutDlg@@NFCPEUAFX_MSGMAP@@XZ
+                    protected: virtual struct AFX_MSGMAP __far* __far __pascal CAboutDlg::GetMessageMap(void)const __far
+
+ 0001:0F40       ?GetMessageMap@CEx26bApp@@NFCPEUAFX_MSGMAP@@XZ
+                    protected: virtual struct AFX_MSGMAP __far* __far __pascal CEx26bApp::GetMessageMap(void)const __far
+
+ 0001:00C4       ?GetMessageMap@CEx26bDoc@@NFCPEUAFX_MSGMAP@@XZ
+                    protected: virtual struct AFX_MSGMAP __far* __far __pascal CEx26bDoc::GetMessageMap(void)const __far
+
+ 0001:0394       ?GetMessageMap@CEx26bView@@NFCPEUAFX_MSGMAP@@XZ
+                    protected: virtual struct AFX_MSGMAP __far* __far __pascal CEx26bView::GetMessageMap(void)const __far
+
+ 0001:0C8A       ?GetMessageMap@CMainFrame@@NFCPEUAFX_MSGMAP@@XZ
+                    protected: virtual struct AFX_MSGMAP __far* __far __pascal CMainFrame::GetMessageMap(void)const __far
+
+ 0001:1214       ?GetMessageMap@CStudentDialog@@NFCPEUAFX_MSGMAP@@XZ
+                    protected: virtual struct AFX_MSGMAP __far* __far __pascal CStudentDialog::GetMessageMap(void)const __far
+
+ 0000:0000  Imp  ?GetNextView@CDocument@@VFCPEVCView@@AEPEX@Z
+                    public: virtual class CView __far* __far __pascal CDocument::GetNextView(void __far* __far&)const __far
+                         (MFC250D.1504)
+ 0001:058C       ?GetRowCount@CEx26bView@@VECHXZ
+                    public: virtual int __far __pascal CEx26bView::GetRowCount(void)__far
+
+ 0001:0504       ?GetRowWidthHeight@CEx26bView@@VECXPEVCDC@@AEH11@Z
+                    public: virtual void __far __pascal CEx26bView::GetRowWidthHeight(class CDC __far*,int __far&,int __far&,int __far&)__far
+
+ 0000:0000  Imp  ?GetRuntimeClass@CDialog@@VFCPEUCRuntimeClass@@XZ
+                    public: virtual struct CRuntimeClass __far* __far __pascal CDialog::GetRuntimeClass(void)const __far
+                         (MFC250D.1576)
+ 0001:00A0       ?GetRuntimeClass@CEx26bDoc@@VFCPEUCRuntimeClass@@XZ
+                    public: virtual struct CRuntimeClass __far* __far __pascal CEx26bDoc::GetRuntimeClass(void)const __far
+
+ 0001:0452       ?GetRuntimeClass@CEx26bView@@VFCPEUCRuntimeClass@@XZ
+                    public: virtual struct CRuntimeClass __far* __far __pascal CEx26bView::GetRuntimeClass(void)const __far
+
+ 0001:0C66       ?GetRuntimeClass@CMainFrame@@VFCPEUCRuntimeClass@@XZ
+                    public: virtual struct CRuntimeClass __far* __far __pascal CMainFrame::GetRuntimeClass(void)const __far
+
+ 0000:0000  Imp  ?GetRuntimeClass@CWinApp@@VFCPEUCRuntimeClass@@XZ
+                    public: virtual struct CRuntimeClass __far* __far __pascal CWinApp::GetRuntimeClass(void)const __far
+                         (MFC250D.1638)
+ 0000:0000  Imp  ?GetScrollBarCtrl@CView@@VFCPEVCScrollBar@@H@Z
+                    public: virtual class CScrollBar __far* __far __pascal CView::GetScrollBarCtrl(int)const __far
+                         (MFC250D.1646)
+ 0000:0000  Imp  ?GetScrollBarCtrl@CWnd@@VFCPEVCScrollBar@@H@Z
+                    public: virtual class CScrollBar __far* __far __pascal CWnd::GetScrollBarCtrl(int)const __far
+                         (MFC250D.1647)
+ 0000:0000  Imp  ?GetSize@CObArray@@RFCHXZ
+                    public: int __far __pascal CObArray::GetSize(void)const __far
+                         (MFC250D.1666)
+ 0000:0000  Imp  ?GetSuperWndProcAddr@CDialog@@VECPEP7CJPBUHWND__@@IIJ@ZXZ
+                    public: virtual long (__far __pascal*__far* __far __pascal CDialog::GetSuperWndProcAddr(void)__far)(struct HWND__ const __near*,unsigned int,unsigned int,long)
+                         (MFC250D.1694)
+ 0000:0000  Imp  ?GetSuperWndProcAddr@CWnd@@NECPEP7CJPBUHWND__@@IIJ@ZXZ
+                    protected: virtual long (__far __pascal*__far* __far __pascal CWnd::GetSuperWndProcAddr(void)__far)(struct HWND__ const __near*,unsigned int,unsigned int,long)
+                         (MFC250D.1703)
+ 0000:0000  Imp  ?GetTextMetrics@CDC@@RFCHPEUtagTEXTMETRIC@@@Z
+                    public: int __far __pascal CDC::GetTextMetrics(struct tagTEXTMETRIC __far*)const __far
+                         (MFC250D.1724)
+ 0000:0000  Imp  ?GetUpperBound@CObArray@@RFCHXZ
+                    public: int __far __pascal CObArray::GetUpperBound(void)const __far
+                         (MFC250D.1744)
+ 0000:0000  Imp  ?GotoDlgCtrl@CDialog@@RECXPEVCWnd@@@Z
+                    public: void __far __pascal CDialog::GotoDlgCtrl(class CWnd __far*)__far
+                         (MFC250D.1765)
+ 0000:0000  Imp  ?InitApplication@CWinApp@@VECHXZ
+                    public: virtual int __far __pascal CWinApp::InitApplication(void)__far
+                         (MFC250D.1793)
+ 0001:0FF8       ?InitInstance@CEx26bApp@@VECHXZ
+                    public: virtual int __far __pascal CEx26bApp::InitInstance(void)__far
+
+ 0000:0000  Imp  ?InsertAt@CObArray@@RECXHPEVCObject@@H@Z
+                    public: void __far __pascal CObArray::InsertAt(int,class CObject __far*,int)__far
+                         (MFC250D.1813)
+ 0000:0000  Imp  ?Invalidate@CWnd@@RECXH@Z
+                    public: void __far __pascal CWnd::Invalidate(int)__far
+                         (MFC250D.1832)
+ 0000:0000  Imp  ?IsFrameWnd@CFrameWnd@@VFCHXZ
+                    public: virtual int __far __pascal CFrameWnd::IsFrameWnd(void)const __far
+                         (MFC250D.1854)
+ 0000:0000  Imp  ?IsFrameWnd@CWnd@@VFCHXZ
+                    public: virtual int __far __pascal CWnd::IsFrameWnd(void)const __far
+                         (MFC250D.1855)
+ 0000:0000  Imp  ?IsKindOf@CObject@@RFCHPFUCRuntimeClass@@@Z
+                    public: int __far __pascal CObject::IsKindOf(struct CRuntimeClass const __far*)const __far
+                         (MFC250D.1858)
+ 0000:0000  Imp  ?IsModified@CDocument@@RECHXZ
+                    public: int __far __pascal CDocument::IsModified(void)__far
+                         (MFC250D.1860)
+ 0000:0000  Imp  ?IsSelected@CView@@VFCHPFVCObject@@@Z
+                    public: virtual int __far __pascal CView::IsSelected(class CObject const __far*)const __far
+                         (MFC250D.1865)
+ 0000:0000  Imp  ?LastViewableRow@CRowView@@NECHXZ
+                    protected: virtual int __far __pascal CRowView::LastViewableRow(void)__far
+                         (EX26AD.103)
+ 0000:0000  Imp  ?LoadBitmap@CToolBar@@RECHI@Z
+                    public: int __far __pascal CToolBar::LoadBitmap(unsigned int)__far
+                         (MFC250D.1894)
+ 0000:0000  Imp  ?LoadFrame@CFrameWnd@@VECHIKPEVCWnd@@PEUCCreateContext@@@Z
+                    public: virtual int __far __pascal CFrameWnd::LoadFrame(unsigned int,unsigned long,class CWnd __far*,struct CCreateContext __far*)__far
+                         (MFC250D.1899)
+ 0000:0000  Imp  ?LoadStdProfileSettings@CWinApp@@JECXXZ
+                    protected: void __far __pascal CWinApp::LoadStdProfileSettings(void)__far
+                         (MFC250D.1915)
+ 0000:0000  Imp  ?LoadString@CString@@RECHI@Z
+                    public: int __far __pascal CString::LoadString(unsigned int)__far
+                         (MFC250D.1916)
+ 0002:017C       ?messageMap@CAboutDlg@@1UAFX_MSGMAP@@A
+                    protected: static struct AFX_MSGMAP __near CAboutDlg::messageMap
+
+ 0000:0000  Imp  ?messageMap@CDialog@@1UAFX_MSGMAP@@E
+                    protected: static struct AFX_MSGMAP __far CDialog::messageMap
+                         (MFC250D.2946)
+ 0000:0000  Imp  ?messageMap@CDocument@@1UAFX_MSGMAP@@E
+                    protected: static struct AFX_MSGMAP __far CDocument::messageMap
+                         (MFC250D.2947)
+ 0002:0174       ?messageMap@CEx26bApp@@1UAFX_MSGMAP@@A
+                    protected: static struct AFX_MSGMAP __near CEx26bApp::messageMap
+
+ 0002:00E4       ?messageMap@CEx26bDoc@@1UAFX_MSGMAP@@A
+                    protected: static struct AFX_MSGMAP __near CEx26bDoc::messageMap
+
+ 0002:00EC       ?messageMap@CEx26bView@@1UAFX_MSGMAP@@A
+                    protected: static struct AFX_MSGMAP __near CEx26bView::messageMap
+
+ 0002:0134       ?messageMap@CMainFrame@@1UAFX_MSGMAP@@A
+                    protected: static struct AFX_MSGMAP __near CMainFrame::messageMap
+
+ 0000:0000  Imp  ?messageMap@CPersistentFrame@@1UAFX_MSGMAP@@A
+                    protected: static struct AFX_MSGMAP __near CPersistentFrame::messageMap
+                         (EX26AD.204)
+ 0000:0000  Imp  ?messageMap@CRowView@@1UAFX_MSGMAP@@A
+                    protected: static struct AFX_MSGMAP __near CRowView::messageMap
+                         (EX26AD.115)
+ 0002:0184       ?messageMap@CStudentDialog@@1UAFX_MSGMAP@@A
+                    protected: static struct AFX_MSGMAP __near CStudentDialog::messageMap
+
+ 0000:0000  Imp  ?messageMap@CWinApp@@1UAFX_MSGMAP@@E
+                    protected: static struct AFX_MSGMAP __far CWinApp::messageMap
+                         (MFC250D.2961)
+ 0000:0000  Imp  ?NegotiateBorderSpace@CFrameWnd@@VECHIPEUtagRECT@@@Z
+                    public: virtual int __far __pascal CFrameWnd::NegotiateBorderSpace(unsigned int,struct tagRECT __far*)__far
+                         (MFC250D.1973)
+ 0000:0000  Imp  ?OnActivateFrame@CView@@NECXIPEVCFrameWnd@@@Z
+                    protected: virtual void __far __pascal CView::OnActivateFrame(unsigned int,class CFrameWnd __far*)__far
+                         (MFC250D.2007)
+ 0000:0000  Imp  ?OnActivateView@CView@@NECXHPEV1@0@Z
+                    protected: virtual void __far __pascal CView::OnActivateView(int,class CView __far*,int)__far
+                         (MFC250D.2010)
+ 0001:1156       ?OnAppAbout@CEx26bApp@@RECXXZ
+                    public: void __far __pascal CEx26bApp::OnAppAbout(void)__far
+
+ 0000:0000  Imp  ?OnBeginPrinting@CRowView@@NECXPEVCDC@@PEUCPrintInfo@@@Z
+                    protected: virtual void __far __pascal CRowView::OnBeginPrinting(class CDC __far*,struct CPrintInfo __far*)__far
+                         (EX26AD.108)
+ 0000:0000  Imp  ?OnCancel@CDialog@@NECXXZ
+                    protected: virtual void __far __pascal CDialog::OnCancel(void)__far
+                         (MFC250D.2017)
+ 0001:13C2       ?OnCancel@CStudentDialog@@NECXXZ
+                    protected: virtual void __far __pascal CStudentDialog::OnCancel(void)__far
+
+ 0000:0000  Imp  ?OnChangedViewList@CDocument@@VECXXZ
+                    public: virtual void __far __pascal CDocument::OnChangedViewList(void)__far
+                         (MFC250D.2027)
+ 0000:0000  Imp  ?OnChildNotify@CWnd@@NECHIIJPEJ@Z
+                    protected: virtual int __far __pascal CWnd::OnChildNotify(unsigned int,unsigned int,long,long __far*)__far
+                         (MFC250D.2035)
+ 0001:13EE       ?OnClickedCancel@CStudentDialog@@JECXXZ
+                    protected: void __far __pascal CStudentDialog::OnClickedCancel(void)__far
+
+ 0001:141A       ?OnClickedClear@CStudentDialog@@JECXXZ
+                    protected: void __far __pascal CStudentDialog::OnClickedClear(void)__far
+
+ 0001:1496       ?OnClickedDelete@CStudentDialog@@JECXXZ
+                    protected: void __far __pascal CStudentDialog::OnClickedDelete(void)__far
+
+ 0001:14C2       ?OnClickedInsert@CStudentDialog@@JECXXZ
+                    protected: void __far __pascal CStudentDialog::OnClickedInsert(void)__far
+
+ 0001:1506       ?OnClickedUpdate@CStudentDialog@@JECXXZ
+                    protected: void __far __pascal CStudentDialog::OnClickedUpdate(void)__far
+
+ 0000:0000  Imp  ?OnCloseDocument@CDocument@@VECXXZ
+                    public: virtual void __far __pascal CDocument::OnCloseDocument(void)__far
+                         (MFC250D.2038)
+ 0000:0000  Imp  ?OnCmdMsg@CCmdTarget@@VECHIHPEXPEUAFX_CMDHANDLERINFO@@@Z
+                    public: virtual int __far __pascal CCmdTarget::OnCmdMsg(unsigned int,int,void __far*,struct AFX_CMDHANDLERINFO __far*)__far
+                         (MFC250D.2039)
+ 0000:0000  Imp  ?OnCmdMsg@CDialog@@VECHIHPEXPEUAFX_CMDHANDLERINFO@@@Z
+                    public: virtual int __far __pascal CDialog::OnCmdMsg(unsigned int,int,void __far*,struct AFX_CMDHANDLERINFO __far*)__far
+                         (MFC250D.2040)
+ 0000:0000  Imp  ?OnCmdMsg@CDocument@@VECHIHPEXPEUAFX_CMDHANDLERINFO@@@Z
+                    public: virtual int __far __pascal CDocument::OnCmdMsg(unsigned int,int,void __far*,struct AFX_CMDHANDLERINFO __far*)__far
+                         (MFC250D.2041)
+ 0000:0000  Imp  ?OnCmdMsg@CFrameWnd@@VECHIHPEXPEUAFX_CMDHANDLERINFO@@@Z
+                    public: virtual int __far __pascal CFrameWnd::OnCmdMsg(unsigned int,int,void __far*,struct AFX_CMDHANDLERINFO __far*)__far
+                         (MFC250D.2042)
+ 0000:0000  Imp  ?OnCmdMsg@CView@@NECHIHPEXPEUAFX_CMDHANDLERINFO@@@Z
+                    protected: virtual int __far __pascal CView::OnCmdMsg(unsigned int,int,void __far*,struct AFX_CMDHANDLERINFO __far*)__far
+                         (MFC250D.2044)
+ 0000:0000  Imp  ?OnCommand@CFrameWnd@@NECHIJ@Z
+                    protected: virtual int __far __pascal CFrameWnd::OnCommand(unsigned int,long)__far
+                         (MFC250D.2046)
+ 0000:0000  Imp  ?OnCommand@CWnd@@NECHIJ@Z
+                    protected: virtual int __far __pascal CWnd::OnCommand(unsigned int,long)__far
+                         (MFC250D.2048)
+ 0000:0000  Imp  ?OnCreate@CFrameWnd@@JECHPEUtagCREATESTRUCT@@@Z
+                    protected: int __far __pascal CFrameWnd::OnCreate(struct tagCREATESTRUCT __far*)__far
+                         (MFC250D.2058)
+ 0001:0D9C       ?OnCreate@CMainFrame@@JECHPEUtagCREATESTRUCT@@@Z
+                    protected: int __far __pascal CMainFrame::OnCreate(struct tagCREATESTRUCT __far*)__far
+
+ 0000:0000  Imp  ?OnCreateAggregates@CCmdTarget@@VECHXZ
+                    public: virtual int __far __pascal CCmdTarget::OnCreateAggregates(void)__far
+                         (MFC250D.2063)
+ 0000:0000  Imp  ?OnCreateClient@CFrameWnd@@NECHPEUtagCREATESTRUCT@@PEUCCreateContext@@@Z
+                    protected: virtual int __far __pascal CFrameWnd::OnCreateClient(struct tagCREATESTRUCT __far*,struct CCreateContext __far*)__far
+                         (MFC250D.2064)
+ 0000:0000  Imp  ?OnDDECommand@CWinApp@@VECHPED@Z
+                    public: virtual int __far __pascal CWinApp::OnDDECommand(char __far*)__far
+                         (MFC250D.2071)
+ 0000:0000  Imp  ?OnDragEnter@CView@@VECKPEVCOleDataObject@@KVCPoint@@@Z
+                    public: virtual unsigned long __far __pascal CView::OnDragEnter(class COleDataObject __far*,unsigned long,class CPoint)__far
+                         (MFC250D.2084)
+ 0000:0000  Imp  ?OnDragLeave@CView@@VECXXZ
+                    public: virtual void __far __pascal CView::OnDragLeave(void)__far
+                         (MFC250D.2085)
+ 0000:0000  Imp  ?OnDragOver@CView@@VECKPEVCOleDataObject@@KVCPoint@@@Z
+                    public: virtual unsigned long __far __pascal CView::OnDragOver(class COleDataObject __far*,unsigned long,class CPoint)__far
+                         (MFC250D.2086)
+ 0000:0000  Imp  ?OnDraw@CRowView@@NECXPEVCDC@@@Z
+                    protected: virtual void __far __pascal CRowView::OnDraw(class CDC __far*)__far
+                         (EX26AD.109)
+ 0001:07A8       ?OnDrawRow@CEx26bView@@VECXPEVCDC@@HHH@Z
+                    public: virtual void __far __pascal CEx26bView::OnDrawRow(class CDC __far*,int,int,int)__far
+
+ 0000:0000  Imp  ?OnDrop@CView@@VECHPEVCOleDataObject@@KVCPoint@@@Z
+                    public: virtual int __far __pascal CView::OnDrop(class COleDataObject __far*,unsigned long,class CPoint)__far
+                         (MFC250D.2093)
+ 0000:0000  Imp  ?OnEndPrinting@CView@@NECXPEVCDC@@PEUCPrintInfo@@@Z
+                    protected: virtual void __far __pascal CView::OnEndPrinting(class CDC __far*,struct CPrintInfo __far*)__far
+                         (MFC250D.2110)
+ 0000:0000  Imp  ?OnEndPrintPreview@CView@@NECXPEVCDC@@PEUCPrintInfo@@UtagPOINT@@PEVCPreviewView@@@Z
+                    protected: virtual void __far __pascal CView::OnEndPrintPreview(class CDC __far*,struct CPrintInfo __far*,struct tagPOINT,class CPreviewView __far*)__far
+                         (MFC250D.2108)
+ 0000:0000  Imp  ?OnFileNew@CWinApp@@JECXXZ
+                    protected: void __far __pascal CWinApp::OnFileNew(void)__far
+                         (MFC250D.2120)
+ 0000:0000  Imp  ?OnFileOpen@CWinApp@@JECXXZ
+                    protected: void __far __pascal CWinApp::OnFileOpen(void)__far
+                         (MFC250D.2121)
+ 0000:0000  Imp  ?OnFilePrintSetup@CWinApp@@JECXXZ
+                    protected: void __far __pascal CWinApp::OnFilePrintSetup(void)__far
+                         (MFC250D.2124)
+ 0000:0000  Imp  ?OnFinalRelease@CCmdTarget@@VECXXZ
+                    public: virtual void __far __pascal CCmdTarget::OnFinalRelease(void)__far
+                         (MFC250D.2127)
+ 0000:0000  Imp  ?OnFinalRelease@CDocument@@VECXXZ
+                    public: virtual void __far __pascal CDocument::OnFinalRelease(void)__far
+                         (MFC250D.2128)
+ 0000:0000  Imp  ?OnFinalRelease@CWnd@@VECXXZ
+                    public: virtual void __far __pascal CWnd::OnFinalRelease(void)__far
+                         (MFC250D.2129)
+ 0000:0000  Imp  ?OnIdle@CDocument@@VECXXZ
+                    public: virtual void __far __pascal CDocument::OnIdle(void)__far
+                         (MFC250D.2157)
+ 0000:0000  Imp  ?OnIdle@CWinApp@@VECHJ@Z
+                    public: virtual int __far __pascal CWinApp::OnIdle(long)__far
+                         (MFC250D.2158)
+ 0000:0000  Imp  ?OnInitDialog@CDialog@@VECHXZ
+                    public: virtual int __far __pascal CDialog::OnInitDialog(void)__far
+                         (MFC250D.2162)
+ 0000:0000  Imp  ?OnInitialUpdate@CRowView@@NECXXZ
+                    protected: virtual void __far __pascal CRowView::OnInitialUpdate(void)__far
+                         (EX26AD.110)
+ 0001:08C6       ?OnLButtonDblClk@CEx26bView@@JECXIVCPoint@@@Z
+                    protected: void __far __pascal CEx26bView::OnLButtonDblClk(unsigned int,class CPoint)__far
+
+ 0000:0000  Imp  ?OnNewDocument@CDocument@@VECHXZ
+                    public: virtual int __far __pascal CDocument::OnNewDocument(void)__far
+                         (MFC250D.2217)
+ 0001:01AC       ?OnNewDocument@CEx26bDoc@@NECHXZ
+                    protected: virtual int __far __pascal CEx26bDoc::OnNewDocument(void)__far
+
+ 0000:0000  Imp  ?OnOK@CDialog@@NECXXZ
+                    protected: virtual void __far __pascal CDialog::OnOK(void)__far
+                         (MFC250D.2222)
+ 0001:1396       ?OnOK@CStudentDialog@@NECXXZ
+                    protected: virtual void __far __pascal CStudentDialog::OnOK(void)__far
+
+ 0000:0000  Imp  ?OnOpenDocument@CDocument@@VECHPFD@Z
+                    public: virtual int __far __pascal CDocument::OnOpenDocument(char const __far*)__far
+                         (MFC250D.2227)
+ 0000:0000  Imp  ?OnPrepareDC@CRowView@@NECXPEVCDC@@PEUCPrintInfo@@@Z
+                    protected: virtual void __far __pascal CRowView::OnPrepareDC(class CDC __far*,struct CPrintInfo __far*)__far
+                         (EX26AD.111)
+ 0000:0000  Imp  ?OnPreparePrinting@CRowView@@NECHPEUCPrintInfo@@@Z
+                    protected: virtual int __far __pascal CRowView::OnPreparePrinting(struct CPrintInfo __far*)__far
+                         (EX26AD.107)
+ 0000:0000  Imp  ?OnPrint@CRowView@@NECXPEVCDC@@PEUCPrintInfo@@@Z
+                    protected: virtual void __far __pascal CRowView::OnPrint(class CDC __far*,struct CPrintInfo __far*)__far
+                         (EX26AD.112)
+ 0000:0000  Imp  ?OnSaveDocument@CDocument@@VECHPFD@Z
+                    public: virtual int __far __pascal CDocument::OnSaveDocument(char const __far*)__far
+                         (MFC250D.2262)
+ 0000:0000  Imp  ?OnScroll@CScrollView@@VECHIIH@Z
+                    public: virtual int __far __pascal CScrollView::OnScroll(unsigned int,unsigned int,int)__far
+                         (MFC250D.2263)
+ 0000:0000  Imp  ?OnScrollBy@CScrollView@@VECHVCSize@@H@Z
+                    public: virtual int __far __pascal CScrollView::OnScrollBy(class CSize,int)__far
+                         (MFC250D.2265)
+ 0000:0000  Imp  ?OnSetFont@CDialog@@VECXPEVCFont@@@Z
+                    public: virtual void __far __pascal CDialog::OnSetFont(class CFont __far*)__far
+                         (MFC250D.2274)
+ 0000:0000  Imp  ?OnSetPreviewMode@CFrameWnd@@VECXHPEUCPrintPreviewState@@@Z
+                    public: virtual void __far __pascal CFrameWnd::OnSetPreviewMode(int,struct CPrintPreviewState __far*)__far
+                         (MFC250D.2278)
+ 0001:0754       ?OnUpdate@CEx26bView@@VECXPEVCView@@JPEVCObject@@@Z
+                    public: virtual void __far __pascal CEx26bView::OnUpdate(class CView __far*,long,class CObject __far*)__far
+
+ 0001:032C       ?OnUpdateFileSave@CEx26bDoc@@JECXPEVCCmdUI@@@Z
+                    protected: void __far __pascal CEx26bDoc::OnUpdateFileSave(class CCmdUI __far*)__far
+
+ 0000:0000  Imp  ?OnUpdateFrameMenu@CFrameWnd@@VECXPBUHMENU__@@@Z
+                    public: virtual void __far __pascal CFrameWnd::OnUpdateFrameMenu(struct HMENU__ const __near*)__far
+                         (MFC250D.2312)
+ 0000:0000  Imp  ?OnUpdateFrameTitle@CFrameWnd@@VECXH@Z
+                    public: virtual void __far __pascal CFrameWnd::OnUpdateFrameTitle(int)__far
+                         (MFC250D.2315)
+ 0000:0000  Imp  ?OpenDocumentFile@CWinApp@@VECPEVCDocument@@PFD@Z
+                    public: virtual class CDocument __far* __far __pascal CWinApp::OpenDocumentFile(char const __far*)__far
+                         (MFC250D.2353)
+ 0001:52D6       ?pbData@CBlockHeader@@RECPEEXZ
+                    public: unsigned char __far* __far __pascal CBlockHeader::pbData(void)__far
+
+ 0000:0000  Imp  ?PostNcDestroy@CFrameWnd@@NECXXZ
+                    protected: virtual void __far __pascal CFrameWnd::PostNcDestroy(void)__far
+                         (MFC250D.2374)
+ 0000:0000  Imp  ?PostNcDestroy@CView@@NECXXZ
+                    protected: virtual void __far __pascal CView::PostNcDestroy(void)__far
+                         (MFC250D.2376)
+ 0000:0000  Imp  ?PostNcDestroy@CWnd@@NECXXZ
+                    protected: virtual void __far __pascal CWnd::PostNcDestroy(void)__far
+                         (MFC250D.2377)
+ 0000:0000  Imp  ?PreCloseFrame@CDocument@@VECXPEVCFrameWnd@@@Z
+                    public: virtual void __far __pascal CDocument::PreCloseFrame(class CFrameWnd __far*)__far
+                         (MFC250D.2378)
+ 0000:0000  Imp  ?PreCreateWindow@CFrameWnd@@NECHAEUtagCREATESTRUCT@@@Z
+                    protected: virtual int __far __pascal CFrameWnd::PreCreateWindow(struct tagCREATESTRUCT __far&)__far
+                         (MFC250D.2380)
+ 0000:0000  Imp  ?PreCreateWindow@CView@@NECHAEUtagCREATESTRUCT@@@Z
+                    protected: virtual int __far __pascal CView::PreCreateWindow(struct tagCREATESTRUCT __far&)__far
+                         (MFC250D.2383)
+ 0000:0000  Imp  ?PreCreateWindow@CWnd@@VECHAEUtagCREATESTRUCT@@@Z
+                    public: virtual int __far __pascal CWnd::PreCreateWindow(struct tagCREATESTRUCT __far&)__far
+                         (MFC250D.2384)
+ 0000:0000  Imp  ?PreTranslateMessage@CDialog@@VECHPEUtagMSG@@@Z
+                    public: virtual int __far __pascal CDialog::PreTranslateMessage(struct tagMSG __far*)__far
+                         (MFC250D.2387)
+ 0000:0000  Imp  ?PreTranslateMessage@CFrameWnd@@VECHPEUtagMSG@@@Z
+                    public: virtual int __far __pascal CFrameWnd::PreTranslateMessage(struct tagMSG __far*)__far
+                         (MFC250D.2389)
+ 0000:0000  Imp  ?PreTranslateMessage@CWinApp@@VECHPEUtagMSG@@@Z
+                    public: virtual int __far __pascal CWinApp::PreTranslateMessage(struct tagMSG __far*)__far
+                         (MFC250D.2392)
+ 0000:0000  Imp  ?PreTranslateMessage@CWnd@@VECHPEUtagMSG@@@Z
+                    public: virtual int __far __pascal CWnd::PreTranslateMessage(struct tagMSG __far*)__far
+                         (MFC250D.2393)
+ 0000:0000  Imp  ?ProcessMessageFilter@CWinApp@@VECHHPEUtagMSG@@@Z
+                    public: virtual int __far __pascal CWinApp::ProcessMessageFilter(int,struct tagMSG __far*)__far
+                         (MFC250D.2406)
+ 0000:0000  Imp  ?ProcessWndProcException@CWinApp@@VECJPEVCException@@PFUtagMSG@@@Z
+                    public: virtual long __far __pascal CWinApp::ProcessWndProcException(class CException __far*,struct tagMSG const __far*)__far
+                         (MFC250D.2407)
+ 0000:0000  Imp  ?RecalcLayout@CFrameWnd@@VECXH@Z
+                    public: virtual void __far __pascal CFrameWnd::RecalcLayout(int)__far
+                         (MFC250D.2427)
+ 0000:0000  Imp  ?RectLPtoRowRange@CRowView@@NECXAFVCRect@@AEH1H@Z
+                    protected: virtual void __far __pascal CRowView::RectLPtoRowRange(class CRect const __far&,int __far&,int __far&,int)__far
+                         (EX26AD.105)
+ 0000:0000  Imp  ?RemoveAll@CObArray@@RECXXZ
+                    public: void __far __pascal CObArray::RemoveAll(void)__far
+                         (MFC250D.2455)
+ 0000:0000  Imp  ?RemoveAt@CObArray@@RECXHH@Z
+                    public: void __far __pascal CObArray::RemoveAt(int,int)__far
+                         (MFC250D.2465)
+ 0000:0000  Imp  ?ReportSaveLoadException@CDocument@@VECXPFDPEVCException@@HI@Z
+                    public: virtual void __far __pascal CDocument::ReportSaveLoadException(char const __far*,class CException __far*,int,unsigned int)__far
+                         (MFC250D.2497)
+ 0000:0000  Imp  ?RowToWndRect@CRowView@@NEC?EVCRect@@PEVCDC@@H@Z
+                    protected: virtual class __far CRect __far __pascal CRowView::RowToWndRect(class CDC __far*,int)__far
+                         (EX26AD.102)
+ 0000:0000  Imp  ?RowToYPos@CRowView@@NECHH@Z
+                    protected: virtual int __far __pascal CRowView::RowToYPos(int)__far
+                         (EX26AD.104)
+ 0000:0000  Imp  ?Run@CWinApp@@VECHXZ
+                    public: virtual int __far __pascal CWinApp::Run(void)__far
+                         (MFC250D.2511)
+ 0000:0000  Imp  ?SaveAllModified@CWinApp@@VECHXZ
+                    public: virtual int __far __pascal CWinApp::SaveAllModified(void)__far
+                         (MFC250D.2516)
+ 0000:0000  Imp  ?SaveModified@CDocument@@VECHXZ
+                    public: virtual int __far __pascal CDocument::SaveModified(void)__far
+                         (MFC250D.2520)
+ 0001:029C       ?Serialize@CEx26bDoc@@VECXAEVCArchive@@@Z
+                    public: virtual void __far __pascal CEx26bDoc::Serialize(class CArchive __far&)__far
+
+ 0000:0000  Imp  ?Serialize@CObject@@VECXAEVCArchive@@@Z
+                    public: virtual void __far __pascal CObject::Serialize(class CArchive __far&)__far
+                         (MFC250D.2569)
+ 0000:0000  Imp  ?SetButtons@CToolBar@@RECHPFIH@Z
+                    public: int __far __pascal CToolBar::SetButtons(unsigned int const __far*,int)__far
+                         (MFC250D.2616)
+ 0000:0000  Imp  ?SetDefID@CDialog@@RECXI@Z
+                    public: void __far __pascal CDialog::SetDefID(unsigned int)__far
+                         (MFC250D.2634)
+ 0000:0000  Imp  ?SetDepth@CDumpContext@@RECXH@Z
+                    public: void __far __pascal CDumpContext::SetDepth(int)__far
+                         (MFC250D.2636)
+ 0000:0000  Imp  ?SetDialogBkColor@CWinApp@@JECXKK@Z
+                    protected: void __far __pascal CWinApp::SetDialogBkColor(unsigned long,unsigned long)__far
+                         (MFC250D.2637)
+ 0000:0000  Imp  ?SetIndicators@CStatusBar@@RECHPFIH@Z
+                    public: int __far __pascal CStatusBar::SetIndicators(unsigned int const __far*,int)__far
+                         (MFC250D.2653)
+ 0000:0000  Imp  ?SetModifiedFlag@CDocument@@RECXH@Z
+                    public: void __far __pascal CDocument::SetModifiedFlag(int)__far
+                         (MFC250D.2671)
+ 0000:0000  Imp  ?SetPathName@CDocument@@VECXPFDH@Z
+                    public: virtual void __far __pascal CDocument::SetPathName(char const __far*,int)__far
+                         (MFC250D.2683)
+ 0000:0000  Imp  ?SetSize@CObArray@@RECXHH@Z
+                    public: void __far __pascal CObArray::SetSize(int,int)__far
+                         (MFC250D.2716)
+ 0000:0000  Imp  ?SetTitle@CDocument@@VECXPFD@Z
+                    public: virtual void __far __pascal CDocument::SetTitle(char const __far*)__far
+                         (MFC250D.2744)
+ 0000:0000  Imp  ?TextOut@CDC@@RECHHHAFVCString@@@Z
+                    public: int __far __pascal CDC::TextOut(int,int,class CString const __far&)__far
+                         (MFC250D.2792)
+ 0002:0776       ?theApp@@3VCEx26bApp@@A
+                    class CEx26bApp __near theApp
+
+ 0000:0000  Imp  ?UpdateAllViews@CDocument@@RECXPEVCView@@JPEVCObject@@@Z
+                    public: void __far __pascal CDocument::UpdateAllViews(class CView __far*,long,class CObject __far*)__far
+                         (MFC250D.2814)
+ 0000:0000  Imp  ?UpdateData@CWnd@@RECHH@Z
+                    public: int __far __pascal CWnd::UpdateData(int)__far
+                         (MFC250D.2817)
+ 0000:0000  Imp  ?UpdateRow@CRowView@@NECXH@Z
+                    protected: virtual void __far __pascal CRowView::UpdateRow(int)__far
+                         (EX26AD.106)
+ 0000:0000  Imp  ?UpdateScrollSizes@CRowView@@NECXXZ
+                    protected: virtual void __far __pascal CRowView::UpdateScrollSizes(void)__far
+                         (EX26AD.113)
+ 0000:0000  Imp  ?WindowProc@CWnd@@NECJIIJ@Z
+                    protected: virtual long __far __pascal CWnd::WindowProc(unsigned int,unsigned int,long)__far
+                         (MFC250D.2831)
+ 0000:0000  Imp  ?WinHelp@CWinApp@@VECXKI@Z
+                    public: virtual void __far __pascal CWinApp::WinHelp(unsigned long,unsigned int)__far
+                         (MFC250D.2827)
+ 0000:0000  Imp  ?WinHelp@CWnd@@VECXKI@Z
+                    public: virtual void __far __pascal CWnd::WinHelp(unsigned long,unsigned int)__far
+                         (MFC250D.2828)
+ 0001:3CE2       ?_AfxDefaultAllocHook@@ZCHIHJ@Z
+                    int __far __pascal _AfxDefaultAllocHook(unsigned int,int,long)
+
+ 0002:083A       ?_afxDump@@3VCDumpContext@@A
+                    class CDumpContext __near _afxDump
+
+ 0000:0000  Imp  ?_AfxGetSafeOwner@@ZCPBUHWND__@@PEVCWnd@@@Z
+                    struct HWND__ const __near* __far __pascal _AfxGetSafeOwner(class CWnd __far*)
+                         (MFC250D.2845)
+ 0001:3D7E       ?_AfxTestAllocStop@@ZCHIHJ@Z
+                    int __far __pascal _AfxTestAllocStop(unsigned int,int,long)
+
+ 0001:155A       ?_ForceLinkage@CWinApp@@VECXXZ
+                    public: virtual void __far __pascal CWinApp::_ForceLinkage(void)__far
+
+ 0001:114C       ?_messageEntries@CAboutDlg@@0QEUAFX_MSGMAP_ENTRY@@E
+                    private: static struct AFX_MSGMAP_ENTRY __far* __far CAboutDlg::_messageEntries
+
+ 0001:0F64       ?_messageEntries@CEx26bApp@@0QEUAFX_MSGMAP_ENTRY@@E
+                    private: static struct AFX_MSGMAP_ENTRY __far* __far CEx26bApp::_messageEntries
+
+ 0001:00E8       ?_messageEntries@CEx26bDoc@@0QEUAFX_MSGMAP_ENTRY@@E
+                    private: static struct AFX_MSGMAP_ENTRY __far* __far CEx26bDoc::_messageEntries
+
+ 0001:03B8       ?_messageEntries@CEx26bView@@0QEUAFX_MSGMAP_ENTRY@@E
+                    private: static struct AFX_MSGMAP_ENTRY __far* __far CEx26bView::_messageEntries
+
+ 0001:0CAE       ?_messageEntries@CMainFrame@@0QEUAFX_MSGMAP_ENTRY@@E
+                    private: static struct AFX_MSGMAP_ENTRY __far* __far CMainFrame::_messageEntries
+
+ 0001:1238       ?_messageEntries@CStudentDialog@@0QEUAFX_MSGMAP_ENTRY@@E
+                    private: static struct AFX_MSGMAP_ENTRY __far* __far CStudentDialog::_messageEntries
+
+ 0001:2B80       ?_set_fnew_handler@@ZAP7AHI@ZP7AHI@Z@Z
+                    int (__far __cdecl*__far __cdecl _set_fnew_handler(int (__far __cdecl*)(unsigned int)))(unsigned int)
+
+ 0001:2BAA       ?_set_new_handler@@ZAP7AHI@ZP7AHI@Z@Z
+                    int (__far __cdecl*__far __cdecl _set_new_handler(int (__far __cdecl*)(unsigned int)))(unsigned int)
+
+ 0001:334E       AFXAPPABORT
+ 0001:4EB8       AFXAPPALLOC
+ 0001:501C       AFXAPPFREE
+ 0001:50CC       AFXAPPREALLOC
+ 0001:509E       AFXAPPSETNEWHANDLER
+ 0001:33D0       AFXASSERTFAILEDLINE
+ 0001:324E       AFXDIAGNOSTICINIT
+ 0001:2FC0       AFXDUMP
+ 0000:0000  Imp  AFXISVALIDADDRESS    (MFC250D.2973)
+ 0001:3D44       AFXSTOP
+ 0001:3114       AFXTRACEV
+ 0000:0000  Imp  AFXWINMAIN           (MFC250D.2976)
+ 0000:0000  Imp  AFXWINTERM           (MFC250D.2977)
+ 0000:0000  Imp  DOS3CALL             (KERNEL.102)
+ 0000:0000  Imp  FATALAPPEXIT         (KERNEL.137)
+ 0000:0000  Imp  FATALEXIT            (KERNEL.1)
+ 0000:0000  Imp  GETDOSENVIRONMENT    (KERNEL.131)
+ 0000:0000  Imp  GETMODULEFILENAME    (KERNEL.49)
+ 0000:0000  Imp  GETPRIVATEPROFILEINT (KERNEL.127)
+ 0000:0000  Imp  GETVERSION           (KERNEL.3)
+ 0000:0000  Imp  GLOBALALLOC          (KERNEL.15)
+ 0000:0000  Imp  GLOBALLOCK           (KERNEL.18)
+ 0000:0000  Imp  GLOBALREALLOC        (KERNEL.16)
+ 0000:0000  Imp  GLOBALSIZE           (KERNEL.20)
+ 0000:0000  Imp  INITAPP              (USER.5)
+ 0000:0000  Imp  INITEX26ADLL         (EX26AD.2)
+ 0000:0000  Imp  INITTASK             (KERNEL.91)
+ 0000:0000  Imp  LOCKSEGMENT          (KERNEL.23)
+ 0000:0000  Imp  MESSAGEBOX           (USER.1)
+ 0000:0000  Imp  OUTPUTDEBUGSTRING    (KERNEL.115)
+ 0000:0008  Abs  pAtomTable
+ 0000:0006  Abs  pLocalHeap
+ 0000:000E  Abs  pStackBot
+ 0000:000C  Abs  pStackMin
+ 0000:000A  Abs  pStackTop
+ 0002:0004       rsrvptrs
+ 0000:0000  Imp  WAITEVENT            (KERNEL.30)
+ 0001:32E2       WINMAIN
+ 0001:2C82       _abort
+ 0002:01B4       _afxMemDF
+ 0001:2FF2       _AfxTrace
+ 0000:0000  Imp  _AFXVBAPIENTRY       (MFC250D.2978)
+ 0002:02A8       _aseghi
+ 0002:02A6       _aseglo
+ 0001:2F8E       _atexit
+ 0002:0770       _edata
+ 0002:08E0       _end
+ 0002:02CA       _errno
+ 0001:1733       _exit
+ 0001:1C66       _fclose
+ 0001:1EFC       _fflush
+ 0001:2E2E       _memcpy
+ 0001:2E8C       _memset
+ 0001:2F38       _remove
+ 0001:2CE4       _sprintf
+ 0002:029A       _STKHQQ
+ 0001:2BBC       _strcat
+ 0001:2C10       _strcpy
+ 0001:2C4C       _strlen
+ 0001:2D52       _vsprintf
+ 0000:0000  Imp  _wsprintf            (USER.420)
+ 0002:0320       __aaltstkovr
+ 0002:02AE       __acfinfo
+ 0000:9876  Abs  __acrtmsg
+ 0000:9876  Abs  __acrtused
+ 0000:D6D6  Abs  __aDBdoswp
+ 0002:031C       __adbgmsg
+ 0000:D6D6  Abs  __aDBused
+ 0001:1858       __aFchkstk
+ 0000:0000  Imp  __AHINCR             (KERNEL.114)
+ 0002:02BC       __aintdiv
+ 0002:03BA       __amblksiz
+ 0001:1B00       __amsg_exit
+ 0001:1838       __aNchkstk
+ 0002:03DC       __asizeC
+ 0002:03DD       __asizeD
+ 0001:1566       __astart
+ 0001:1750       __cexit
+ 0002:03BC       __cfltcvt_tab
+ 0002:0340       __cflush
+ 0002:0319       __child
+ 0001:1858       __chkstk
+ 0001:1650       __cinit
+ 0001:1AF6       __cintDIV
+ 0001:255E       __close
+ 0001:2ED4       __cltoasub
+ 0002:02A4       __cmdShow
+ 0001:2DBE       __commit
+ 0002:02D9       __cpumode
+ 0001:17D1       __ctermsub
+ 0001:2EE1       __cxtoa
+ 0001:1761       __c_exit
+ 0002:02DA       __doserrno
+ 0001:1BE4       __dosret0
+ 0001:1C03       __dosretax
+ 0001:1BF1       __dosreturn
+ 0001:2F5E       __dos_commit
+ 0002:0770       __edata
+ 0002:08E0       __end
+ 0001:1D68       __endstdio
+ 0002:0310       __environ
+ 0001:1741       __exit
+ 0002:031B       __exitflag
+ 0002:02C0       __fac
+ 0001:2CA4       __fcloseall
+ 0001:2838       __ffree
+ 0001:180E       __FF_MSGBANNER
+ 0002:03AC       __fheap
+ 0001:2ADD       __findlast
+ 0001:1D7E       __flsbuf
+ 0001:1F58       __flush
+ 0001:1FD8       __flushall
+ 0001:2859       __fmalloc
+ 0002:03FC       __fpinit
+ 0000:9876  Abs  __fptaskdata
+ 0001:1832       __fptrap
+ 0001:1E78       __freebuf
+ 0001:1EB0       __getbuf
+ 0001:1C42       __GetDGROUP
+ 0001:29E6       __growseg
+ 0002:029E       __hInstance
+ 0002:029C       __hPrevInstance
+ 0001:2A77       __incseg
+ 0001:2900       __initseg
+ 0002:040C       __iob
+ 0002:04FC       __iob2
+ 0001:2C66       __itoa
+ 0002:0342       __lastiob
+ 0001:2934       __linkseg
+ 0002:02A0       __lpszCmdLine
+ 0001:2596       __lseek
+ 0002:03A6       __lseekchk
+ 0001:1C15       __maperror
+ 0001:1BB6       __myalloc
+ 0001:2AFE       __newseg
+ 0002:02DC       __nfile
+ 0001:1B42       __NMSG_TEXT
+ 0001:1B79       __NMSG_WRITE
+ 0001:161D       __nomain
+ 0001:2F96       __onexit
+ 0002:02DA       __oserr
+ 0002:02E2       __osfile
+ 0002:02D5       __osmajor
+ 0002:02D4       __osminor
+ 0002:02D8       __osmode
+ 0002:02D4       __osver
+ 0002:02D6       __osversion
+ 0001:2068       __output
+ 0002:0314       __pgmptr
+ 0002:03A8       __pnhFarHeap
+ 0002:02D0       __psp
+ 0002:02CE       __pspadr
+ 0001:2F87       __QWINClose
+ 0001:2F87       __QWINExit
+ 0001:2F87       __QWINGetBuffSize
+ 0001:2F87       __QWINGetFocus
+ 0001:2F87       __QWINGetSize
+ 0001:2F87       __QWINInit
+ 0001:2F87       __QWINIsQWINin
+ 0001:2F87       __QWINMenuClick
+ 0001:2F87       __QWINOpen
+ 0001:2F87       __QWINRead
+ 0001:2F87       __QWINSetAboutString
+ 0001:2F87       __QWINSetBuffSize
+ 0001:2F87       __QWINSetFocus
+ 0001:2F87       __QWINSetSize
+ 0001:2F87       __QWINTerm
+ 0002:03DE       __qwinused
+ 0001:2F87       __QWINWrite
+ 0001:2F87       __QWINYield
+ 0001:296A       __searchseg
+ 0001:1892       __setargv
+ 0001:1A3C       __setenvp
+ 0002:03DA       __sigintoff
+ 0002:03D8       __sigintseg
+ 0000:0001  Abs  __sizec
+ 0000:0001  Abs  __sized
+ 0001:2824       __stackavail
+ 0001:1624       __stubmain
+ 0002:02CC       __umaskval
+ 0001:2F38       __unlink
+ 0001:2F87       __wabout
+ 0001:2F82       __wcexit
+ 0001:2F82       __wcinit
+ 0001:2F87       __wclose
+ 0002:02DE       __wfile
+ 0001:155C       __wflags
+ 0001:2F87       __wgetfocus
+ 0001:2F87       __wgetscreenbuf
+ 0001:2F87       __wgetsize
+ 0000:0000  Imp  __WINFLAGS           (KERNEL.178)
+ 0002:02D3       __winmajor
+ 0002:02D2       __winminor
+ 0002:02D2       __winver
+ 0000:0000  Abs  __wiobused
+ 0001:2F87       __wmenuclick
+ 0002:02E0       __wnfile
+ 0001:2F87       __wopen
+ 0001:2F87       __wread
+ 0001:266A       __write
+ 0001:2F87       __wsetfocus
+ 0001:2F87       __wsetscreenbuf
+ 0001:2F87       __wsetsize
+ 0002:02F6       __wsfile
+ 0001:2F87       __wterm
+ 0001:2F87       __wwrite
+ 0002:02AC       ___aDBrterr
+ 0002:02AA       ___aDBswpflg
+ 0002:030A       ___argc
+ 0002:030C       ___argv
+ 0001:1C52       ___ExportedStub
+
+  Address         Publics by Value
+
+ 0000:0000  Imp  ?GetUpperBound@CObArray@@RFCHXZ
+                    public: int __far __pascal CObArray::GetUpperBound(void)const __far
+                         (MFC250D.1744)
+ 0000:0000  Imp  ?PostNcDestroy@CView@@NECXXZ
+                    protected: virtual void __far __pascal CView::PostNcDestroy(void)__far
+                         (MFC250D.2376)
+ 0000:0000  Imp  ??0CToolBar@@REC@XZ
+                    public: __far __pascal CToolBar::CToolBar(void)__far
+                          (MFC250D.383)
+ 0000:0000  Imp  ?OnFileOpen@CWinApp@@JECXXZ
+                    protected: void __far __pascal CWinApp::OnFileOpen(void)__far
+                         (MFC250D.2121)
+ 0000:0000  Imp  ?DoMessageBox@CWinApp@@VECHPFDII@Z
+                    public: virtual int __far __pascal CWinApp::DoMessageBox(char const __far*,unsigned int,unsigned int)__far
+                         (MFC250D.1046)
+ 0000:0000  Imp  ??1CToolBar@@VEC@XZ
+                    public: virtual __far __pascal CToolBar::~CToolBar(void)__far
+                          (MFC250D.472)
+ 0000:0000  Imp  INITTASK             (KERNEL.91)
+ 0000:0000  Imp  ?RemoveAt@CObArray@@RECXHH@Z
+                    public: void __far __pascal CObArray::RemoveAt(int,int)__far
+                         (MFC250D.2465)
+ 0000:0000  Imp  ?IsKindOf@CObject@@RFCHPFUCRuntimeClass@@@Z
+                    public: int __far __pascal CObject::IsKindOf(struct CRuntimeClass const __far*)const __far
+                         (MFC250D.1858)
+ 0000:0000  Imp  ?WindowProc@CWnd@@NECJIIJ@Z
+                    protected: virtual long __far __pascal CWnd::WindowProc(unsigned int,unsigned int,long)__far
+                         (MFC250D.2831)
+ 0000:0000  Imp  ?InsertAt@CObArray@@RECXHPEVCObject@@H@Z
+                    public: void __far __pascal CObArray::InsertAt(int,class CObject __far*,int)__far
+                         (MFC250D.1813)
+ 0000:0000  Imp  ?OnIdle@CWinApp@@VECHJ@Z
+                    public: virtual int __far __pascal CWinApp::OnIdle(long)__far
+                         (MFC250D.2158)
+ 0000:0000  Imp  ?OnCommand@CWnd@@NECHIJ@Z
+                    protected: virtual int __far __pascal CWnd::OnCommand(unsigned int,long)__far
+                         (MFC250D.2048)
+ 0000:0000  Imp  ?CalcWindowRect@CWnd@@VECXPEUtagRECT@@I@Z
+                    public: virtual void __far __pascal CWnd::CalcWindowRect(struct tagRECT __far*,unsigned int)__far
+                         (MFC250D.816)
+ 0000:0000  Imp  ?PreCreateWindow@CView@@NECHAEUtagCREATESTRUCT@@@Z
+                    protected: virtual int __far __pascal CView::PreCreateWindow(struct tagCREATESTRUCT __far&)__far
+                         (MFC250D.2383)
+ 0000:0000  Imp  ?PreCreateWindow@CWnd@@VECHAEUtagCREATESTRUCT@@@Z
+                    public: virtual int __far __pascal CWnd::PreCreateWindow(struct tagCREATESTRUCT __far&)__far
+                         (MFC250D.2384)
+ 0000:0000  Imp  ?OnSetPreviewMode@CFrameWnd@@VECXHPEUCPrintPreviewState@@@Z
+                    public: virtual void __far __pascal CFrameWnd::OnSetPreviewMode(int,struct CPrintPreviewState __far*)__far
+                         (MFC250D.2278)
+ 0000:0000  Imp  AFXISVALIDADDRESS    (MFC250D.2973)
+ 0000:0000  Imp  __AHINCR             (KERNEL.114)
+ 0000:0000  Imp  ?GetScrollBarCtrl@CView@@VFCPEVCScrollBar@@H@Z
+                    public: virtual class CScrollBar __far* __far __pascal CView::GetScrollBarCtrl(int)const __far
+                         (MFC250D.1646)
+ 0000:0000  Imp  ?IsFrameWnd@CWnd@@VFCHXZ
+                    public: virtual int __far __pascal CWnd::IsFrameWnd(void)const __far
+                         (MFC250D.1855)
+ 0000:0000  Imp  ?PreTranslateMessage@CWinApp@@VECHPEUtagMSG@@@Z
+                    public: virtual int __far __pascal CWinApp::PreTranslateMessage(struct tagMSG __far*)__far
+                         (MFC250D.2392)
+ 0000:0000  Imp  ?EndDialog@CDialog@@RECXH@Z
+                    public: void __far __pascal CDialog::EndDialog(int)__far
+                         (MFC250D.1174)
+ 0000:0000  Imp  ?messageMap@CRowView@@1UAFX_MSGMAP@@A
+                    protected: static struct AFX_MSGMAP __near CRowView::messageMap
+                         (EX26AD.115)
+ 0000:0000  Imp  FATALEXIT            (KERNEL.1)
+ 0000:0000  Imp  ?GetDlgItem@CWnd@@RFCPEV1@H@Z
+                    public: class CWnd __far* __far __pascal CWnd::GetDlgItem(int)const __far
+                         (MFC250D.1360)
+ 0000:0000  Imp  ?LastViewableRow@CRowView@@NECHXZ
+                    protected: virtual int __far __pascal CRowView::LastViewableRow(void)__far
+                         (EX26AD.103)
+ 0000:0000  Imp  ?GotoDlgCtrl@CDialog@@RECXPEVCWnd@@@Z
+                    public: void __far __pascal CDialog::GotoDlgCtrl(class CWnd __far*)__far
+                         (MFC250D.1765)
+ 0000:0000  Imp  ?OnDrop@CView@@VECHPEVCOleDataObject@@KVCPoint@@@Z
+                    public: virtual int __far __pascal CView::OnDrop(class COleDataObject __far*,unsigned long,class CPoint)__far
+                         (MFC250D.2093)
+ 0000:0000  Imp  ?GetDefaultMenu@CDocument@@VECPBUHMENU__@@XZ
+                    public: virtual struct HMENU__ const __near* __far __pascal CDocument::GetDefaultMenu(void)__far
+                         (MFC250D.1347)
+ 0000:0000  Imp  ?GetInterfaceMap@CCmdTarget@@NFCPEUAFX_INTERFACEMAP@@XZ
+                    protected: virtual struct AFX_INTERFACEMAP __far* __far __pascal CCmdTarget::GetInterfaceMap(void)const __far
+                         (MFC250D.1423)
+ 0000:0000  Imp  ?OnNewDocument@CDocument@@VECHXZ
+                    public: virtual int __far __pascal CDocument::OnNewDocument(void)__far
+                         (MFC250D.2217)
+ 0000:0000  Imp  ?GetScrollBarCtrl@CWnd@@VFCPEVCScrollBar@@H@Z
+                    public: virtual class CScrollBar __far* __far __pascal CWnd::GetScrollBarCtrl(int)const __far
+                         (MFC250D.1647)
+ 0000:0000  Imp  ??0CSingleDocTemplate@@REC@IPEUCRuntimeClass@@00@Z
+                    public: __far __pascal CSingleDocTemplate::CSingleDocTemplate(unsigned int,struct CRuntimeClass __far*,unsigned int,unsigned int)__far
+                         (MFC250D.354)
+ 0000:0000  Imp  ?OnCreateAggregates@CCmdTarget@@VECHXZ
+                    public: virtual int __far __pascal CCmdTarget::OnCreateAggregates(void)__far
+                         (MFC250D.2063)
+ 0000:0000  Imp  ?PreTranslateMessage@CFrameWnd@@VECHPEUtagMSG@@@Z
+                    public: virtual int __far __pascal CFrameWnd::PreTranslateMessage(struct tagMSG __far*)__far
+                         (MFC250D.2389)
+ 0000:0000  Imp  DOS3CALL             (KERNEL.102)
+ 0000:0000  Imp  ??0CString@@REC@XZ
+                    public: __far __pascal CString::CString(void)__far
+                           (MFC250D.371)
+ 0000:0000  Imp  ?UpdateRow@CRowView@@NECXH@Z
+                    protected: virtual void __far __pascal CRowView::UpdateRow(int)__far
+                         (EX26AD.106)
+ 0000:0000  Imp  MESSAGEBOX           (USER.1)
+ 0000:0000  Imp  ?RowToWndRect@CRowView@@NEC?EVCRect@@PEVCDC@@H@Z
+                    protected: virtual class __far CRect __far __pascal CRowView::RowToWndRect(class CDC __far*,int)__far
+                         (EX26AD.102)
+ 0000:0000  Imp  ?RecalcLayout@CFrameWnd@@VECXH@Z
+                    public: virtual void __far __pascal CFrameWnd::RecalcLayout(int)__far
+                         (MFC250D.2427)
+ 0000:0000  Imp  ?SetSize@CObArray@@RECXHH@Z
+                    public: void __far __pascal CObArray::SetSize(int,int)__far
+                         (MFC250D.2716)
+ 0000:0000  Imp  ?UpdateAllViews@CDocument@@RECXPEVCView@@JPEVCObject@@@Z
+                    public: void __far __pascal CDocument::UpdateAllViews(class CView __far*,long,class CObject __far*)__far
+                         (MFC250D.2814)
+ 0000:0000  Imp  ?LoadBitmap@CToolBar@@RECHI@Z
+                    public: int __far __pascal CToolBar::LoadBitmap(unsigned int)__far
+                         (MFC250D.1894)
+ 0000:0000  Imp  ?messageMap@CDialog@@1UAFX_MSGMAP@@E
+                    protected: static struct AFX_MSGMAP __far CDialog::messageMap
+                         (MFC250D.2946)
+ 0000:0000  Imp  ?messageMap@CPersistentFrame@@1UAFX_MSGMAP@@A
+                    protected: static struct AFX_MSGMAP __near CPersistentFrame::messageMap
+                         (EX26AD.204)
+ 0000:0000  Imp  ?PreTranslateMessage@CDialog@@VECHPEUtagMSG@@@Z
+                    public: virtual int __far __pascal CDialog::PreTranslateMessage(struct tagMSG __far*)__far
+                         (MFC250D.2387)
+ 0000:0000  Imp  ?messageMap@CDocument@@1UAFX_MSGMAP@@E
+                    protected: static struct AFX_MSGMAP __far CDocument::messageMap
+                         (MFC250D.2947)
+ 0000:0000  Imp  __WINFLAGS           (KERNEL.178)
+ 0000:0000  Imp  ?UpdateScrollSizes@CRowView@@NECXXZ
+                    protected: virtual void __far __pascal CRowView::UpdateScrollSizes(void)__far
+                         (EX26AD.113)
+ 0000:0000  Imp  ?OnCmdMsg@CFrameWnd@@VECHIHPEXPEUAFX_CMDHANDLERINFO@@@Z
+                    public: virtual int __far __pascal CFrameWnd::OnCmdMsg(unsigned int,int,void __far*,struct AFX_CMDHANDLERINFO __far*)__far
+                         (MFC250D.2042)
+ 0000:0000  Imp  ??1CDialog@@VEC@XZ
+                    public: virtual __far __pascal CDialog::~CDialog(void)__far
+                           (MFC250D.412)
+ 0000:0000  Imp  ?SetDialogBkColor@CWinApp@@JECXKK@Z
+                    protected: void __far __pascal CWinApp::SetDialogBkColor(unsigned long,unsigned long)__far
+                         (MFC250D.2637)
+ 0000:0000  Imp  ?IsModified@CDocument@@RECHXZ
+                    public: int __far __pascal CDocument::IsModified(void)__far
+                         (MFC250D.1860)
+ 0000:0000  Imp  ??4CString@@RECAFV0@AFV0@@Z
+                    public: class CString const __far& __far __pascal CString::operator=(class CString const __far&)__far
+                         (MFC250D.488)
+ 0000:0000  Imp  ?DDV_MaxChars@@ZCXPEVCDataExchange@@AFVCString@@H@Z
+                    void __far __pascal DDV_MaxChars(class CDataExchange __far*,class CString const __far&,int)
+                         (MFC250D.956)
+ 0000:0000  Imp  ?SetDefID@CDialog@@RECXI@Z
+                    public: void __far __pascal CDialog::SetDefID(unsigned int)__far
+                         (MFC250D.2634)
+ 0000:0000  Imp  ??1CStatusBar@@VEC@XZ
+                    public: virtual __far __pascal CStatusBar::~CStatusBar(void)__far
+                         (MFC250D.467)
+ 0000:0000  Imp  ??0CStatusBar@@REC@XZ
+                    public: __far __pascal CStatusBar::CStatusBar(void)__far
+                         (MFC250D.362)
+ 0000:0000  Imp  ?OnPrint@CRowView@@NECXPEVCDC@@PEUCPrintInfo@@@Z
+                    protected: virtual void __far __pascal CRowView::OnPrint(class CDC __far*,struct CPrintInfo __far*)__far
+                         (EX26AD.112)
+ 0000:0000  Imp  ?DDX_Text@@ZCXPEVCDataExchange@@HAEJ@Z
+                    void __far __pascal DDX_Text(class CDataExchange __far*,int,long __far&)
+                         (MFC250D.976)
+ 0000:0000  Imp  ?InitApplication@CWinApp@@VECHXZ
+                    public: virtual int __far __pascal CWinApp::InitApplication(void)__far
+                         (MFC250D.1793)
+ 0000:0000  Imp  ?OnFinalRelease@CDocument@@VECXXZ
+                    public: virtual void __far __pascal CDocument::OnFinalRelease(void)__far
+                         (MFC250D.2128)
+ 0000:0000  Imp  ?OnActivateFrame@CView@@NECXIPEVCFrameWnd@@@Z
+                    protected: virtual void __far __pascal CView::OnActivateFrame(unsigned int,class CFrameWnd __far*)__far
+                         (MFC250D.2007)
+ 0000:0000  Imp  ?OnScroll@CScrollView@@VECHIIH@Z
+                    public: virtual int __far __pascal CScrollView::OnScroll(unsigned int,unsigned int,int)__far
+                         (MFC250D.2263)
+ 0000:0000  Imp  ?ProcessWndProcException@CWinApp@@VECJPEVCException@@PFUtagMSG@@@Z
+                    public: virtual long __far __pascal CWinApp::ProcessWndProcException(class CException __far*,struct tagMSG const __far*)__far
+                         (MFC250D.2407)
+ 0000:0000  Imp  ?Create@CWnd@@VECHPFD0KAFUtagRECT@@PEV1@IPEUCCreateContext@@@Z
+                    public: virtual int __far __pascal CWnd::Create(char const __far*,char const __far*,unsigned long,struct tagRECT const __far&,class CWnd __far*,unsigned int,struct CCreateContext __far*)__far
+                         (MFC250D.909)
+ 0000:0000  Imp  ??0CObArray@@REC@XZ
+                    public: __far __pascal CObArray::CObArray(void)__far
+                          (MFC250D.322)
+ 0000:0000  Imp  ?ProcessMessageFilter@CWinApp@@VECHHPEUtagMSG@@@Z
+                    public: virtual int __far __pascal CWinApp::ProcessMessageFilter(int,struct tagMSG __far*)__far
+                         (MFC250D.2406)
+ 0000:0000  Imp  ?GetRuntimeClass@CWinApp@@VFCPEUCRuntimeClass@@XZ
+                    public: virtual struct CRuntimeClass __far* __far __pascal CWinApp::GetRuntimeClass(void)const __far
+                         (MFC250D.1638)
+ 0000:0000  Imp  ?UpdateData@CWnd@@RECHH@Z
+                    public: int __far __pascal CWnd::UpdateData(int)__far
+                         (MFC250D.2817)
+ 0000:0000  Imp  ?ExitHelpMode@CFrameWnd@@VECXXZ
+                    public: virtual void __far __pascal CFrameWnd::ExitHelpMode(void)__far
+                         (MFC250D.1192)
+ 0000:0000  Imp  ?AssertValid@CWinApp@@VFCXXZ
+                    public: virtual void __far __pascal CWinApp::AssertValid(void)const __far
+                         (MFC250D.791)
+ 0000:0000  Imp  ?PostNcDestroy@CFrameWnd@@NECXXZ
+                    protected: virtual void __far __pascal CFrameWnd::PostNcDestroy(void)__far
+                         (MFC250D.2374)
+ 0000:0000  Imp  ?DoModal@CDialog@@VECHXZ
+                    public: virtual int __far __pascal CDialog::DoModal(void)__far
+                         (MFC250D.1048)
+ 0000:0000  Imp  ??ACObArray@@RECAEPEVCObject@@H@Z
+                    public: class CObject __far* __far& __far __pascal CObArray::operator[](int)__far
+                         (MFC250D.576)
+ 0000:0000  Imp  ??0CDumpContext@@REC@PEVCFile@@@Z
+                    public: __far __pascal CDumpContext::CDumpContext(class CFile __far*)__far
+                         (MFC250D.288)
+ 0000:0000  Imp  ??1CWinApp@@VEC@XZ
+                    public: virtual __far __pascal CWinApp::~CWinApp(void)__far
+                           (MFC250D.477)
+ 0000:0000  Imp  GLOBALREALLOC        (KERNEL.16)
+ 0000:0000  Imp  ??1CObArray@@VEC@XZ
+                    public: virtual __far __pascal CObArray::~CObArray(void)__far
+                          (MFC250D.446)
+ 0000:0000  Imp  ?SetTitle@CDocument@@VECXPFD@Z
+                    public: virtual void __far __pascal CDocument::SetTitle(char const __far*)__far
+                         (MFC250D.2744)
+ 0000:0000  Imp  GLOBALALLOC          (KERNEL.15)
+ 0000:0000  Imp  ?OnCreate@CFrameWnd@@JECHPEUtagCREATESTRUCT@@@Z
+                    protected: int __far __pascal CFrameWnd::OnCreate(struct tagCREATESTRUCT __far*)__far
+                         (MFC250D.2058)
+ 0000:0000  Imp  ?GetActiveFrame@CFrameWnd@@VECPEV1@XZ
+                    public: virtual class CFrameWnd __far* __far __pascal CFrameWnd::GetActiveFrame(void)__far
+                         (MFC250D.1263)
+ 0000:0000  Imp  ?OnInitDialog@CDialog@@VECHXZ
+                    public: virtual int __far __pascal CDialog::OnInitDialog(void)__far
+                         (MFC250D.2162)
+ 0000:0000  Imp  ?OnFinalRelease@CCmdTarget@@VECXXZ
+                    public: virtual void __far __pascal CCmdTarget::OnFinalRelease(void)__far
+                         (MFC250D.2127)
+ 0000:0000  Imp  ?OnDraw@CRowView@@NECXPEVCDC@@@Z
+                    protected: virtual void __far __pascal CRowView::OnDraw(class CDC __far*)__far
+                         (EX26AD.109)
+ 0000:0000  Imp  ?GetDepth@CDumpContext@@RFCHXZ
+                    public: int __far __pascal CDumpContext::GetDepth(void)const __far
+                         (MFC250D.1349)
+ 0000:0000  Imp  ??0CDialog@@REC@IPEVCWnd@@@Z
+                    public: __far __pascal CDialog::CDialog(unsigned int,class CWnd __far*)__far
+                         (MFC250D.282)
+ 0000:0000  Imp  ?AssertValid@CFrameWnd@@VFCXXZ
+                    public: virtual void __far __pascal CFrameWnd::AssertValid(void)const __far
+                         (MFC250D.758)
+ 0000:0000  Imp  ??1CDocument@@VEC@XZ
+                    public: virtual __far __pascal CDocument::~CDocument(void)__far
+                         (MFC250D.415)
+ 0000:0000  Imp  ?OnCreateClient@CFrameWnd@@NECHPEUtagCREATESTRUCT@@PEUCCreateContext@@@Z
+                    protected: virtual int __far __pascal CFrameWnd::OnCreateClient(struct tagCREATESTRUCT __far*,struct CCreateContext __far*)__far
+                         (MFC250D.2064)
+ 0000:0000  Imp  ?Dump@CDialog@@VFCXAEVCDumpContext@@@Z
+                    public: virtual void __far __pascal CDialog::Dump(class CDumpContext __far&)const __far
+                         (MFC250D.1094)
+ 0000:0000  Imp  ?GetActiveDocument@CFrameWnd@@VECPEVCDocument@@XZ
+                    public: virtual class CDocument __far* __far __pascal CFrameWnd::GetActiveDocument(void)__far
+                         (MFC250D.1262)
+ 0000:0000  Imp  ?DelayUpdateFrameMenu@CFrameWnd@@VECXPBUHMENU__@@@Z
+                    public: virtual void __far __pascal CFrameWnd::DelayUpdateFrameMenu(struct HMENU__ const __near*)__far
+                         (MFC250D.1010)
+ 0000:0000  Imp  ?AddToRecentFileList@CWinApp@@VECXPFD@Z
+                    public: virtual void __far __pascal CWinApp::AddToRecentFileList(char const __far*)__far
+                         (MFC250D.682)
+ 0000:0000  Imp  ?OnChildNotify@CWnd@@NECHIIJPEJ@Z
+                    protected: virtual int __far __pascal CWnd::OnChildNotify(unsigned int,unsigned int,long,long __far*)__far
+                         (MFC250D.2035)
+ 0000:0000  Imp  AFXWINTERM           (MFC250D.2977)
+ 0000:0000  Imp  ?TextOut@CDC@@RECHHHAFVCString@@@Z
+                    public: int __far __pascal CDC::TextOut(int,int,class CString const __far&)__far
+                         (MFC250D.2792)
+ 0000:0000  Imp  ?ExitInstance@CWinApp@@VECHXZ
+                    public: virtual int __far __pascal CWinApp::ExitInstance(void)__far
+                         (MFC250D.1193)
+ 0000:0000  Imp  GLOBALLOCK           (KERNEL.18)
+ 0000:0000  Imp  ?OnSetFont@CDialog@@VECXPEVCFont@@@Z
+                    public: virtual void __far __pascal CDialog::OnSetFont(class CFont __far*)__far
+                         (MFC250D.2274)
+ 0000:0000  Imp  ??0CDocument@@REC@XZ
+                    public: __far __pascal CDocument::CDocument(void)__far
+                         (MFC250D.286)
+ 0000:0000  Imp  ?AfxGetApp@@ZCPEVCWinApp@@XZ
+                    class CWinApp __far* __far __pascal AfxGetApp(void)
+                         (MFC250D.697)
+ 0000:0000  Imp  ?OnOpenDocument@CDocument@@VECHPFD@Z
+                    public: virtual int __far __pascal CDocument::OnOpenDocument(char const __far*)__far
+                         (MFC250D.2227)
+ 0000:0000  Imp  ??BCString@@RFAPFDXZ
+                    public: __far __cdecl CString::operator`char const __far*' (void)const __far
+                         (MFC250D.589)
+ 0000:0000  Imp  ?OnCloseDocument@CDocument@@VECXXZ
+                    public: virtual void __far __pascal CDocument::OnCloseDocument(void)__far
+                         (MFC250D.2038)
+ 0000:0000  Imp  ?ActivateFrame@CPersistentFrame@@NECXH@Z
+                    protected: virtual void __far __pascal CPersistentFrame::ActivateFrame(int)__far
+                         (EX26AD.202)
+ 0000:0000  Imp  ?GetInterfaceHook@CCmdTarget@@VECPEUIUnknown@@PFX@Z
+                    public: virtual struct IUnknown __far* __far __pascal CCmdTarget::GetInterfaceHook(void const __far*)__far
+                         (MFC250D.1422)
+ 0000:0000  Imp  ?OnOK@CDialog@@NECXXZ
+                    protected: virtual void __far __pascal CDialog::OnOK(void)__far
+                         (MFC250D.2222)
+ 0000:0000  Imp  ?PostNcDestroy@CWnd@@NECXXZ
+                    protected: virtual void __far __pascal CWnd::PostNcDestroy(void)__far
+                         (MFC250D.2377)
+ 0000:0000  Imp  ?OnDragLeave@CView@@VECXXZ
+                    public: virtual void __far __pascal CView::OnDragLeave(void)__far
+                         (MFC250D.2085)
+ 0000:0000  Imp  ?GetNextView@CDocument@@VFCPEVCView@@AEPEX@Z
+                    public: virtual class CView __far* __far __pascal CDocument::GetNextView(void __far* __far&)const __far
+                         (MFC250D.1504)
+ 0000:0000  Imp  ?LoadString@CString@@RECHI@Z
+                    public: int __far __pascal CString::LoadString(unsigned int)__far
+                         (MFC250D.1916)
+ 0000:0000  Imp  ?OnActivateView@CView@@NECXHPEV1@0@Z
+                    protected: virtual void __far __pascal CView::OnActivateView(int,class CView __far*,int)__far
+                         (MFC250D.2010)
+ 0000:0000  Imp  ?OpenDocumentFile@CWinApp@@VECPEVCDocument@@PFD@Z
+                    public: virtual class CDocument __far* __far __pascal CWinApp::OpenDocumentFile(char const __far*)__far
+                         (MFC250D.2353)
+ 0000:0000  Imp  ?Create@CStatusBar@@RECHPEVCWnd@@KI@Z
+                    public: int __far __pascal CStatusBar::Create(class CWnd __far*,unsigned long,unsigned int)__far
+                         (MFC250D.906)
+ 0000:0000  Imp  ?GetRuntimeClass@CDialog@@VFCPEUCRuntimeClass@@XZ
+                    public: virtual struct CRuntimeClass __far* __far __pascal CDialog::GetRuntimeClass(void)const __far
+                         (MFC250D.1576)
+ 0000:0000  Imp  ?CanCloseFrame@CDocument@@VECHPEVCFrameWnd@@@Z
+                    public: virtual int __far __pascal CDocument::CanCloseFrame(class CFrameWnd __far*)__far
+                         (MFC250D.819)
+ 0000:0000  Imp  _wsprintf            (USER.420)
+ 0000:0000  Imp  ?DoWaitCursor@CWinApp@@VECXH@Z
+                    public: virtual void __far __pascal CWinApp::DoWaitCursor(int)__far
+                         (MFC250D.1063)
+ 0000:0000  Imp  ?Run@CWinApp@@VECHXZ
+                    public: virtual int __far __pascal CWinApp::Run(void)__far
+                         (MFC250D.2511)
+ 0000:0000  Imp  INITAPP              (USER.5)
+ 0000:0000  Imp  ??0CRowView@@JEC@XZ
+                    protected: __far __pascal CRowView::CRowView(void)__far
+                          (EX26AD.100)
+ 0000:0000  Imp  ?GetFirstViewPosition@CDocument@@VFCPEXXZ
+                    public: virtual void __far* __far __pascal CDocument::GetFirstViewPosition(void)const __far
+                         (MFC250D.1383)
+ 0000:0000  Imp  ?GetSuperWndProcAddr@CDialog@@VECPEP7CJPBUHWND__@@IIJ@ZXZ
+                    public: virtual long (__far __pascal*__far* __far __pascal CDialog::GetSuperWndProcAddr(void)__far)(struct HWND__ const __near*,unsigned int,unsigned int,long)
+                         (MFC250D.1694)
+ 0000:0000  Imp  ?GetSuperWndProcAddr@CWnd@@NECPEP7CJPBUHWND__@@IIJ@ZXZ
+                    protected: virtual long (__far __pascal*__far* __far __pascal CWnd::GetSuperWndProcAddr(void)__far)(struct HWND__ const __near*,unsigned int,unsigned int,long)
+                         (MFC250D.1703)
+ 0000:0000  Imp  ?OnDragEnter@CView@@VECKPEVCOleDataObject@@KVCPoint@@@Z
+                    public: virtual unsigned long __far __pascal CView::OnDragEnter(class COleDataObject __far*,unsigned long,class CPoint)__far
+                         (MFC250D.2084)
+ 0000:0000  Imp  WAITEVENT            (KERNEL.30)
+ 0000:0000  Imp  ?SetButtons@CToolBar@@RECHPFIH@Z
+                    public: int __far __pascal CToolBar::SetButtons(unsigned int const __far*,int)__far
+                         (MFC250D.2616)
+ 0000:0000  Imp  ?OnCmdMsg@CView@@NECHIHPEXPEUAFX_CMDHANDLERINFO@@@Z
+                    protected: virtual int __far __pascal CView::OnCmdMsg(unsigned int,int,void __far*,struct AFX_CMDHANDLERINFO __far*)__far
+                         (MFC250D.2044)
+ 0000:0000  Imp  ?OnUpdateFrameMenu@CFrameWnd@@VECXPBUHMENU__@@@Z
+                    public: virtual void __far __pascal CFrameWnd::OnUpdateFrameMenu(struct HMENU__ const __near*)__far
+                         (MFC250D.2312)
+ 0000:0000  Imp  ??0CStudent@@REC@PFDJ@Z
+                    public: __far __pascal CStudent::CStudent(char const __far*,long)__far
+                         (EX26AD.301)
+ 0000:0000  Imp  ?DestroyWindow@CWnd@@VECHXZ
+                    public: virtual int __far __pascal CWnd::DestroyWindow(void)__far
+                         (MFC250D.1031)
+ 0000:0000  Imp  ?GetMainWnd@CWinApp@@VECPEVCWnd@@XZ
+                    public: virtual class CWnd __far* __far __pascal CWinApp::GetMainWnd(void)__far
+                         (MFC250D.1447)
+ 0000:0000  Imp  ??0CWinApp@@REC@PFD@Z
+                    public: __far __pascal CWinApp::CWinApp(char const __far*)__far
+                         (MFC250D.389)
+ 0000:0000  Imp  ?OnEndPrinting@CView@@NECXPEVCDC@@PEUCPrintInfo@@@Z
+                    protected: virtual void __far __pascal CView::OnEndPrinting(class CDC __far*,struct CPrintInfo __far*)__far
+                         (MFC250D.2110)
+ 0000:0000  Imp  ?OnDDECommand@CWinApp@@VECHPED@Z
+                    public: virtual int __far __pascal CWinApp::OnDDECommand(char __far*)__far
+                         (MFC250D.2071)
+ 0000:0000  Imp  ?AfxAbort@@ZCXXZ
+                    void __far __pascal AfxAbort(void)
+                             (MFC250D.686)
+ 0000:0000  Imp  ?DDV_MinMaxLong@@ZCXPEVCDataExchange@@JJJ@Z
+                    void __far __pascal DDV_MinMaxLong(class CDataExchange __far*,long,long,long)
+                         (MFC250D.962)
+ 0000:0000  Imp  ?OnCmdMsg@CDocument@@VECHIHPEXPEUAFX_CMDHANDLERINFO@@@Z
+                    public: virtual int __far __pascal CDocument::OnCmdMsg(unsigned int,int,void __far*,struct AFX_CMDHANDLERINFO __far*)__far
+                         (MFC250D.2041)
+ 0000:0000  Imp  FATALAPPEXIT         (KERNEL.137)
+ 0000:0000  Imp  ?WinHelp@CWinApp@@VECXKI@Z
+                    public: virtual void __far __pascal CWinApp::WinHelp(unsigned long,unsigned int)__far
+                         (MFC250D.2827)
+ 0000:0000  Imp  ?GetDefaultAccel@CDocument@@VECPBUHACCEL__@@XZ
+                    public: virtual struct HACCEL__ const __near* __far __pascal CDocument::GetDefaultAccel(void)__far
+                         (MFC250D.1346)
+ 0000:0000  Imp  ?OnFilePrintSetup@CWinApp@@JECXXZ
+                    protected: void __far __pascal CWinApp::OnFilePrintSetup(void)__far
+                         (MFC250D.2124)
+ 0000:0000  Imp  ?RowToYPos@CRowView@@NECHH@Z
+                    protected: virtual int __far __pascal CRowView::RowToYPos(int)__far
+                         (EX26AD.104)
+ 0000:0000  Imp  ?GetDispatchMap@CCmdTarget@@NFCPEUAFX_DISPMAP@@XZ
+                    protected: virtual struct AFX_DISPMAP __far* __far __pascal CCmdTarget::GetDispatchMap(void)const __far
+                         (MFC250D.1358)
+ 0000:0000  Imp  ?OnIdle@CDocument@@VECXXZ
+                    public: virtual void __far __pascal CDocument::OnIdle(void)__far
+                         (MFC250D.2157)
+ 0000:0000  Imp  ?SetPathName@CDocument@@VECXPFDH@Z
+                    public: virtual void __far __pascal CDocument::SetPathName(char const __far*,int)__far
+                         (MFC250D.2683)
+ 0000:0000  Imp  ?Create@CToolBar@@RECHPEVCWnd@@KI@Z
+                    public: int __far __pascal CToolBar::Create(class CWnd __far*,unsigned long,unsigned int)__far
+                         (MFC250D.907)
+ 0000:0000  Imp  ?classCRowView@CRowView@@2UCRuntimeClass@@A
+                    public: static struct CRuntimeClass __near CRowView::classCRowView
+                         (EX26AD.114)
+ 0000:0000  Imp  OUTPUTDEBUGSTRING    (KERNEL.115)
+ 0000:0000  Imp  ?AfxThrowMemoryException@@ZCXXZ
+                    void __far __pascal AfxThrowMemoryException(void)
+                         (MFC250D.723)
+ 0000:0000  Imp  GETVERSION           (KERNEL.3)
+ 0000:0000  Imp  ?OnDragOver@CView@@VECKPEVCOleDataObject@@KVCPoint@@@Z
+                    public: virtual unsigned long __far __pascal CView::OnDragOver(class COleDataObject __far*,unsigned long,class CPoint)__far
+                         (MFC250D.2086)
+ 0000:0000  Imp  ?_AfxGetSafeOwner@@ZCPBUHWND__@@PEVCWnd@@@Z
+                    struct HWND__ const __near* __far __pascal _AfxGetSafeOwner(class CWnd __far*)
+                         (MFC250D.2845)
+ 0000:0000  Imp  ?OnInitialUpdate@CRowView@@NECXXZ
+                    protected: virtual void __far __pascal CRowView::OnInitialUpdate(void)__far
+                         (EX26AD.110)
+ 0000:0000  Imp  ?GetSize@CObArray@@RFCHXZ
+                    public: int __far __pascal CObArray::GetSize(void)const __far
+                         (MFC250D.1666)
+ 0000:0000  Imp  ?OnPrepareDC@CRowView@@NECXPEVCDC@@PEUCPrintInfo@@@Z
+                    protected: virtual void __far __pascal CRowView::OnPrepareDC(class CDC __far*,struct CPrintInfo __far*)__far
+                         (EX26AD.111)
+ 0000:0000  Imp  ?OnCancel@CDialog@@NECXXZ
+                    protected: virtual void __far __pascal CDialog::OnCancel(void)__far
+                         (MFC250D.2017)
+ 0000:0000  Imp  ?OnFinalRelease@CWnd@@VECXXZ
+                    public: virtual void __far __pascal CWnd::OnFinalRelease(void)__far
+                         (MFC250D.2129)
+ 0000:0000  Imp  ?OnScrollBy@CScrollView@@VECHVCSize@@H@Z
+                    public: virtual int __far __pascal CScrollView::OnScrollBy(class CSize,int)__far
+                         (MFC250D.2265)
+ 0000:0000  Imp  AFXWINMAIN           (MFC250D.2976)
+ 0000:0000  Imp  ?OnCommand@CFrameWnd@@NECHIJ@Z
+                    protected: virtual int __far __pascal CFrameWnd::OnCommand(unsigned int,long)__far
+                         (MFC250D.2046)
+ 0000:0000  Imp  ?AssertValid@CDocument@@VFCXXZ
+                    public: virtual void __far __pascal CDocument::AssertValid(void)const __far
+                         (MFC250D.753)
+ 0000:0000  Imp  ?OnEndPrintPreview@CView@@NECXPEVCDC@@PEUCPrintInfo@@UtagPOINT@@PEVCPreviewView@@@Z
+                    protected: virtual void __far __pascal CView::OnEndPrintPreview(class CDC __far*,struct CPrintInfo __far*,struct tagPOINT,class CPreviewView __far*)__far
+                         (MFC250D.2108)
+ 0000:0000  Imp  ?IsFrameWnd@CFrameWnd@@VFCHXZ
+                    public: virtual int __far __pascal CFrameWnd::IsFrameWnd(void)const __far
+                         (MFC250D.1854)
+ 0000:0000  Abs  __wiobused
+ 0000:0000  Imp  ?PreTranslateMessage@CWnd@@VECHPEUtagMSG@@@Z
+                    public: virtual int __far __pascal CWnd::PreTranslateMessage(struct tagMSG __far*)__far
+                         (MFC250D.2393)
+ 0000:0000  Imp  ?PreCreateWindow@CFrameWnd@@NECHAEUtagCREATESTRUCT@@@Z
+                    protected: virtual int __far __pascal CFrameWnd::PreCreateWindow(struct tagCREATESTRUCT __far&)__far
+                         (MFC250D.2380)
+ 0000:0000  Imp  GETPRIVATEPROFILEINT (KERNEL.127)
+ 0000:0000  Imp  ?SetDepth@CDumpContext@@RECXH@Z
+                    public: void __far __pascal CDumpContext::SetDepth(int)__far
+                         (MFC250D.2636)
+ 0000:0000  Imp  INITEX26ADLL         (EX26AD.2)
+ 0000:0000  Imp  GETDOSENVIRONMENT    (KERNEL.131)
+ 0000:0000  Imp  ?Dump@CDocument@@VFCXAEVCDumpContext@@@Z
+                    public: virtual void __far __pascal CDocument::Dump(class CDumpContext __far&)const __far
+                         (MFC250D.1097)
+ 0000:0000  Imp  ??0CPersistentFrame@@JEC@XZ
+                    protected: __far __pascal CPersistentFrame::CPersistentFrame(void)__far
+                         (EX26AD.200)
+ 0000:0000  Imp  GLOBALSIZE           (KERNEL.20)
+ 0000:0000  Imp  ?PreCloseFrame@CDocument@@VECXPEVCFrameWnd@@@Z
+                    public: virtual void __far __pascal CDocument::PreCloseFrame(class CFrameWnd __far*)__far
+                         (MFC250D.2378)
+ 0000:0000  Imp  ?LoadStdProfileSettings@CWinApp@@JECXXZ
+                    protected: void __far __pascal CWinApp::LoadStdProfileSettings(void)__far
+                         (MFC250D.1915)
+ 0000:0000  Imp  ?LoadFrame@CFrameWnd@@VECHIKPEVCWnd@@PEUCCreateContext@@@Z
+                    public: virtual int __far __pascal CFrameWnd::LoadFrame(unsigned int,unsigned long,class CWnd __far*,struct CCreateContext __far*)__far
+                         (MFC250D.1899)
+ 0000:0000  Imp  ?GetMessageBar@CFrameWnd@@VECPEVCWnd@@XZ
+                    public: virtual class CWnd __far* __far __pascal CFrameWnd::GetMessageBar(void)__far
+                         (MFC250D.1455)
+ 0000:0000  Imp  ?OnCmdMsg@CDialog@@VECHIHPEXPEUAFX_CMDHANDLERINFO@@@Z
+                    public: virtual int __far __pascal CDialog::OnCmdMsg(unsigned int,int,void __far*,struct AFX_CMDHANDLERINFO __far*)__far
+                         (MFC250D.2040)
+ 0000:0000  Imp  GETMODULEFILENAME    (KERNEL.49)
+ 0000:0000  Imp  ?classCDocument@CDocument@@2UCRuntimeClass@@E
+                    public: static struct CRuntimeClass __far CDocument::classCDocument
+                         (MFC250D.2875)
+ 0000:0000  Imp  ?SaveModified@CDocument@@VECHXZ
+                    public: virtual int __far __pascal CDocument::SaveModified(void)__far
+                         (MFC250D.2520)
+ 0000:0000  Imp  ?CalcWindowRect@CScrollView@@VECXPEUtagRECT@@I@Z
+                    public: virtual void __far __pascal CScrollView::CalcWindowRect(struct tagRECT __far*,unsigned int)__far
+                         (MFC250D.814)
+ 0000:0000  Imp  ?AddDocTemplate@CWinApp@@RECXPEVCDocTemplate@@@Z
+                    public: void __far __pascal CWinApp::AddDocTemplate(class CDocTemplate __far*)__far
+                         (MFC250D.662)
+ 0000:0000  Imp  ?Dump@CView@@VFCXAEVCDumpContext@@@Z
+                    public: virtual void __far __pascal CView::Dump(class CDumpContext __far&)const __far
+                         (MFC250D.1143)
+ 0000:0000  Imp  ?Invalidate@CWnd@@RECXH@Z
+                    public: void __far __pascal CWnd::Invalidate(int)__far
+                         (MFC250D.1832)
+ 0000:0000  Imp  ?OnCmdMsg@CCmdTarget@@VECHIHPEXPEUAFX_CMDHANDLERINFO@@@Z
+                    public: virtual int __far __pascal CCmdTarget::OnCmdMsg(unsigned int,int,void __far*,struct AFX_CMDHANDLERINFO __far*)__far
+                         (MFC250D.2039)
+ 0000:0000  Imp  ?AssertValid@CView@@VFCXXZ
+                    public: virtual void __far __pascal CView::AssertValid(void)const __far
+                         (MFC250D.790)
+ 0000:0000  Imp  ?OnBeginPrinting@CRowView@@NECXPEVCDC@@PEUCPrintInfo@@@Z
+                    protected: virtual void __far __pascal CRowView::OnBeginPrinting(class CDC __far*,struct CPrintInfo __far*)__far
+                         (EX26AD.108)
+ 0000:0000  Imp  ?OnUpdateFrameTitle@CFrameWnd@@VECXH@Z
+                    public: virtual void __far __pascal CFrameWnd::OnUpdateFrameTitle(int)__far
+                         (MFC250D.2315)
+ 0000:0000  Imp  ?DefWindowProc@CWnd@@NECJIIJ@Z
+                    protected: virtual long __far __pascal CWnd::DefWindowProc(unsigned int,unsigned int,long)__far
+                         (MFC250D.1004)
+ 0000:0000  Imp  ??1CPersistentFrame@@NEC@XZ
+                    protected: virtual __far __pascal CPersistentFrame::~CPersistentFrame(void)__far
+                         (EX26AD.201)
+ 0000:0000  Imp  ?ReportSaveLoadException@CDocument@@VECXPFDPEVCException@@HI@Z
+                    public: virtual void __far __pascal CDocument::ReportSaveLoadException(char const __far*,class CException __far*,int,unsigned int)__far
+                         (MFC250D.2497)
+ 0000:0000  Imp  ??6CDumpContext@@RECAEV0@PFVCObject@@@Z
+                    public: class CDumpContext __far& __far __pascal CDumpContext::operator<<(class CObject const __far*)__far
+                         (MFC250D.547)
+ 0000:0000  Imp  ?SaveAllModified@CWinApp@@VECHXZ
+                    public: virtual int __far __pascal CWinApp::SaveAllModified(void)__far
+                         (MFC250D.2516)
+ 0000:0000  Imp  ?Dump@CFrameWnd@@VFCXAEVCDumpContext@@@Z
+                    public: virtual void __far __pascal CFrameWnd::Dump(class CDumpContext __far&)const __far
+                         (MFC250D.1108)
+ 0000:0000  Imp  ?WinHelp@CWnd@@VECXKI@Z
+                    public: virtual void __far __pascal CWnd::WinHelp(unsigned long,unsigned int)__far
+                         (MFC250D.2828)
+ 0000:0000  Imp  ??6CDumpContext@@RECAEV0@PFD@Z
+                    public: class CDumpContext __far& __far __pascal CDumpContext::operator<<(char const __far*)__far
+                         (MFC250D.546)
+ 0000:0000  Imp  ?IsSelected@CView@@VFCHPFVCObject@@@Z
+                    public: virtual int __far __pascal CView::IsSelected(class CObject const __far*)const __far
+                         (MFC250D.1865)
+ 0000:0000  Imp  ??0AFX_CLASSINIT@@RAC@PEUCRuntimeClass@@@Z
+                    public: __far __pascal AFX_CLASSINIT::AFX_CLASSINIT(struct CRuntimeClass __far*)__near
+                         (MFC250D.256)
+ 0000:0000  Imp  ?DoDataExchange@CWnd@@NECXPEVCDataExchange@@@Z
+                    protected: virtual void __far __pascal CWnd::DoDataExchange(class CDataExchange __far*)__far
+                         (MFC250D.1044)
+ 0000:0000  Imp  ?OnChangedViewList@CDocument@@VECXXZ
+                    public: virtual void __far __pascal CDocument::OnChangedViewList(void)__far
+                         (MFC250D.2027)
+ 0000:0000  Imp  ??4CString@@RECAFV0@PFD@Z
+                    public: class CString const __far& __far __pascal CString::operator=(char const __far*)__far
+                         (MFC250D.490)
+ 0000:0000  Imp  ?SetModifiedFlag@CDocument@@RECXH@Z
+                    public: void __far __pascal CDocument::SetModifiedFlag(int)__far
+                         (MFC250D.2671)
+ 0000:0000  Imp  ?messageMap@CWinApp@@1UAFX_MSGMAP@@E
+                    protected: static struct AFX_MSGMAP __far CWinApp::messageMap
+                         (MFC250D.2961)
+ 0000:0000  Imp  ?RectLPtoRowRange@CRowView@@NECXAFVCRect@@AEH1H@Z
+                    protected: virtual void __far __pascal CRowView::RectLPtoRowRange(class CRect const __far&,int __far&,int __far&,int)__far
+                         (EX26AD.105)
+ 0000:0000  Imp  ?classCPersistentFrame@CPersistentFrame@@2UCRuntimeClass@@A
+                    public: static struct CRuntimeClass __near CPersistentFrame::classCPersistentFrame
+                         (EX26AD.203)
+ 0000:0000  Imp  ??2CObject@@TAPEXIPEX@Z
+                    public: static void __far* __far __cdecl CObject::operator new(unsigned int,void __far*)
+                         (MFC250D.482)
+ 0000:0000  Imp  ?SetIndicators@CStatusBar@@RECHPFIH@Z
+                    public: int __far __pascal CStatusBar::SetIndicators(unsigned int const __far*,int)__far
+                         (MFC250D.2653)
+ 0000:0000  Imp  LOCKSEGMENT          (KERNEL.23)
+ 0000:0000  Imp  ?OnSaveDocument@CDocument@@VECHPFD@Z
+                    public: virtual int __far __pascal CDocument::OnSaveDocument(char const __far*)__far
+                         (MFC250D.2262)
+ 0000:0000  Imp  _AFXVBAPIENTRY       (MFC250D.2978)
+ 0000:0000  Imp  ?GetTextMetrics@CDC@@RFCHPEUtagTEXTMETRIC@@@Z
+                    public: int __far __pascal CDC::GetTextMetrics(struct tagTEXTMETRIC __far*)const __far
+                         (MFC250D.1724)
+ 0000:0000  Imp  ?Serialize@CObject@@VECXAEVCArchive@@@Z
+                    public: virtual void __far __pascal CObject::Serialize(class CArchive __far&)__far
+                         (MFC250D.2569)
+ 0000:0000  Imp  ?OnFileNew@CWinApp@@JECXXZ
+                    protected: void __far __pascal CWinApp::OnFileNew(void)__far
+                         (MFC250D.2120)
+ 0000:0000  Imp  ?NegotiateBorderSpace@CFrameWnd@@VECHIPEUtagRECT@@@Z
+                    public: virtual int __far __pascal CFrameWnd::NegotiateBorderSpace(unsigned int,struct tagRECT __far*)__far
+                         (MFC250D.1973)
+ 0000:0000  Imp  ?AssertValid@CDialog@@VFCXXZ
+                    public: virtual void __far __pascal CDialog::AssertValid(void)const __far
+                         (MFC250D.750)
+ 0000:0000  Imp  ??1CString@@REC@XZ
+                    public: __far __pascal CString::~CString(void)__far
+                           (MFC250D.469)
+ 0000:0000  Imp  ?Dump@CWinApp@@VFCXAEVCDumpContext@@@Z
+                    public: virtual void __far __pascal CWinApp::Dump(class CDumpContext __far&)const __far
+                         (MFC250D.1144)
+ 0000:0000  Imp  ?OnPreparePrinting@CRowView@@NECHPEUCPrintInfo@@@Z
+                    protected: virtual int __far __pascal CRowView::OnPreparePrinting(struct CPrintInfo __far*)__far
+                         (EX26AD.107)
+ 0000:0000  Imp  ?RemoveAll@CObArray@@RECXXZ
+                    public: void __far __pascal CObArray::RemoveAll(void)__far
+                         (MFC250D.2455)
+ 0000:0000  Imp  ??1CRowView@@NEC@XZ
+                    protected: virtual __far __pascal CRowView::~CRowView(void)__far
+                          (EX26AD.101)
+ 0000:0000  Imp  ?DDX_Text@@ZCXPEVCDataExchange@@HAEVCString@@@Z
+                    void __far __pascal DDX_Text(class CDataExchange __far*,int,class CString __far&)
+                         (MFC250D.980)
+ 0000:0001  Abs  __sized
+ 0000:0001  Abs  __sizec
+ 0000:0006  Abs  pLocalHeap
+ 0000:0008  Abs  pAtomTable
+ 0000:000A  Abs  pStackTop
+ 0000:000C  Abs  pStackMin
+ 0000:000E  Abs  pStackBot
+ 0000:9876  Abs  __acrtused
+ 0000:9876  Abs  __fptaskdata
+ 0000:9876  Abs  __acrtmsg
+ 0000:D6D6  Abs  __aDBused
+ 0000:D6D6  Abs  __aDBdoswp
+ 0001:001C       ?Construct@CEx26bDoc@@TCXPEX@Z
+                    public: static void __far __pascal CEx26bDoc::Construct(void __far*)
+
+ 0001:00A0       ?GetRuntimeClass@CEx26bDoc@@VFCPEUCRuntimeClass@@XZ
+                    public: virtual struct CRuntimeClass __far* __far __pascal CEx26bDoc::GetRuntimeClass(void)const __far
+
+ 0001:00C4       ?GetMessageMap@CEx26bDoc@@NFCPEUAFX_MSGMAP@@XZ
+                    protected: virtual struct AFX_MSGMAP __far* __far __pascal CEx26bDoc::GetMessageMap(void)const __far
+
+ 0001:00E8       ?_messageEntries@CEx26bDoc@@0QEUAFX_MSGMAP_ENTRY@@E
+                    private: static struct AFX_MSGMAP_ENTRY __far* __far CEx26bDoc::_messageEntries
+
+ 0001:00FC       ??0CEx26bDoc@@JEC@XZ
+                    protected: __far __pascal CEx26bDoc::CEx26bDoc(void)__far
+
+ 0001:0162       ??1CEx26bDoc@@VEC@XZ
+                    public: virtual __far __pascal CEx26bDoc::~CEx26bDoc(void)__far
+
+ 0001:01AC       ?OnNewDocument@CEx26bDoc@@NECHXZ
+                    protected: virtual int __far __pascal CEx26bDoc::OnNewDocument(void)__far
+
+ 0001:01E8       ?DeleteContents@CEx26bDoc@@NECXXZ
+                    protected: virtual void __far __pascal CEx26bDoc::DeleteContents(void)__far
+
+ 0001:029C       ?Serialize@CEx26bDoc@@VECXAEVCArchive@@@Z
+                    public: virtual void __far __pascal CEx26bDoc::Serialize(class CArchive __far&)__far
+
+ 0001:02D2       ?AssertValid@CEx26bDoc@@VFCXXZ
+                    public: virtual void __far __pascal CEx26bDoc::AssertValid(void)const __far
+
+ 0001:02FC       ?Dump@CEx26bDoc@@VFCXAEVCDumpContext@@@Z
+                    public: virtual void __far __pascal CEx26bDoc::Dump(class CDumpContext __far&)const __far
+
+ 0001:032C       ?OnUpdateFileSave@CEx26bDoc@@JECXPEVCCmdUI@@@Z
+                    protected: void __far __pascal CEx26bDoc::OnUpdateFileSave(class CCmdUI __far*)__far
+
+ 0001:0394       ?GetMessageMap@CEx26bView@@NFCPEUAFX_MSGMAP@@XZ
+                    protected: virtual struct AFX_MSGMAP __far* __far __pascal CEx26bView::GetMessageMap(void)const __far
+
+ 0001:03B8       ?_messageEntries@CEx26bView@@0QEUAFX_MSGMAP_ENTRY@@E
+                    private: static struct AFX_MSGMAP_ENTRY __far* __far CEx26bView::_messageEntries
+
+ 0001:03CC       ?Construct@CEx26bView@@TCXPEX@Z
+                    public: static void __far __pascal CEx26bView::Construct(void __far*)
+
+ 0001:0452       ?GetRuntimeClass@CEx26bView@@VFCPEUCRuntimeClass@@XZ
+                    public: virtual struct CRuntimeClass __far* __far __pascal CEx26bView::GetRuntimeClass(void)const __far
+
+ 0001:0476       ??0CEx26bView@@REC@XZ
+                    public: __far __pascal CEx26bView::CEx26bView(void)__far
+
+ 0001:0504       ?GetRowWidthHeight@CEx26bView@@VECXPEVCDC@@AEH11@Z
+                    public: virtual void __far __pascal CEx26bView::GetRowWidthHeight(class CDC __far*,int __far&,int __far&,int __far&)__far
+
+ 0001:0554       ?GetActiveRow@CEx26bView@@VECHXZ
+                    public: virtual int __far __pascal CEx26bView::GetActiveRow(void)__far
+
+ 0001:058C       ?GetRowCount@CEx26bView@@VECHXZ
+                    public: virtual int __far __pascal CEx26bView::GetRowCount(void)__far
+
+ 0001:05D4       ?ChangeSelectionNextRow@CEx26bView@@VECXH@Z
+                    public: virtual void __far __pascal CEx26bView::ChangeSelectionNextRow(int)__far
+
+ 0001:06AA       ?ChangeSelectionToRow@CEx26bView@@VECXH@Z
+                    public: virtual void __far __pascal CEx26bView::ChangeSelectionToRow(int)__far
+
+ 0001:0754       ?OnUpdate@CEx26bView@@VECXPEVCView@@JPEVCObject@@@Z
+                    public: virtual void __far __pascal CEx26bView::OnUpdate(class CView __far*,long,class CObject __far*)__far
+
+ 0001:07A8       ?OnDrawRow@CEx26bView@@VECXPEVCDC@@HHH@Z
+                    public: virtual void __far __pascal CEx26bView::OnDrawRow(class CDC __far*,int,int,int)__far
+
+ 0001:086C       ?AssertValid@CEx26bView@@NFCXXZ
+                    protected: virtual void __far __pascal CEx26bView::AssertValid(void)const __far
+
+ 0001:0896       ?Dump@CEx26bView@@NFCXAEVCDumpContext@@@Z
+                    protected: virtual void __far __pascal CEx26bView::Dump(class CDumpContext __far&)const __far
+
+ 0001:08C6       ?OnLButtonDblClk@CEx26bView@@JECXIVCPoint@@@Z
+                    protected: void __far __pascal CEx26bView::OnLButtonDblClk(unsigned int,class CPoint)__far
+
+ 0001:0BE0       ?Construct@CMainFrame@@TCXPEX@Z
+                    public: static void __far __pascal CMainFrame::Construct(void __far*)
+
+ 0001:0C66       ?GetRuntimeClass@CMainFrame@@VFCPEUCRuntimeClass@@XZ
+                    public: virtual struct CRuntimeClass __far* __far __pascal CMainFrame::GetRuntimeClass(void)const __far
+
+ 0001:0C8A       ?GetMessageMap@CMainFrame@@NFCPEUAFX_MSGMAP@@XZ
+                    protected: virtual struct AFX_MSGMAP __far* __far __pascal CMainFrame::GetMessageMap(void)const __far
+
+ 0001:0CAE       ?_messageEntries@CMainFrame@@0QEUAFX_MSGMAP_ENTRY@@E
+                    private: static struct AFX_MSGMAP_ENTRY __far* __far CMainFrame::_messageEntries
+
+ 0001:0CDE       ??0CMainFrame@@JEC@XZ
+                    protected: __far __pascal CMainFrame::CMainFrame(void)__far
+
+ 0001:0D40       ??1CMainFrame@@VEC@XZ
+                    public: virtual __far __pascal CMainFrame::~CMainFrame(void)__far
+
+ 0001:0D9C       ?OnCreate@CMainFrame@@JECHPEUtagCREATESTRUCT@@@Z
+                    protected: int __far __pascal CMainFrame::OnCreate(struct tagCREATESTRUCT __far*)__far
+
+ 0001:0EB6       ?AssertValid@CMainFrame@@VFCXXZ
+                    public: virtual void __far __pascal CMainFrame::AssertValid(void)const __far
+
+ 0001:0EE0       ?Dump@CMainFrame@@VFCXAEVCDumpContext@@@Z
+                    public: virtual void __far __pascal CMainFrame::Dump(class CDumpContext __far&)const __far
+
+ 0001:0F40       ?GetMessageMap@CEx26bApp@@NFCPEUAFX_MSGMAP@@XZ
+                    protected: virtual struct AFX_MSGMAP __far* __far __pascal CEx26bApp::GetMessageMap(void)const __far
+
+ 0001:0F64       ?_messageEntries@CEx26bApp@@0QEUAFX_MSGMAP_ENTRY@@E
+                    private: static struct AFX_MSGMAP_ENTRY __far* __far CEx26bApp::_messageEntries
+
+ 0001:0F96       ??0CEx26bApp@@REC@XZ
+                    public: __far __pascal CEx26bApp::CEx26bApp(void)__far
+
+ 0001:0FF8       ?InitInstance@CEx26bApp@@VECHXZ
+                    public: virtual int __far __pascal CEx26bApp::InitInstance(void)__far
+
+ 0001:10B4       ??0CAboutDlg@@REC@XZ
+                    public: __far __pascal CAboutDlg::CAboutDlg(void)__far
+
+ 0001:10F8       ?DoDataExchange@CAboutDlg@@NECXPEVCDataExchange@@@Z
+                    protected: virtual void __far __pascal CAboutDlg::DoDataExchange(class CDataExchange __far*)__far
+
+ 0001:1128       ?GetMessageMap@CAboutDlg@@NFCPEUAFX_MSGMAP@@XZ
+                    protected: virtual struct AFX_MSGMAP __far* __far __pascal CAboutDlg::GetMessageMap(void)const __far
+
+ 0001:114C       ?_messageEntries@CAboutDlg@@0QEUAFX_MSGMAP_ENTRY@@E
+                    private: static struct AFX_MSGMAP_ENTRY __far* __far CAboutDlg::_messageEntries
+
+ 0001:1156       ?OnAppAbout@CEx26bApp@@RECXXZ
+                    public: void __far __pascal CEx26bApp::OnAppAbout(void)__far
+
+ 0001:1214       ?GetMessageMap@CStudentDialog@@NFCPEUAFX_MSGMAP@@XZ
+                    protected: virtual struct AFX_MSGMAP __far* __far __pascal CStudentDialog::GetMessageMap(void)const __far
+
+ 0001:1238       ?_messageEntries@CStudentDialog@@0QEUAFX_MSGMAP_ENTRY@@E
+                    private: static struct AFX_MSGMAP_ENTRY __far* __far CStudentDialog::_messageEntries
+
+ 0001:1274       ??0CStudentDialog@@REC@HPEVCWnd@@@Z
+                    public: __far __pascal CStudentDialog::CStudentDialog(int,class CWnd __far*)__far
+
+ 0001:12E6       ?DoDataExchange@CStudentDialog@@NECXPEVCDataExchange@@@Z
+                    protected: virtual void __far __pascal CStudentDialog::DoDataExchange(class CDataExchange __far*)__far
+
+ 0001:1396       ?OnOK@CStudentDialog@@NECXXZ
+                    protected: virtual void __far __pascal CStudentDialog::OnOK(void)__far
+
+ 0001:13C2       ?OnCancel@CStudentDialog@@NECXXZ
+                    protected: virtual void __far __pascal CStudentDialog::OnCancel(void)__far
+
+ 0001:13EE       ?OnClickedCancel@CStudentDialog@@JECXXZ
+                    protected: void __far __pascal CStudentDialog::OnClickedCancel(void)__far
+
+ 0001:141A       ?OnClickedClear@CStudentDialog@@JECXXZ
+                    protected: void __far __pascal CStudentDialog::OnClickedClear(void)__far
+
+ 0001:1496       ?OnClickedDelete@CStudentDialog@@JECXXZ
+                    protected: void __far __pascal CStudentDialog::OnClickedDelete(void)__far
+
+ 0001:14C2       ?OnClickedInsert@CStudentDialog@@JECXXZ
+                    protected: void __far __pascal CStudentDialog::OnClickedInsert(void)__far
+
+ 0001:1506       ?OnClickedUpdate@CStudentDialog@@JECXXZ
+                    protected: void __far __pascal CStudentDialog::OnClickedUpdate(void)__far
+
+ 0001:155A       ?_ForceLinkage@CWinApp@@VECXXZ
+                    public: virtual void __far __pascal CWinApp::_ForceLinkage(void)__far
+
+ 0001:155C       __wflags
+ 0001:1566       __astart
+ 0001:161D       __nomain
+ 0001:1624       __stubmain
+ 0001:1650       __cinit
+ 0001:1733       _exit
+ 0001:1741       __exit
+ 0001:1750       __cexit
+ 0001:1761       __c_exit
+ 0001:17D1       __ctermsub
+ 0001:180E       __FF_MSGBANNER
+ 0001:1832       __fptrap
+ 0001:1838       __aNchkstk
+ 0001:1858       __chkstk
+ 0001:1858       __aFchkstk
+ 0001:1892       __setargv
+ 0001:1A3C       __setenvp
+ 0001:1AF6       __cintDIV
+ 0001:1B00       __amsg_exit
+ 0001:1B42       __NMSG_TEXT
+ 0001:1B79       __NMSG_WRITE
+ 0001:1BB6       __myalloc
+ 0001:1BE4       __dosret0
+ 0001:1BF1       __dosreturn
+ 0001:1C03       __dosretax
+ 0001:1C15       __maperror
+ 0001:1C42       __GetDGROUP
+ 0001:1C52       ___ExportedStub
+ 0001:1C66       _fclose
+ 0001:1D68       __endstdio
+ 0001:1D7E       __flsbuf
+ 0001:1E78       __freebuf
+ 0001:1EB0       __getbuf
+ 0001:1EFC       _fflush
+ 0001:1F58       __flush
+ 0001:1FD8       __flushall
+ 0001:2068       __output
+ 0001:255E       __close
+ 0001:2596       __lseek
+ 0001:266A       __write
+ 0001:2824       __stackavail
+ 0001:2838       __ffree
+ 0001:2859       __fmalloc
+ 0001:2900       __initseg
+ 0001:2934       __linkseg
+ 0001:296A       __searchseg
+ 0001:29E6       __growseg
+ 0001:2A77       __incseg
+ 0001:2ADD       __findlast
+ 0001:2AFE       __newseg
+ 0001:2B80       ?_set_fnew_handler@@ZAP7AHI@ZP7AHI@Z@Z
+                    int (__far __cdecl*__far __cdecl _set_fnew_handler(int (__far __cdecl*)(unsigned int)))(unsigned int)
+
+ 0001:2BAA       ?_set_new_handler@@ZAP7AHI@ZP7AHI@Z@Z
+                    int (__far __cdecl*__far __cdecl _set_new_handler(int (__far __cdecl*)(unsigned int)))(unsigned int)
+
+ 0001:2BBC       _strcat
+ 0001:2C10       _strcpy
+ 0001:2C4C       _strlen
+ 0001:2C66       __itoa
+ 0001:2C82       _abort
+ 0001:2CA4       __fcloseall
+ 0001:2CE4       _sprintf
+ 0001:2D52       _vsprintf
+ 0001:2DBE       __commit
+ 0001:2E2E       _memcpy
+ 0001:2E8C       _memset
+ 0001:2ED4       __cltoasub
+ 0001:2EE1       __cxtoa
+ 0001:2F38       __unlink
+ 0001:2F38       _remove
+ 0001:2F5E       __dos_commit
+ 0001:2F82       __wcexit
+ 0001:2F82       __wcinit
+ 0001:2F87       __QWINIsQWINin
+ 0001:2F87       __wsetscreenbuf
+ 0001:2F87       __wwrite
+ 0001:2F87       __QWINClose
+ 0001:2F87       __QWINYield
+ 0001:2F87       __QWINOpen
+ 0001:2F87       __QWINSetSize
+ 0001:2F87       __wgetsize
+ 0001:2F87       __QWINExit
+ 0001:2F87       __QWINSetFocus
+ 0001:2F87       __QWINGetBuffSize
+ 0001:2F87       __wsetfocus
+ 0001:2F87       __wterm
+ 0001:2F87       __QWINWrite
+ 0001:2F87       __wabout
+ 0001:2F87       __wread
+ 0001:2F87       __QWINSetBuffSize
+ 0001:2F87       __wclose
+ 0001:2F87       __QWINTerm
+ 0001:2F87       __wgetfocus
+ 0001:2F87       __wsetsize
+ 0001:2F87       __wopen
+ 0001:2F87       __QWINMenuClick
+ 0001:2F87       __wmenuclick
+ 0001:2F87       __wgetscreenbuf
+ 0001:2F87       __QWINInit
+ 0001:2F87       __QWINSetAboutString
+ 0001:2F87       __QWINGetSize
+ 0001:2F87       __QWINGetFocus
+ 0001:2F87       __QWINRead
+ 0001:2F8E       _atexit
+ 0001:2F96       __onexit
+ 0001:2FC0       AFXDUMP
+ 0001:2FF2       _AfxTrace
+ 0001:3114       AFXTRACEV
+ 0001:324E       AFXDIAGNOSTICINIT
+ 0001:32E2       WINMAIN
+ 0001:334E       AFXAPPABORT
+ 0001:33D0       AFXASSERTFAILEDLINE
+ 0001:39FA       ??2@ZAPEXI@Z
+                    void __far* __far __cdecl operator new(unsigned int)
+
+ 0001:3A88       ??2@ZAPEXIPFDH@Z
+                    void __far* __far __cdecl operator new(unsigned int,char const __far*,int)
+
+ 0001:3B18       ??3@ZAXPEX@Z
+                    void __far __cdecl operator delete(void __far*)
+
+ 0001:3B6E       ??2CObject@@TAPEXI@Z
+                    public: static void __far* __far __cdecl CObject::operator new(unsigned int)
+
+ 0001:3BFC       ??2CObject@@TAPEXIPFDH@Z
+                    public: static void __far* __far __cdecl CObject::operator new(unsigned int,char const __far*,int)
+
+ 0001:3C8C       ??3CObject@@TAXPEX@Z
+                    public: static void __far __cdecl CObject::operator delete(void __far*)
+
+ 0001:3CE2       ?_AfxDefaultAllocHook@@ZCHIHJ@Z
+                    int __far __pascal _AfxDefaultAllocHook(unsigned int,int,long)
+
+ 0001:3D04       ?AfxSetAllocHook@@ZCP7CHIHJ@ZP7CHIHJ@Z@Z
+                    int (__far __pascal*__far __pascal AfxSetAllocHook(int (__far __pascal*)(unsigned int,int,long)))(unsigned int,int,long)
+
+ 0001:3D44       AFXSTOP
+ 0001:3D7E       ?_AfxTestAllocStop@@ZCHIHJ@Z
+                    int __far __pascal _AfxTestAllocStop(unsigned int,int,long)
+
+ 0001:3DDE       ?AfxSetAllocStop@@ZCXJ@Z
+                    void __far __pascal AfxSetAllocStop(long)
+
+ 0001:4302       ?AfxCheckMemory@@ZCHXZ
+                    int __far __pascal AfxCheckMemory(void)
+
+ 0001:451C       ?AfxIsMemoryBlock@@ZCHPFXIPEJ@Z
+                    int __far __pascal AfxIsMemoryBlock(void const __far*,unsigned int,long __far*)
+
+ 0001:4616       ??0CMemoryState@@REC@XZ
+                    public: __far __pascal CMemoryState::CMemoryState(void)__far
+
+ 0001:464A       ?Difference@CMemoryState@@RECHAFU1@0@Z
+                    public: int __far __pascal CMemoryState::Difference(struct CMemoryState const __far&,struct CMemoryState const __far&)__far
+
+ 0001:47D6       ?DumpStatistics@CMemoryState@@RFCXXZ
+                    public: void __far __pascal CMemoryState::DumpStatistics(void)const __far
+
+ 0001:489A       ?Checkpoint@CMemoryState@@RECXXZ
+                    public: void __far __pascal CMemoryState::Checkpoint(void)__far
+
+ 0001:4A40       ?DumpAllObjectsSince@CMemoryState@@RFCXXZ
+                    public: void __far __pascal CMemoryState::DumpAllObjectsSince(void)const __far
+
+ 0001:4E08       ?AfxDoForAllObjects@@ZCXP7AXPEVCObject@@PEX@Z1@Z
+                    void __far __pascal AfxDoForAllObjects(void (__far __cdecl*)(class CObject __far*,void __far*),void __far*)
+
+ 0001:4EB8       AFXAPPALLOC
+ 0001:501C       AFXAPPFREE
+ 0001:509E       AFXAPPSETNEWHANDLER
+ 0001:50CC       AFXAPPREALLOC
+ 0001:515E       ?AfxNewHandler@@ZAHI@Z
+                    int __far __cdecl AfxNewHandler(unsigned int)
+
+ 0001:51CE       ??1AFX_EXITDUMP@@REC@XZ
+                    public: __far __pascal AFX_EXITDUMP::~AFX_EXITDUMP(void)__far
+
+ 0001:52D6       ?pbData@CBlockHeader@@RECPEEXZ
+                    public: unsigned char __far* __far __pascal CBlockHeader::pbData(void)__far
+
+ 0001:5310       ??_GCEx26bDoc@@VECPEXI@Z
+                    public: virtual void __far* __far __pascal CEx26bDoc::`scalar deleting destructor'(unsigned int)__far
+
+ 0001:535C       ??_7CEx26bDoc@@6F@
+                    const __far CEx26bDoc::`vftable'
+
+ 0001:53D0       ??1CStudentDialog@@VEC@XZ
+                    public: virtual __far __pascal CStudentDialog::~CStudentDialog(void)__far
+
+ 0001:540C       ??_7CEx26bView@@6F@
+                    const __far CEx26bView::`vftable'
+
+ 0001:54F4       ?GetDocument@CEx26bView@@RECPEVCEx26bDoc@@XZ
+                    public: class CEx26bDoc __far* __far __pascal CEx26bView::GetDocument(void)__far
+
+ 0001:5550       ??_GCEx26bView@@NECPEXI@Z
+                    protected: virtual void __far* __far __pascal CEx26bView::`scalar deleting destructor'(unsigned int)__far
+
+ 0001:559C       ?CalculateRowMetrics@CRowView@@NECXPEVCDC@@@Z
+                    protected: virtual void __far __pascal CRowView::CalculateRowMetrics(class CDC __far*)__far
+
+ 0001:55F6       ??_C@_0BI@NML@c?3?2vcpp?2ex26b?2ex26bvw?4h?$AA@
+                    ??_C@_0BI@NML@c?3?2vcpp?2ex26b?2ex26bvw?4h?$AA@
+
+ 0001:560E       ??1CEx26bView@@NEC@XZ
+                    protected: virtual __far __pascal CEx26bView::~CEx26bView(void)__far
+
+ 0001:5646       ??_GCMainFrame@@VECPEXI@Z
+                    public: virtual void __far* __far __pascal CMainFrame::`scalar deleting destructor'(unsigned int)__far
+
+ 0001:5692       ??_7CMainFrame@@6F@
+                    const __far CMainFrame::`vftable'
+
+ 0001:5732       ??1CEx26bApp@@VEC@XZ
+                    public: virtual __far __pascal CEx26bApp::~CEx26bApp(void)__far
+
+ 0001:575C       ??1CAboutDlg@@VEC@XZ
+                    public: virtual __far __pascal CAboutDlg::~CAboutDlg(void)__far
+
+ 0001:5786       ??_7CAboutDlg@@6F@
+                    const __far CAboutDlg::`vftable'
+
+ 0001:5806       ??_7CEx26bApp@@6F@
+                    const __far CEx26bApp::`vftable'
+
+ 0001:587A       ??_GCEx26bApp@@VECPEXI@Z
+                    public: virtual void __far* __far __pascal CEx26bApp::`scalar deleting destructor'(unsigned int)__far
+
+ 0001:58C6       ??_GCAboutDlg@@VECPEXI@Z
+                    public: virtual void __far* __far __pascal CAboutDlg::`scalar deleting destructor'(unsigned int)__far
+
+ 0001:5912       ??_7CStudentDialog@@6F@
+                    const __far CStudentDialog::`vftable'
+
+ 0001:5992       ??_GCStudentDialog@@VECPEXI@Z
+                    public: virtual void __far* __far __pascal CStudentDialog::`scalar deleting destructor'(unsigned int)__far
+
+ 0002:0004       rsrvptrs
+ 0002:00D0       ?classCEx26bDoc@CEx26bDoc@@2UCRuntimeClass@@A
+                    public: static struct CRuntimeClass __near CEx26bDoc::classCEx26bDoc
+
+ 0002:00E4       ?messageMap@CEx26bDoc@@1UAFX_MSGMAP@@A
+                    protected: static struct AFX_MSGMAP __near CEx26bDoc::messageMap
+
+ 0002:00EC       ?messageMap@CEx26bView@@1UAFX_MSGMAP@@A
+                    protected: static struct AFX_MSGMAP __near CEx26bView::messageMap
+
+ 0002:00F4       ?classCEx26bView@CEx26bView@@2UCRuntimeClass@@A
+                    public: static struct CRuntimeClass __near CEx26bView::classCEx26bView
+
+ 0002:0120       ?classCMainFrame@CMainFrame@@2UCRuntimeClass@@A
+                    public: static struct CRuntimeClass __near CMainFrame::classCMainFrame
+
+ 0002:0134       ?messageMap@CMainFrame@@1UAFX_MSGMAP@@A
+                    protected: static struct AFX_MSGMAP __near CMainFrame::messageMap
+
+ 0002:0174       ?messageMap@CEx26bApp@@1UAFX_MSGMAP@@A
+                    protected: static struct AFX_MSGMAP __near CEx26bApp::messageMap
+
+ 0002:017C       ?messageMap@CAboutDlg@@1UAFX_MSGMAP@@A
+                    protected: static struct AFX_MSGMAP __near CAboutDlg::messageMap
+
+ 0002:0184       ?messageMap@CStudentDialog@@1UAFX_MSGMAP@@A
+                    protected: static struct AFX_MSGMAP __near CStudentDialog::messageMap
+
+ 0002:01AC       ?afxIgnoreAssertCount@@3HA
+                    int __near afxIgnoreAssertCount
+
+ 0002:01B4       _afxMemDF
+ 0002:029A       _STKHQQ
+ 0002:029C       __hPrevInstance
+ 0002:029E       __hInstance
+ 0002:02A0       __lpszCmdLine
+ 0002:02A4       __cmdShow
+ 0002:02A6       _aseglo
+ 0002:02A8       _aseghi
+ 0002:02AA       ___aDBswpflg
+ 0002:02AC       ___aDBrterr
+ 0002:02AE       __acfinfo
+ 0002:02BC       __aintdiv
+ 0002:02C0       __fac
+ 0002:02CA       _errno
+ 0002:02CC       __umaskval
+ 0002:02CE       __pspadr
+ 0002:02D0       __psp
+ 0002:02D2       __winminor
+ 0002:02D2       __winver
+ 0002:02D3       __winmajor
+ 0002:02D4       __osver
+ 0002:02D4       __osminor
+ 0002:02D5       __osmajor
+ 0002:02D6       __osversion
+ 0002:02D8       __osmode
+ 0002:02D9       __cpumode
+ 0002:02DA       __doserrno
+ 0002:02DA       __oserr
+ 0002:02DC       __nfile
+ 0002:02DE       __wfile
+ 0002:02E0       __wnfile
+ 0002:02E2       __osfile
+ 0002:02F6       __wsfile
+ 0002:030A       ___argc
+ 0002:030C       ___argv
+ 0002:0310       __environ
+ 0002:0314       __pgmptr
+ 0002:0319       __child
+ 0002:031B       __exitflag
+ 0002:031C       __adbgmsg
+ 0002:0320       __aaltstkovr
+ 0002:0340       __cflush
+ 0002:0342       __lastiob
+ 0002:03A6       __lseekchk
+ 0002:03A8       __pnhFarHeap
+ 0002:03AC       __fheap
+ 0002:03BA       __amblksiz
+ 0002:03BC       __cfltcvt_tab
+ 0002:03D8       __sigintseg
+ 0002:03DA       __sigintoff
+ 0002:03DC       __asizeC
+ 0002:03DD       __asizeD
+ 0002:03DE       __qwinused
+ 0002:03FC       __fpinit
+ 0002:040C       __iob
+ 0002:04FC       __iob2
+ 0002:0770       _edata
+ 0002:0770       __edata
+ 0002:0776       ?theApp@@3VCEx26bApp@@A
+                    class CEx26bApp __near theApp
+
+ 0002:0836       ?afxDump@@3AEVCDumpContext@@E
+                    class CDumpContext __far& __far afxDump
+
+ 0002:083A       ?_afxDump@@3VCDumpContext@@A
+                    class CDumpContext __near _afxDump
+
+ 0002:08E0       _end
+ 0002:08E0       __end
+
+Program entry point at 0001:1566
