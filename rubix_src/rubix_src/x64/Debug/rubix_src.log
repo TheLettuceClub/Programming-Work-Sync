@@ -1,0 +1,338 @@
+﻿  bjwsolve.c
+D:\dev\rubix_src\bjwsolve.c(1792,7): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\dev\rubix_src\bjwsolve.c(1793,9): error C2065: 'push': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1793,14): error C2146: syntax error: missing ';' before identifier 'ebx'
+D:\dev\rubix_src\bjwsolve.c(1793,14): error C2065: 'ebx': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1794,9): error C2146: syntax error: missing ';' before identifier 'push'
+D:\dev\rubix_src\bjwsolve.c(1794,9): error C2065: 'push': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1794,14): error C2146: syntax error: missing ';' before identifier 'esi'
+D:\dev\rubix_src\bjwsolve.c(1794,14): error C2065: 'esi': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1795,9): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\dev\rubix_src\bjwsolve.c(1795,9): error C2065: 'mov': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1795,14): error C2146: syntax error: missing ';' before identifier 'ebx'
+D:\dev\rubix_src\bjwsolve.c(1795,14): error C2065: 'ebx': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1796,9): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\dev\rubix_src\bjwsolve.c(1796,9): error C2065: 'mov': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1796,14): error C2146: syntax error: missing ';' before identifier 'ecx'
+D:\dev\rubix_src\bjwsolve.c(1796,14): error C2065: 'ecx': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1797,9): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\dev\rubix_src\bjwsolve.c(1797,9): error C2065: 'mov': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1797,14): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\dev\rubix_src\bjwsolve.c(1797,14): error C2065: 'eax': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1798,9): error C2146: syntax error: missing ';' before identifier 'mul'
+D:\dev\rubix_src\bjwsolve.c(1798,9): error C2065: 'mul': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1798,14): error C2146: syntax error: missing ';' before identifier 'ecx'
+D:\dev\rubix_src\bjwsolve.c(1798,14): error C2065: 'ecx': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1799,9): error C2146: syntax error: missing ';' before identifier 'lea'
+D:\dev\rubix_src\bjwsolve.c(1799,9): error C2065: 'lea': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1799,14): error C2146: syntax error: missing ';' before identifier 'esi'
+D:\dev\rubix_src\bjwsolve.c(1799,14): error C2065: 'esi': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1799,19): error C2059: syntax error: '['
+D:\dev\rubix_src\bjwsolve.c(1828,1): error C2059: syntax error: 'type'
+D:\dev\rubix_src\bjwsolve.c(1834,12): error C2065: 'a': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1834,33): error C2065: 'a': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1835,3): error C2065: 'numbits': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1836,12): error C2065: 'a': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1836,38): error C2065: 'numbits': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1837,5): error C2065: 'a': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1838,5): error C2065: 'numbits': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1840,7): error C2065: 'numbits': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1841,62): error C2065: 'numbits': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1853,1): error C2059: syntax error: 'type'
+D:\dev\rubix_src\bjwsolve.c(1856,7): error C2065: 'n': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1856,15): warning C4098: 'RadixExchangeSortAux': 'void' function returning a value
+D:\dev\rubix_src\bjwsolve.c(1858,14): error C2065: 'n': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1858,16): error C2065: 'mem_n': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1858,22): error C2065: 'facelist': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1858,22): warning C4047: 'function': 'char *' differs in levels of indirection from 'int'
+D:\dev\rubix_src\bjwsolve.c(1858,22): warning C4024: 'Initialise': different types for formal and actual parameter 3
+D:\dev\rubix_src\bjwsolve.c(1858,31): error C2065: 'rotlist': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1858,31): warning C4047: 'function': 'unsigned short *' differs in levels of indirection from 'int'
+D:\dev\rubix_src\bjwsolve.c(1858,31): warning C4024: 'Initialise': different types for formal and actual parameter 4
+D:\dev\rubix_src\bjwsolve.c(1861,8): error C2065: 'len': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1862,13): error C2065: 'n': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1863,16): error C2065: 'len': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1863,45): error C2065: 'mem_n': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1863,51): error C2065: 'facelist': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1863,51): warning C4047: 'function': 'char *' differs in levels of indirection from 'int'
+D:\dev\rubix_src\bjwsolve.c(1863,51): warning C4024: 'BJWSolve2CubeFromRubix': different types for formal and actual parameter 2
+D:\dev\rubix_src\bjwsolve.c(1863,60): error C2065: 'rotlist': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1863,60): warning C4047: 'function': 'unsigned short *' differs in levels of indirection from 'int'
+D:\dev\rubix_src\bjwsolve.c(1863,60): warning C4024: 'BJWSolve2CubeFromRubix': different types for formal and actual parameter 3
+D:\dev\rubix_src\bjwsolve.c(1863,68): error C2065: 'quality': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1864,16): error C2065: 'len': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1864,45): error C2065: 'rotlist': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1864,45): warning C4047: 'function': 'unsigned short *' differs in levels of indirection from 'int'
+D:\dev\rubix_src\bjwsolve.c(1864,45): warning C4024: 'BJWSolve3CubeFromRubix': different types for formal and actual parameter 1
+D:\dev\rubix_src\bjwsolve.c(1864,53): error C2065: 'quality': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1865,16): error C2065: 'len': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1870,11): error C2065: 'len': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1879,10): error C2065: 'len': undeclared identifier
+D:\dev\rubix_src\bjwsolve.c(1879,3): warning C4098: 'RadixExchangeSortAux': 'void' function returning a value
+  bjwsolve2.c
+  bjwsolve3.c
+D:\dev\rubix_src\bjwsolve3.c(488,19): error C2485: '__declspec(identifier)' is not a recognized extended attribute
+D:\dev\rubix_src\bjwsolve3.c(536,3): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\dev\rubix_src\bjwsolve3.c(544,13): error C2065: 'mov': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(544,19): error C2146: syntax error: missing ';' before identifier 'ch'
+D:\dev\rubix_src\bjwsolve3.c(544,19): error C2065: 'ch': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(544,23): error C2275: 'BYTE': expected an expression instead of a type
+D:\dev\rubix_src\bjwsolve3.c(544,28): error C2146: syntax error: missing ';' before identifier 'PTR'
+D:\dev\rubix_src\bjwsolve3.c(544,28): error C2065: 'PTR': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(544,32): error C2146: syntax error: missing ';' before identifier 'NumFaceletsToTrack'
+D:\dev\rubix_src\bjwsolve3.c(545,13): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\dev\rubix_src\bjwsolve3.c(545,13): error C2065: 'mov': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(545,19): error C2146: syntax error: missing ';' before identifier 'edx'
+D:\dev\rubix_src\bjwsolve3.c(545,19): error C2065: 'edx': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(545,24): error C2059: syntax error: '['
+D:\dev\rubix_src\bjwsolve3.c(711,7): error C2065: 'solptr': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(711,14): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+D:\dev\rubix_src\bjwsolve3.c(713,14): error C2065: 'turnsbefore': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(713,12): warning C4047: '=': 'BYTE *' differs in levels of indirection from 'int'
+D:\dev\rubix_src\bjwsolve3.c(714,8): error C2065: 'len': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(714,15): error C2065: 'solptr': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(714,14): error C2100: you cannot dereference an operand of type 'int'
+D:\dev\rubix_src\bjwsolve3.c(714,25): error C2065: 'len': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(714,34): error C2065: 'len': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(714,58): error C2065: 'solptr': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(714,57): error C2100: you cannot dereference an operand of type 'int'
+D:\dev\rubix_src\bjwsolve3.c(716,7): error C2065: 'turnsbefore': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(716,18): error C2109: subscript requires array or pointer type
+D:\dev\rubix_src\bjwsolve3.c(716,71): warning C4244: 'function': conversion from '__int64' to 'DWORD', possible loss of data
+D:\dev\rubix_src\bjwsolve3.c(716,81): error C2065: 'turnsbefore': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(716,80): warning C4047: 'function': 'DWORD' differs in levels of indirection from 'BYTE *'
+D:\dev\rubix_src\bjwsolve3.c(716,80): warning C4024: 'EliminateXYZ': different types for formal and actual parameter 3
+D:\dev\rubix_src\bjwsolve3.c(722,1): error C2143: syntax error: missing ';' before '{'
+D:\dev\rubix_src\bjwsolve3.c(723,7): error C2065: 'searchdepth': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(724,10): error C2065: 'prefixptr': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(724,9): error C2100: you cannot dereference an operand of type 'int'
+D:\dev\rubix_src\bjwsolve3.c(724,21): warning C4098: 'DoFormula': 'void' function returning a value
+D:\dev\rubix_src\bjwsolve3.c(725,17): error C2065: 'cube': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(725,17): warning C4022: 'memcpy': pointer mismatch for actual parameter 2
+D:\dev\rubix_src\bjwsolve3.c(726,6): error C2065: 'prefixptr': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(726,5): error C2100: you cannot dereference an operand of type 'int'
+D:\dev\rubix_src\bjwsolve3.c(726,16): warning C4047: '=': 'int' differs in levels of indirection from 'BYTE *'
+D:\dev\rubix_src\bjwsolve3.c(728,5): warning C4098: 'DoFormula': 'void' function returning a value
+D:\dev\rubix_src\bjwsolve3.c(730,8): error C2065: 'prefixptr': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(730,7): error C2100: you cannot dereference an operand of type 'int'
+D:\dev\rubix_src\bjwsolve3.c(730,18): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+D:\dev\rubix_src\bjwsolve3.c(730,28): error C2065: 'prefixptr': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(730,27): error C2100: you cannot dereference an operand of type 'int'
+D:\dev\rubix_src\bjwsolve3.c(730,49): error C2065: 'searchdepth': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(730,38): warning C4047: '=': 'int' differs in levels of indirection from 'BYTE *'
+D:\dev\rubix_src\bjwsolve3.c(731,8): error C2065: 'prefixptr': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(731,7): error C2100: you cannot dereference an operand of type 'int'
+D:\dev\rubix_src\bjwsolve3.c(731,29): error C2065: 'searchdepth': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(731,18): error C2113: '-': pointer can only be subtracted from another pointer
+D:\dev\rubix_src\bjwsolve3.c(731,65): error C2065: 'searchdepth': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(731,79): warning C4098: 'DoFormula': 'void' function returning a value
+D:\dev\rubix_src\bjwsolve3.c(732,19): error C2065: 'prefixptr': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(732,18): error C2100: you cannot dereference an operand of type 'int'
+D:\dev\rubix_src\bjwsolve3.c(732,19): warning C4022: 'memcpy': pointer mismatch for actual parameter 2
+D:\dev\rubix_src\bjwsolve3.c(732,29): error C2065: 'searchdepth': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(733,26): error C2065: 'searchdepth': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(734,15): error C2065: 'cube': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(734,15): warning C4022: 'memcpy': pointer mismatch for actual parameter 2
+D:\dev\rubix_src\bjwsolve3.c(736,4): error C2065: 'prefixptr': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(736,3): error C2100: you cannot dereference an operand of type 'int'
+D:\dev\rubix_src\bjwsolve3.c(736,17): error C2065: 'searchdepth': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(737,3): warning C4098: 'DoFormula': 'void' function returning a value
+D:\dev\rubix_src\bjwsolve3.c(742,1): error C2143: syntax error: missing ';' before '{'
+D:\dev\rubix_src\bjwsolve3.c(747,10): error C2065: 'dstcube': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(747,10): warning C4022: 'memset': pointer mismatch for actual parameter 1
+D:\dev\rubix_src\bjwsolve3.c(750,21): error C2065: 'srccolourcodes': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(750,35): error C2109: subscript requires array or pointer type
+D:\dev\rubix_src\bjwsolve3.c(751,21): error C2065: 'srccolourcodes': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(751,35): error C2109: subscript requires array or pointer type
+D:\dev\rubix_src\bjwsolve3.c(752,21): error C2065: 'srccolourcodes': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(752,35): error C2109: subscript requires array or pointer type
+D:\dev\rubix_src\bjwsolve3.c(753,21): error C2065: 'srccolourcodes': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(753,35): error C2109: subscript requires array or pointer type
+D:\dev\rubix_src\bjwsolve3.c(754,21): error C2065: 'srccolourcodes': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(754,35): error C2109: subscript requires array or pointer type
+D:\dev\rubix_src\bjwsolve3.c(755,21): error C2065: 'srccolourcodes': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(755,35): error C2109: subscript requires array or pointer type
+D:\dev\rubix_src\bjwsolve3.c(756,63): error C2065: 'srccolourcodes': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(756,77): error C2109: subscript requires array or pointer type
+D:\dev\rubix_src\bjwsolve3.c(760,5): error C2065: 'dstcube': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(760,12): error C2109: subscript requires array or pointer type
+D:\dev\rubix_src\bjwsolve3.c(786,7): error C2065: 'dstcube': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(786,14): error C2109: subscript requires array or pointer type
+D:\dev\rubix_src\bjwsolve3.c(798,13): error C2065: 'dstcube': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(798,20): error C2109: subscript requires array or pointer type
+D:\dev\rubix_src\bjwsolve3.c(799,13): error C2065: 'dstcube': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(799,20): error C2109: subscript requires array or pointer type
+D:\dev\rubix_src\bjwsolve3.c(805,15): error C2065: 'dstcube': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(805,22): error C2109: subscript requires array or pointer type
+D:\dev\rubix_src\bjwsolve3.c(806,15): error C2065: 'dstcube': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(806,22): error C2109: subscript requires array or pointer type
+D:\dev\rubix_src\bjwsolve3.c(814,5): error C2065: 'dstcube': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(814,12): error C2109: subscript requires array or pointer type
+D:\dev\rubix_src\bjwsolve3.c(820,1): error C2143: syntax error: missing ';' before '{'
+D:\dev\rubix_src\bjwsolve3.c(822,67): error C2065: 'srcrubixcodes': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(822,80): error C2109: subscript requires array or pointer type
+D:\dev\rubix_src\bjwsolve3.c(823,45): error C2065: 'dstcube': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(823,45): warning C4047: 'function': 'BYTE *' differs in levels of indirection from 'int'
+D:\dev\rubix_src\bjwsolve3.c(823,45): warning C4024: 'ConvertColourCodesToSituation': different types for formal and actual parameter 2
+D:\dev\rubix_src\bjwsolve3.c(828,1): error C2143: syntax error: missing ';' before '{'
+D:\dev\rubix_src\bjwsolve3.c(828,7): error C2065: 'situationlength': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(828,36): error C2065: 'seqsittable': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(828,48): error C2065: 'indextable': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(828,59): error C2065: 'situation': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(828,68): error C2109: subscript requires array or pointer type
+D:\dev\rubix_src\bjwsolve3.c(828,75): error C2065: 'valueslength': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(828,90): error C2065: 'indextable': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(828,101): error C2065: 'situation': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(828,110): error C2109: subscript requires array or pointer type
+D:\dev\rubix_src\bjwsolve3.c(830,10): error C2065: 'seqsittable': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(830,24): error C2065: 'indextable': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(830,35): error C2065: 'situation': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(830,44): error C2109: subscript requires array or pointer type
+D:\dev\rubix_src\bjwsolve3.c(830,51): error C2065: 'valueslength': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(830,66): error C2065: 'indextable': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(830,77): error C2065: 'situation': undeclared identifier
+D:\dev\rubix_src\bjwsolve3.c(830,77): error C1003: error count exceeds 100; stopping compilation
+  bjwsolve4.c
+D:\dev\rubix_src\bjwsolve4.c(271,25): warning C4244: 'return': conversion from '__int64' to 'DWORD', possible loss of data
+D:\dev\rubix_src\bjwsolve4.c(379,65): warning C4244: 'return': conversion from '__int64' to 'DWORD', possible loss of data
+D:\dev\rubix_src\bjwsolve4.c(645,22): warning C4244: 'return': conversion from '__int64' to 'DWORD', possible loss of data
+D:\dev\rubix_src\bjwsolve4.c(674,7): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\dev\rubix_src\bjwsolve4.c(679,7): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\dev\rubix_src\bjwsolve4.c(749,7): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\dev\rubix_src\bjwsolve4.c(756,7): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\dev\rubix_src\bjwsolve4.c(789,13): error C2084: function 'BOOL IsEdgeFixedLR(DWORD,DWORD)' already has a body
+D:\dev\rubix_src\bjwsolve4.c(828,26): error C2198: 'IsEdgeFixedLR': too few arguments for call
+D:\dev\rubix_src\bjwsolve4.c(829,26): error C2198: 'IsEdgeFixedLR': too few arguments for call
+D:\dev\rubix_src\bjwsolve4.c(948,38): error C2198: 'IsEdgeFixedLR': too few arguments for call
+D:\dev\rubix_src\bjwsolve4.c(989,12): error C2198: 'IsEdgeFixedLR': too few arguments for call
+D:\dev\rubix_src\bjwsolve4.c(1010,22): warning C4244: 'return': conversion from '__int64' to 'DWORD', possible loss of data
+D:\dev\rubix_src\bjwsolve4.c(1067,22): warning C4244: 'return': conversion from '__int64' to 'DWORD', possible loss of data
+  cwinmain.c
+D:\dev\rubix_src\cwinmain.c(46,21): warning C4133: 'function': incompatible types - from 'char [260]' to 'LPWSTR'
+D:\dev\rubix_src\cwinmain.c(47,27): warning C4133: 'function': incompatible types - from 'char [260]' to 'LPCWSTR'
+D:\dev\rubix_src\cwinmain.c(47,66): warning C4133: 'function': incompatible types - from 'char [19]' to 'LPCWSTR'
+D:\dev\rubix_src\cwinmain.c(47,87): warning C4133: 'function': incompatible types - from 'char [3]' to 'LPCWSTR'
+D:\dev\rubix_src\cwinmain.c(92,28): warning C4244: 'function': conversion from 'INT_PTR' to 'int', possible loss of data
+D:\dev\rubix_src\cwinmain.c(92,38): warning C4244: 'function': conversion from 'INT_PTR' to 'int', possible loss of data
+D:\dev\rubix_src\cwinmain.c(92,52): warning C4244: 'function': conversion from 'INT_PTR' to 'int', possible loss of data
+D:\dev\rubix_src\cwinmain.c(92,62): warning C4244: 'function': conversion from 'INT_PTR' to 'int', possible loss of data
+D:\dev\rubix_src\cwinmain.c(102,62): warning C4244: '=': conversion from 'LPARAM' to 'int', possible loss of data
+D:\dev\rubix_src\cwinmain.c(103,62): warning C4244: '=': conversion from 'LPARAM' to 'int', possible loss of data
+D:\dev\rubix_src\cwinmain.c(205,37): warning C4133: '=': incompatible types - from 'char *' to 'LPCWSTR'
+D:\dev\rubix_src\cwinmain.c(209,27): warning C4133: 'function': incompatible types - from 'char *' to 'LPCWSTR'
+D:\dev\rubix_src\cwinmain.c(209,35): warning C4133: 'function': incompatible types - from 'char *' to 'LPCWSTR'
+D:\dev\rubix_src\cwinmain.c(263,15): warning C4133: 'initializing': incompatible types - from 'char *' to 'LPCWSTR'
+D:\dev\rubix_src\cwinmain.c(263,15): warning C4133: 'initializing': incompatible types - from 'char *' to 'LPWSTR'
+D:\dev\rubix_src\cwinmain.c(318,24): warning C4244: '=': conversion from 'INT_PTR' to 'int', possible loss of data
+D:\dev\rubix_src\cwinmain.c(319,58): warning C4244: '=': conversion from 'INT_PTR' to 'int', possible loss of data
+D:\dev\rubix_src\cwinmain.c(335,23): warning C4244: '=': conversion from 'INT_PTR' to 'int', possible loss of data
+D:\dev\rubix_src\cwinmain.c(345,23): warning C4244: '=': conversion from 'INT_PTR' to 'int', possible loss of data
+D:\dev\rubix_src\cwinmain.c(346,23): warning C4244: '=': conversion from 'INT_PTR' to 'int', possible loss of data
+  rubix.c
+D:\dev\rubix_src\rubix.c(108,57): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\dev\rubix_src\rubix.c(178,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\dev\rubix_src\rubix.c(180,3): error C2065: 'mov': undeclared identifier
+D:\dev\rubix_src\rubix.c(180,7): error C2146: syntax error: missing ';' before identifier 'ecx'
+D:\dev\rubix_src\rubix.c(180,7): error C2065: 'ecx': undeclared identifier
+D:\dev\rubix_src\rubix.c(181,3): error C2146: syntax error: missing ';' before identifier 'pushfd'
+D:\dev\rubix_src\rubix.c(181,3): error C2065: 'pushfd': undeclared identifier
+D:\dev\rubix_src\rubix.c(182,3): error C2146: syntax error: missing ';' before identifier 'pop'
+D:\dev\rubix_src\rubix.c(182,3): error C2065: 'pop': undeclared identifier
+D:\dev\rubix_src\rubix.c(182,7): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\dev\rubix_src\rubix.c(182,7): error C2065: 'eax': undeclared identifier
+D:\dev\rubix_src\rubix.c(183,3): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\dev\rubix_src\rubix.c(183,3): error C2065: 'mov': undeclared identifier
+D:\dev\rubix_src\rubix.c(183,7): error C2146: syntax error: missing ';' before identifier 'edx'
+D:\dev\rubix_src\rubix.c(183,7): error C2065: 'edx': undeclared identifier
+D:\dev\rubix_src\rubix.c(183,12): error C2065: 'eax': undeclared identifier
+D:\dev\rubix_src\rubix.c(184,3): error C2146: syntax error: missing ';' before identifier 'xor'
+D:\dev\rubix_src\rubix.c(184,3): error C2065: 'xor': undeclared identifier
+D:\dev\rubix_src\rubix.c(184,7): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\dev\rubix_src\rubix.c(184,7): error C2065: 'eax': undeclared identifier
+D:\dev\rubix_src\rubix.c(184,12): error C2065: 'ecx': undeclared identifier
+D:\dev\rubix_src\rubix.c(185,3): error C2146: syntax error: missing ';' before identifier 'push'
+D:\dev\rubix_src\rubix.c(185,3): error C2065: 'push': undeclared identifier
+D:\dev\rubix_src\rubix.c(185,8): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\dev\rubix_src\rubix.c(185,8): error C2065: 'eax': undeclared identifier
+D:\dev\rubix_src\rubix.c(186,3): error C2146: syntax error: missing ';' before identifier 'popfd'
+D:\dev\rubix_src\rubix.c(186,3): error C2065: 'popfd': undeclared identifier
+D:\dev\rubix_src\rubix.c(187,3): error C2146: syntax error: missing ';' before identifier 'pushfd'
+D:\dev\rubix_src\rubix.c(187,3): error C2065: 'pushfd': undeclared identifier
+D:\dev\rubix_src\rubix.c(188,3): error C2146: syntax error: missing ';' before identifier 'pop'
+D:\dev\rubix_src\rubix.c(188,3): error C2065: 'pop': undeclared identifier
+D:\dev\rubix_src\rubix.c(188,7): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\dev\rubix_src\rubix.c(188,7): error C2065: 'eax': undeclared identifier
+D:\dev\rubix_src\rubix.c(189,3): error C2146: syntax error: missing ';' before identifier 'xor'
+D:\dev\rubix_src\rubix.c(189,3): error C2065: 'xor': undeclared identifier
+D:\dev\rubix_src\rubix.c(189,7): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\dev\rubix_src\rubix.c(189,7): error C2065: 'eax': undeclared identifier
+D:\dev\rubix_src\rubix.c(189,12): error C2065: 'edx': undeclared identifier
+D:\dev\rubix_src\rubix.c(190,3): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\dev\rubix_src\rubix.c(190,3): error C2065: 'mov': undeclared identifier
+D:\dev\rubix_src\rubix.c(190,7): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\dev\rubix_src\rubix.c(190,7): error C2065: 'eax': undeclared identifier
+D:\dev\rubix_src\rubix.c(191,3): error C2146: syntax error: missing ';' before identifier 'jne'
+D:\dev\rubix_src\rubix.c(191,3): error C2065: 'jne': undeclared identifier
+D:\dev\rubix_src\rubix.c(191,7): error C2146: syntax error: missing ';' before identifier 'menostinx'
+D:\dev\rubix_src\rubix.c(191,7): error C2065: 'menostinx': undeclared identifier
+D:\dev\rubix_src\rubix.c(192,3): error C2146: syntax error: missing ';' before identifier 'xor'
+D:\dev\rubix_src\rubix.c(192,3): error C2065: 'xor': undeclared identifier
+D:\dev\rubix_src\rubix.c(192,7): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\dev\rubix_src\rubix.c(192,7): error C2065: 'eax': undeclared identifier
+D:\dev\rubix_src\rubix.c(192,12): error C2065: 'eax': undeclared identifier
+D:\dev\rubix_src\rubix.c(193,3): error C2146: syntax error: missing ';' before identifier 'menostinx'
+D:\dev\rubix_src\rubix.c(194,2): error C2143: syntax error: missing ';' before '}'
+D:\dev\rubix_src\rubix.c(199,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\dev\rubix_src\rubix.c(201,3): error C2065: 'push': undeclared identifier
+D:\dev\rubix_src\rubix.c(201,8): error C2146: syntax error: missing ';' before identifier 'ebx'
+D:\dev\rubix_src\rubix.c(201,8): error C2065: 'ebx': undeclared identifier
+D:\dev\rubix_src\rubix.c(202,3): error C2146: syntax error: missing ';' before identifier 'push'
+D:\dev\rubix_src\rubix.c(202,3): error C2065: 'push': undeclared identifier
+D:\dev\rubix_src\rubix.c(202,8): error C2146: syntax error: missing ';' before identifier 'esi'
+D:\dev\rubix_src\rubix.c(202,8): error C2065: 'esi': undeclared identifier
+D:\dev\rubix_src\rubix.c(203,3): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\dev\rubix_src\rubix.c(203,3): error C2065: 'mov': undeclared identifier
+D:\dev\rubix_src\rubix.c(203,7): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\dev\rubix_src\rubix.c(203,7): error C2065: 'eax': undeclared identifier
+D:\dev\rubix_src\rubix.c(204,3): error C2146: syntax error: missing ';' before identifier 'cpuid'
+D:\dev\rubix_src\rubix.c(205,3): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\dev\rubix_src\rubix.c(204,3): warning C4550: expression evaluates to a function which is missing an argument list
+D:\dev\rubix_src\rubix.c(205,3): error C2065: 'mov': undeclared identifier
+D:\dev\rubix_src\rubix.c(205,7): error C2146: syntax error: missing ';' before identifier 'esi'
+D:\dev\rubix_src\rubix.c(205,7): error C2065: 'esi': undeclared identifier
+D:\dev\rubix_src\rubix.c(206,3): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\dev\rubix_src\rubix.c(206,3): error C2065: 'mov': undeclared identifier
+D:\dev\rubix_src\rubix.c(206,7): error C2146: syntax error: missing ';' before identifier 'dword'
+D:\dev\rubix_src\rubix.c(206,7): error C2065: 'dword': undeclared identifier
+D:\dev\rubix_src\rubix.c(206,13): error C2146: syntax error: missing ';' before identifier 'ptr'
+D:\dev\rubix_src\rubix.c(206,13): error C2065: 'ptr': undeclared identifier
+D:\dev\rubix_src\rubix.c(206,18): error C2065: 'esi': undeclared identifier
+D:\dev\rubix_src\rubix.c(206,17): error C2109: subscript requires array or pointer type
+D:\dev\rubix_src\rubix.c(206,26): error C2065: 'eax': undeclared identifier
+D:\dev\rubix_src\rubix.c(207,3): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\dev\rubix_src\rubix.c(207,3): error C2065: 'mov': undeclared identifier
+D:\dev\rubix_src\rubix.c(207,7): error C2146: syntax error: missing ';' before identifier 'dword'
+D:\dev\rubix_src\rubix.c(207,7): error C2065: 'dword': undeclared identifier
+D:\dev\rubix_src\rubix.c(207,13): error C2146: syntax error: missing ';' before identifier 'ptr'
+D:\dev\rubix_src\rubix.c(207,13): error C2065: 'ptr': undeclared identifier
+D:\dev\rubix_src\rubix.c(207,18): error C2065: 'esi': undeclared identifier
+D:\dev\rubix_src\rubix.c(207,17): error C2109: subscript requires array or pointer type
+D:\dev\rubix_src\rubix.c(207,26): error C2065: 'ebx': undeclared identifier
+D:\dev\rubix_src\rubix.c(208,3): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\dev\rubix_src\rubix.c(208,3): error C2065: 'mov': undeclared identifier
+D:\dev\rubix_src\rubix.c(208,7): error C2146: syntax error: missing ';' before identifier 'dword'
+D:\dev\rubix_src\rubix.c(208,7): error C2065: 'dword': undeclared identifier
+D:\dev\rubix_src\rubix.c(208,13): error C2146: syntax error: missing ';' before identifier 'ptr'
+D:\dev\rubix_src\rubix.c(208,13): error C2065: 'ptr': undeclared identifier
+D:\dev\rubix_src\rubix.c(208,18): error C2065: 'esi': undeclared identifier
+D:\dev\rubix_src\rubix.c(208,17): error C2109: subscript requires array or pointer type
+D:\dev\rubix_src\rubix.c(208,26): error C2065: 'ecx': undeclared identifier
+D:\dev\rubix_src\rubix.c(209,3): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\dev\rubix_src\rubix.c(209,3): error C2065: 'mov': undeclared identifier
+D:\dev\rubix_src\rubix.c(209,7): error C2146: syntax error: missing ';' before identifier 'dword'
+D:\dev\rubix_src\rubix.c(209,7): error C2065: 'dword': undeclared identifier
+D:\dev\rubix_src\rubix.c(209,13): error C2146: syntax error: missing ';' before identifier 'ptr'
+D:\dev\rubix_src\rubix.c(209,13): error C2065: 'ptr': undeclared identifier
+D:\dev\rubix_src\rubix.c(209,18): error C2065: 'esi': undeclared identifier
+D:\dev\rubix_src\rubix.c(209,18): error C1003: error count exceeds 100; stopping compilation
+  Generating Code...

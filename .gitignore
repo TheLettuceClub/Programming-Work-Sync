@@ -35,3 +35,8 @@
 *.ipch
 
 ScreenSaver/.vs/ScreenSaver/v17/Browse.VC.db
+
+
+# Added by cargo
+
+/target
